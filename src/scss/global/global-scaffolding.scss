@@ -1,0 +1,20 @@
+html {
+  box-sizing: border-box;
+
+  font-size: $font-size-global;
+}
+body {
+  background: $bg-global;
+
+  color: $col-global;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+

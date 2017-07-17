@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Evolventa";
+  font-weight: 400;
+
+  src: url(#{$font-path}/evolventa/10359.eot);
+  src: url(#{$font-path}/evolventa/10359.eot) format("embedded-opentype"),
+  url(#{$font-path}/evolventa/10359.woff2) format("woff2"),
+  url(#{$font-path}/evolventa/10359.woff) format("woff"),
+  url(#{$font-path}/evolventa/10359.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Evolventa";
+  font-weight: 700;
+
+  src: url(#{$font-path}/evolventa/10360.eot);
+  src: url(#{$font-path}/evolventa/10360.eot) format("embedded-opentype"),
+  url(#{$font-path}/evolventa/10360.woff2) format("woff2"),
+  url(#{$font-path}/evolventa/10360.woff) format("woff"),
+  url(#{$font-path}/evolventa/10360.ttf) format("truetype");
+}
