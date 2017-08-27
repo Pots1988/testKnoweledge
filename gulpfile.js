@@ -20,6 +20,7 @@ var concat = require("gulp-concat");
 var fileinclude = require("gulp-file-include");
 var csscomb = require("gulp-csscomb");
 var inlinesource = require("gulp-inline-source");
+var cheerio = require('gulp-cheerio');
 
 var path = {
   build: { //Тут мы укажем куда складывать готовые после сборки файлы
@@ -28,7 +29,7 @@ var path = {
     serverRoot: "./build/",
     js: "build/js/",
     css: "build/css/",
-    img: "build/img/_blocks/",
+    img: "build/img/",
     imgres: "build/img/imgres/",
     fonts: "build/fonts/",
     favicon: "build/img/favicon/",
@@ -38,7 +39,7 @@ var path = {
   src: { //Пути откуда брать исходники
     html: "src/*.html", //Синтаксис src/*.html все файлы с расширением .html в папке src.
     js: "src/_blocks/**/*.js",//в папке src все папки, а в них все файлы .js
-    plagjs: "src/**/*.js", //скрипты плагинов
+    plagjs: "src/js/*.js", //скрипты плагинов
     css: "src/scss/main.scss", // в папке src все папки, а в них все файлы .css
     img: "src/img/_blocks/**/*.{png,jpg}",
     imgres: "src/img/imgres/*",
@@ -77,6 +78,12 @@ gulp.task("symbols", function () {
     .pipe(svgmin()) // Минимизируем их
     .pipe(svgstore({ // Склеиваем
       inlineSvg: true
+    }))
+    .pipe(cheerio({
+      run: function ($) {
+        $("svg").attr("style", "display:none");
+      },
+      parserOptions: { xmlMode: true }
     }))
     .pipe(rename("symbols.svg")) // Переименовываем
     .pipe(gulp.dest(path.build.svgSprite)) // Указываем куда сохранять
@@ -246,7 +253,7 @@ gulp.task("image", function () {
 //------------------------------------
 
 
-//Таск дляработы с изображениями (build)
+//Таск для работы с изображениями (build)
 gulp.task("image:build", function () {
   return gulp.src(path.src.img) //Указываем файлы с которыми будем работать
     .pipe(gulp.dest(path.build.img)) // Указываем в какую папку их сохранять
@@ -318,5 +325,3 @@ gulp.task("production", function (callback) {
     ],
   callback);
 });
-
-
