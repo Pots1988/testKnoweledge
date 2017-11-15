@@ -1,12 +1,12 @@
 html {
   box-sizing: border-box;
 
-  font-size: $font-size-global;
+  font-size: 14px;
 }
 body {
-  background: $bg-global;
+  background: $bg;
 
-  color: $col-global;
+  color: $col;
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -18,3 +18,6 @@ body {
   box-sizing: inherit;
 }
 
+.visually-hidden {
+  @include visually-hidden;
+}

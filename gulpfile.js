@@ -20,7 +20,7 @@ var concat = require("gulp-concat");
 var fileinclude = require("gulp-file-include");
 var csscomb = require("gulp-csscomb");
 var inlinesource = require("gulp-inline-source");
-var cheerio = require('gulp-cheerio');
+var cheerio = require("gulp-cheerio");
 
 var path = {
   build: { //Тут мы укажем куда складывать готовые после сборки файлы
