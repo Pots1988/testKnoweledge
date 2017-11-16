@@ -11,7 +11,7 @@ var imagemin = require("gulp-imagemin"); //минимизация изображ
 var sourcemaps = require("gulp-sourcemaps"); //sourcemaps
 var uglify = require("gulp-uglify"); //минификация js
 var rename = require("gulp-rename"); //переименвоание файлов
-var htmlmin = require("gulp-html-minifier");// минификация html
+var htmlmin = require("gulp-htmlmin");// минификация html
 var runSequence = require("run-sequence");
 var svgmin = require("gulp-svgmin");
 var svgstore = require("gulp-svgstore");
@@ -21,6 +21,7 @@ var fileinclude = require("gulp-file-include");
 var csscomb = require("gulp-csscomb");
 var inlinesource = require("gulp-inline-source");
 var cheerio = require("gulp-cheerio");
+var webp = require("gulp-webp");
 
 var path = {
   build: { //Тут мы укажем куда складывать готовые после сборки файлы
@@ -30,7 +31,6 @@ var path = {
     js: "build/js/",
     css: "build/css/",
     img: "build/img/",
-    imgres: "build/img/imgres/",
     fonts: "build/fonts/",
     favicon: "build/img/favicon/",
     sprite: "build/img/sprite/",
@@ -42,7 +42,7 @@ var path = {
     plagjs: "src/js/*.js", //скрипты плагинов
     css: "src/scss/main.scss", // в папке src все папки, а в них все файлы .css
     img: "src/img/_blocks/**/*.{png,jpg}",
-    imgres: "src/img/imgres/*",
+    imgWebp: "src/img/_blocks/**/*.{webp}",
     blocksvg: "src/img/_blocks/**/*.svg",
     fonts: ["src/fonts/**/*.*", "!src/fonts/**/*.scss"],
     favicon: "src/img/favicon/*",
@@ -71,6 +71,13 @@ gulp.task("clean", function (cb) {
 });
 //-----------------------------------
 
+// Таск для генерации изображений в формате webp
+gulp.task("webp", function(){
+  return gulp.src("src/img/_blocks/**/*.{png,jpg}")
+  .pipe(webp({quality: 90}))
+  .pipe(gulp.dest("src/img/_blocks/"));
+});
+//-----------------------------------
 
 // Таск для склеивания SVG-спраита
 gulp.task("symbols", function () {
@@ -101,7 +108,6 @@ gulp.task("inlinesource", function () {
         .pipe(inlinesource(options))
         .pipe(gulp.dest(path.build.html));
 });
-
 //-------------------------------------
 
 //Копируем шрифты
@@ -112,7 +118,6 @@ gulp.task("fonts", function () {
 });
 //-------------------------------------
 
-
 //Копируем svg, которые размещены в папке img/_blocks (build)
 gulp.task("blocksvg:build", function () {
   return gulp.src(path.src.blocksvg)
@@ -120,7 +125,6 @@ gulp.task("blocksvg:build", function () {
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
-
 
 //Копируем svg, которые размещены в папке img/_blocks (production)
 gulp.task("blocksvg", function () {
@@ -130,7 +134,6 @@ gulp.task("blocksvg", function () {
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
-
 
 //Копируем фавиконы
 gulp.task("copyfavicon", function () {
@@ -148,7 +151,6 @@ gulp.task("copysprite", function () {
 });
 //-------------------------------------
 
-
 // таск для копирования js для сторонних плагинов
 gulp.task("copyjs", function () {
   return gulp.src(path.src.plagjs) //Выберем файлы по нужному пути
@@ -156,7 +158,6 @@ gulp.task("copyjs", function () {
     .pipe(server.reload({stream: true}));
 });
 //------------------------------------
-
 
 // Таск для инклудов html (build)
 gulp.task("fileinclude:build", function() {
@@ -177,7 +178,7 @@ gulp.task("fileinclude", function() {
       prefix: "@@",
       basepath: "@file"
     }))
-    .pipe(htmlmin({collapseWhitespace: true})) // Минимизируем
+    .pipe(htmlmin({ collapseWhitespace: true })) // Минимизируем
     .pipe(gulp.dest(path.build.html)); //выгрузим их в папку build
 });
 //---------------------------------------
@@ -189,17 +190,12 @@ gulp.task("style", function () {
     .pipe(csscomb())
     .pipe(sass())
     .pipe(postcss([
-      autoprefixer({
-        browsers: [
-          "last 2 versions"
-        ]
-      })
+      autoprefixer()
     ]))
     .pipe(minify()) // Минимизируем его
     .pipe(gulp.dest(path.build.css)) // Указываем в какую папку его сохранять
 });
 //------------------------------------
-
 
 // Таск для работы с css (build)
 gulp.task("style:build", function () {
@@ -217,7 +213,6 @@ gulp.task("style:build", function () {
     .pipe(server.reload({stream: true})); // Презапуск сервера
 });
 //------------------------------------
-
 
 // Таск для сбора JS в один файл (build)
 gulp.task("scripts:build", function() {
@@ -252,7 +247,6 @@ gulp.task("image", function () {
 });
 //------------------------------------
 
-
 //Таск для работы с изображениями (build)
 gulp.task("image:build", function () {
   return gulp.src(path.src.img) //Указываем файлы с которыми будем работать
@@ -260,6 +254,12 @@ gulp.task("image:build", function () {
     .pipe(server.reload({stream: true}));
 });
 
+//Таск для работы с изображениями (build)
+gulp.task("image:webp", function () {
+  return gulp.src(path.src.imgWebp) //Указываем файлы с которыми будем работать
+    .pipe(gulp.dest(path.build.img)) // Указываем в какую папку их сохранять
+    .pipe(server.reload({stream: true}));
+});
 
 // Сервер
 gulp.task("serve", function () {
@@ -273,7 +273,7 @@ gulp.task("serve", function () {
 });
 //----------------------------------------
 
-//Отследим изменения в фвйлах
+//Отследим изменения в файлах
 gulp.task("watcher", function () {
   gulp.watch(path.watch.img, ["image:build"]);
   gulp.watch(path.watch.html, ["fileinclude:build"]);
@@ -293,6 +293,7 @@ gulp.task("build", function (callback) {
     "symbols",
     [
     "image:build",
+    "image:webp",
     "fileinclude:build",
     "style:build",
     "scripts:build",
@@ -314,6 +315,7 @@ gulp.task("production", function (callback) {
     "symbols",
     [
     "image",
+    "image:webp",
     "style",
     "scripts",
     "fonts",
