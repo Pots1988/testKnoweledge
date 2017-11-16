@@ -4,7 +4,7 @@
     "IE 11",
     "Firefox ESR"
   ],
-  "name": "Fariga && Popenko",
+  "name": "Fariga-Popenko",
   "description": "Проект ...",
   "version": "0.1.0",
   "private": true,
@@ -28,6 +28,7 @@
     "gulp-svgmin": "1.2.4",
     "gulp-svgstore": "^6.1.0",
     "gulp-uglify": "^3.0.0",
+    "gulp-uglify-es": "^0.1.4",
     "gulp-webp": "^2.3.0",
     "rimraf": "2.6.1",
     "run-sequence": "^2.2.0",
@@ -54,4 +55,3 @@
     "webp": "webp"
   }
 }
-
