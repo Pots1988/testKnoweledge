@@ -9,8 +9,9 @@ var server = require("browser-sync").create();
 var rimraf = require("rimraf"); //очистка
 var imagemin = require("gulp-imagemin"); //минимизация изображений
 var sourcemaps = require("gulp-sourcemaps"); //sourcemaps
-// var uglify = require("gulp-uglify"); //минификация js
-var uglify = require("gulp-uglify-es").default; //минификация js
+var uglify = require("gulp-uglify"); //минификация js
+var babel = require("gulp-babel");
+// var uglify = require("gulp-uglify-es").default; //минификация js
 var rename = require("gulp-rename"); //переименвоание файлов
 var htmlmin = require("gulp-htmlmin");// минификация html
 var runSequence = require("run-sequence");
@@ -39,7 +40,8 @@ var path = {
   },
   src: { //Пути откуда брать исходники
     html: "src/*.html", //Синтаксис src/*.html все файлы с расширением .html в папке src.
-    js: "src/_blocks/**/*.js",//в папке src все папки, а в них все файлы .js
+    js: ["src/_blocks/**/*.js", "!src/_blocks/**/jq-*.js"],//в папке src все папки, а в них все файлы .js
+    jsJq: "src/_blocks/**/jq-*.js",//в папке src все папки, а в них все файлы .js
     plagjs: "src/js/*.js", //скрипты плагинов
     css: "src/scss/main.scss", // в папке src все папки, а в них все файлы .css
     img: "src/img/_blocks/**/*.{png,jpg}",
@@ -82,9 +84,9 @@ gulp.task("webp", function(){
 
 // Таск для склеивания SVG-спраита
 gulp.task("symbols", function () {
-  return gulp.src(path.src.svg) // Указываем откуда брать файлы
-    .pipe(svgmin()) // Минимизируем их
-    .pipe(svgstore({ // Склеиваем
+  return gulp.src(path.src.svg)
+    .pipe(svgmin())
+    .pipe(svgstore({
       inlineSvg: true
     }))
     .pipe(cheerio({
@@ -93,28 +95,28 @@ gulp.task("symbols", function () {
       },
       parserOptions: { xmlMode: true }
     }))
-    .pipe(rename("symbols.svg")) // Переименовываем
-    .pipe(gulp.dest(path.build.svgSprite)) // Указываем куда сохранять
+    .pipe(rename("symbols.svg"))
+    .pipe(gulp.dest(path.build.svgSprite))
     .pipe(server.reload({stream: true}));
 });
 //------------------------------------
 
 // Таск для вставки ресурсов инлайн в html
 gulp.task("inlinesource", function () {
-    var options = {
-        compress: false
-    };
+  var options = {
+      compress: false
+  };
 
-    return gulp.src(path.build.pages)
-        .pipe(inlinesource(options))
-        .pipe(gulp.dest(path.build.html));
+  return gulp.src(path.build.pages)
+      .pipe(inlinesource(options))
+      .pipe(gulp.dest(path.build.html));
 });
 //-------------------------------------
 
 //Копируем шрифты
 gulp.task("fonts", function () {
   return gulp.src(path.src.fonts)
-    .pipe(gulp.dest(path.build.fonts)) //выгружаем в build
+    .pipe(gulp.dest(path.build.fonts))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -122,7 +124,7 @@ gulp.task("fonts", function () {
 //Копируем svg, которые размещены в папке img/_blocks (build)
 gulp.task("blocksvg:build", function () {
   return gulp.src(path.src.blocksvg)
-    .pipe(gulp.dest(path.build.img)) //выгружаем в build
+    .pipe(gulp.dest(path.build.img))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -130,8 +132,8 @@ gulp.task("blocksvg:build", function () {
 //Копируем svg, которые размещены в папке img/_blocks (production)
 gulp.task("blocksvg", function () {
   return gulp.src(path.src.blocksvg)
-    .pipe(svgmin()) // Минимизируем их
-    .pipe(gulp.dest(path.build.img)) //выгружаем в build
+    .pipe(svgmin())
+    .pipe(gulp.dest(path.build.img))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -139,7 +141,7 @@ gulp.task("blocksvg", function () {
 //Копируем фавиконы
 gulp.task("copyfavicon", function () {
   return gulp.src(path.src.favicon)
-    .pipe(gulp.dest(path.build.favicon)) //выгружаем в build
+    .pipe(gulp.dest(path.build.favicon))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -147,15 +149,15 @@ gulp.task("copyfavicon", function () {
 //Копируем спраиты
 gulp.task("copysprite", function () {
   return gulp.src(path.src.sprite)
-    .pipe(gulp.dest(path.build.sprite)) //выгружаем в build
+    .pipe(gulp.dest(path.build.sprite))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
 
 // таск для копирования js для сторонних плагинов
 gulp.task("copyjs", function () {
-  return gulp.src(path.src.plagjs) //Выберем файлы по нужному пути
-    .pipe(gulp.dest(path.build.js)) //выгрузим их в папку build
+  return gulp.src(path.src.plagjs)
+    .pipe(gulp.dest(path.build.js))
     .pipe(server.reload({stream: true}));
 });
 //------------------------------------
@@ -179,28 +181,28 @@ gulp.task("fileinclude", function() {
       prefix: "@@",
       basepath: "@file"
     }))
-    .pipe(htmlmin({ collapseWhitespace: true })) // Минимизируем
-    .pipe(gulp.dest(path.build.html)); //выгрузим их в папку build
+    .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(gulp.dest(path.build.html));
 });
 //---------------------------------------
 
 // Таск для работы с css (Production)
 gulp.task("style", function () {
-  gulp.src(path.src.css) // указываем исходный файл
+  gulp.src(path.src.css)
     .pipe(plumber())
     .pipe(csscomb())
     .pipe(sass())
     .pipe(postcss([
       autoprefixer()
     ]))
-    .pipe(minify()) // Минимизируем его
-    .pipe(gulp.dest(path.build.css)) // Указываем в какую папку его сохранять
+    .pipe(minify())
+    .pipe(gulp.dest(path.build.css))
 });
 //------------------------------------
 
 // Таск для работы с css (build)
 gulp.task("style:build", function () {
-  gulp.src(path.src.css) // указываем исходный файл
+  gulp.src(path.src.css)
     .pipe(plumber())
     .pipe(sass())
     .pipe(postcss([
@@ -210,55 +212,85 @@ gulp.task("style:build", function () {
         ]
       })
     ]))
-    .pipe(gulp.dest(path.build.css)) //Указываем в какую папку сохранять файл .css
-    .pipe(server.reload({stream: true})); // Презапуск сервера
+    .pipe(gulp.dest(path.build.css))
+    .pipe(server.reload({stream: true}));
 });
 //------------------------------------
 
 // Таск для сбора JS в один файл (build)
 gulp.task("scripts:build", function() {
   return gulp.src(path.src.js)
-    .pipe(sourcemaps.init()) //Инициализируем sourcemap
-    .pipe(sourcemaps.write()) //Пропишем карты
-    .pipe(concat("script.js")) //Собираем в один файл
-    .pipe(gulp.dest(path.build.js)) //выгружаем в указаную папку
-    .pipe(server.reload({stream: true})); // Перезапуск сервера
+    // .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.write())
+    .pipe(concat("script.js"))
+    .pipe(babel({
+      presets: ["env"]
+    }))
+    .pipe(gulp.dest(path.build.js))
+    .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
 
 // Таск для сбора JS в один файл (production)
 gulp.task("scripts", function() {
   return gulp.src(path.src.js)
-    .pipe(sourcemaps.init()) //Инициализируем sourcemap
-    .pipe(sourcemaps.write()) //Пропишем карты
-    .pipe(concat("script.js")) //Собираем в один файл
-    .pipe(uglify()) //Сожмем наш js
-    .pipe(gulp.dest(path.build.js)); //выгружаем в указаную папку
+    // .pipe(sourcemaps.init())
+    // .pipe(sourcemaps.write())
+    .pipe(concat("script.js"))
+    .pipe(babel({
+      presets: ["env"]
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest(path.build.js));
+});
+//--------------------------------------
+
+// Таск для сбора JQuery в один файл (build)
+gulp.task("scriptsJq:build", function() {
+  return gulp.src(path.src.jsJq)
+    .pipe(concat("jq-script.js"))
+    .pipe(babel({
+      presets: ["env"]
+    }))
+    .pipe(gulp.dest(path.build.js))
+    .pipe(server.reload({stream: true}));
+});
+//-------------------------------------
+
+// Таск для сбора JQuery в один файл (production)
+gulp.task("scriptsJq", function() {
+  return gulp.src(path.src.jsJq)
+    .pipe(concat("jq-script.js"))
+    .pipe(babel({
+      presets: ["env"]
+    }))
+    .pipe(uglify())
+    .pipe(gulp.dest(path.build.js));
 });
 //--------------------------------------
 
 //Таск для работы с изображениями (production)
 gulp.task("image", function () {
-  return gulp.src(path.src.img) // Указываем файлы с которыми будем работать
+  return gulp.src(path.src.img)
     .pipe(imagemin([
-      imagemin.optipng({optimizationLevel: 3}), // Минимизируем до безопасного уровня 3
+      imagemin.optipng({optimizationLevel: 3}),
       imagemin.jpegtran({progressive: true})
     ]))
-    .pipe(gulp.dest(path.build.img)); // Указываем в какую папку их сохранять
+    .pipe(gulp.dest(path.build.img));
 });
 //------------------------------------
 
 //Таск для работы с изображениями (build)
 gulp.task("image:build", function () {
-  return gulp.src(path.src.img) //Указываем файлы с которыми будем работать
-    .pipe(gulp.dest(path.build.img)) // Указываем в какую папку их сохранять
+  return gulp.src(path.src.img)
+    .pipe(gulp.dest(path.build.img))
     .pipe(server.reload({stream: true}));
 });
 
 //Таск для работы с изображениями (build)
 gulp.task("image:webp", function () {
-  return gulp.src(path.src.imgWebp) //Указываем файлы с которыми будем работать
-    .pipe(gulp.dest(path.build.img)) // Указываем в какую папку их сохранять
+  return gulp.src(path.src.imgWebp)
+    .pipe(gulp.dest(path.build.img))
     .pipe(server.reload({stream: true}));
 });
 
@@ -279,6 +311,7 @@ gulp.task("watcher", function () {
   gulp.watch(path.watch.img, ["image:build"]);
   gulp.watch(path.watch.html, ["fileinclude:build"]);
   gulp.watch(path.watch.js, ["scripts:build"]);
+  gulp.watch(path.watch.js, ["scriptsJq:build"]);
   gulp.watch(path.watch.plagjs, ["copyjs"]);
   gulp.watch(path.watch.css, ["style:build"]);
   gulp.watch(path.watch.fonts, ["fonts"]);
@@ -298,6 +331,7 @@ gulp.task("build", function (callback) {
     "fileinclude:build",
     "style:build",
     "scripts:build",
+    "scriptsJq:build",
     "fonts",
     "copyjs",
     "copyfavicon",
@@ -319,6 +353,7 @@ gulp.task("production", function (callback) {
     "image:webp",
     "style",
     "scripts",
+    "scriptsJq",
     "fonts",
     "copyjs",
     "copyfavicon",
