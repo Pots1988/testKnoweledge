@@ -11,7 +11,6 @@ var imagemin = require("gulp-imagemin"); //минимизация изображ
 var sourcemaps = require("gulp-sourcemaps"); //sourcemaps
 var uglify = require("gulp-uglify"); //минификация js
 var babel = require("gulp-babel");
-// var uglify = require("gulp-uglify-es").default; //минификация js
 var rename = require("gulp-rename"); //переименвоание файлов
 var htmlmin = require("gulp-htmlmin");// минификация html
 var runSequence = require("run-sequence");
@@ -36,32 +35,35 @@ var path = {
     fonts: "build/fonts/",
     favicon: "build/img/favicon/",
     sprite: "build/img/sprite/",
-    svgSprite: "build/img/svg"
+    svgSprite: "build/img/svg",
+    webmanifest: "build/"
   },
   src: { //Пути откуда брать исходники
-    html: "src/*.html", //Синтаксис src/*.html все файлы с расширением .html в папке src.
+    html: ["src/**/*.html", "!src/_blocks/**/*.html"], //Синтаксис src/*.html все файлы с расширением .html в папке src.
     js: ["src/_blocks/**/*.js", "!src/_blocks/**/jq-*.js"],//в папке src все папки, а в них все файлы .js
     jsJq: "src/_blocks/**/jq-*.js",//в папке src все папки, а в них все файлы .js
     plagjs: "src/js/*.js", //скрипты плагинов
     css: "src/scss/main.scss", // в папке src все папки, а в них все файлы .css
-    img: "src/img/_blocks/**/*.{png,jpg}",
+    img: "src/img/_blocks/**/*.{png,jpg,gif}",
     imgWebp: "src/img/_blocks/**/*.{webp}",
     blocksvg: "src/img/_blocks/**/*.svg",
     fonts: ["src/fonts/**/*.*", "!src/fonts/**/*.scss"],
     favicon: "src/img/favicon/*",
     sprite: "src/img/sprite/*",
-    svg: "src/img/svg/*.svg"
+    svg: "src/img/svg/*.svg",
+    webmanifest: "src/*.webmanifest.json"
   },
   watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
     html: "src/**/*.html",
     js: "src/**/*.js",
     css: "src/**/*.scss",
-    img: "src/img/_blocks/**/*.{png,jpg}",
+    img: "src/img/_blocks/**/*.{png,jpg,gif}",
     fonts: "src/fonts/**/*.*",
     favicon: "src/img/favicon/*",
     sprite: "src/img/sprite/*",
     blocksvg: "src/img/_blocks/**/*.svg",
-    svg: "src/img/svg/*.svg"
+    svg: "src/img/svg/*.svg",
+    webmanifest: "src/*.webmanifest.json"
   },
   clean: "./build", //директории которые могут очищаться
 };
@@ -142,6 +144,14 @@ gulp.task("blocksvg", function () {
 gulp.task("copyfavicon", function () {
   return gulp.src(path.src.favicon)
     .pipe(gulp.dest(path.build.favicon))
+    .pipe(server.reload({stream: true}));
+});
+//-------------------------------------
+
+//Копируем webmanifest
+gulp.task("copywebmanifest", function () {
+  return gulp.src(path.src.webmanifest)
+    .pipe(gulp.dest(path.build.webmanifest))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -316,6 +326,7 @@ gulp.task("watcher", function () {
   gulp.watch(path.watch.css, ["style:build"]);
   gulp.watch(path.watch.fonts, ["fonts"]);
   gulp.watch(path.watch.favicon, ["copyfavicon"]);
+  gulp.watch(path.watch.webmanifest, ["copywebmanifest"]);
   gulp.watch(path.watch.blocksvg, ["blocksvg:build"]);
   gulp.watch(path.watch.sprite, ["copysprite"]);
 });
@@ -336,7 +347,8 @@ gulp.task("build", function (callback) {
     "copyjs",
     "copyfavicon",
     "blocksvg:build",
-    "copysprite"
+    "copysprite",
+    "copywebmanifest"
     ],
     "serve",
     "watcher",
@@ -359,7 +371,8 @@ gulp.task("production", function (callback) {
     "copyfavicon",
     "blocksvg",
     "fileinclude",
-    "copysprite"
+    "copysprite",
+    "copywebmanifest"
     ],
   callback);
 });

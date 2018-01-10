@@ -3,6 +3,7 @@ html {
 
   font-size: 14px;
 }
+
 body {
   background: $bg;
 
@@ -20,4 +21,8 @@ body {
 
 .visually-hidden {
   @include visually-hidden;
+}
+
+.body-popup {
+  overflow: hidden;
 }
