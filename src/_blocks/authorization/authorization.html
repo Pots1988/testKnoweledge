@@ -1,16 +1,19 @@
 <section class="authorization">
-  <form action="">
-    <fieldset>
-      <legend>Авторизуйтесь</legend>
-      <label>Введите ваше имя
-        <input type="text" required>
-      </label>
-      <label>Введите вашу фамилию
-        <input type="text" required>
-      </label>
-      <label>Введите вашу почту
-        <input type="email" required>
-      </label>
-    </fieldset>
-  </form>
+  <div class="authorization__container">
+    <form class="authorization__form" action="">
+      <fieldset class="authorization__fieldset">
+        <legend class="authorization__legend">Авторизуйтесь</legend>
+        <label class="authorization__label">Введите ваше имя
+          <input type="text" class="authorization__input" required>
+        </label>
+        <label class="authorization__label">Введите вашу фамилию
+          <input type="text" class="authorization__input" required>
+        </label>
+        <label class="authorization__label">Введите вашу почту
+          <input type="email" class="authorization__input" required>
+        </label>
+      </fieldset>
+    <button type="submit" class="authorization__button" data-themes>Выбрать тему</button>
+    </form>
+  </div>
 </section>
