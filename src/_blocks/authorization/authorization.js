@@ -1,1 +1,1 @@
-document.addEventListener("DOMContentLoaded", submitAuthorization);
+// document.addEventListener("DOMContentLoaded", submitAuthorization);
