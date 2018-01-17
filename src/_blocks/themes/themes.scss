@@ -1,0 +1,51 @@
+.themes {
+  display: block;
+  z-index: 99;
+  position: relative;
+}
+
+.themes__container {
+  background: $light;
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.themes__form {
+  max-width: 600px;
+  margin: 15px auto;
+  text-align: center;
+}
+
+.themes__fieldset {
+  margin: 0 0 20px 0;
+}
+
+.themes__legend {
+  margin: 0 auto 15px auto;
+}
+
+.themes__label {
+  display: block;
+  margin: 0 0 20px 0;
+  text-align: left;
+  &:last-child {
+    margin: 0 0 10px 0;
+  }
+}
+
+.themes__input {
+  display: inline-block;
+  // width: 100%;
+}
+
+.themes__button {
+  margin: 0 auto;
+  display: block;
+}

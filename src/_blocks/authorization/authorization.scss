@@ -1,8 +1,14 @@
 .authorization {
-  display: block
+  display: block;
+  z-index: 100;
+  position: relative;
+  &.authorization--hidden {
+    display: none;
+  }
 }
 
 .authorization__container {
+  background: $light;
   position: fixed;
   top: 0;
   height: 100vh;
