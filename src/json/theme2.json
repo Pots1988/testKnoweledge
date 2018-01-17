@@ -1,0 +1,26 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Basic",
+    "text": "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если введено значение?",
+    "time": 10,
+    "answer": "string"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Basic",
+    "text": "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если не введено значение?",
+    "time": 10,
+    "answer": "null"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+}]

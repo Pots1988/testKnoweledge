@@ -36,6 +36,7 @@ var path = {
     favicon: "build/img/favicon/",
     sprite: "build/img/sprite/",
     svgSprite: "build/img/svg",
+    json: "build/js/json/",
     webmanifest: "build/"
   },
   src: { //Пути откуда брать исходники
@@ -51,6 +52,7 @@ var path = {
     favicon: "src/img/favicon/*",
     sprite: "src/img/sprite/*",
     svg: "src/img/svg/*.svg",
+    json: "src/json/*.json",
     webmanifest: "src/*.webmanifest.json"
   },
   watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
@@ -63,6 +65,7 @@ var path = {
     sprite: "src/img/sprite/*",
     blocksvg: "src/img/_blocks/**/*.svg",
     svg: "src/img/svg/*.svg",
+    json: "src/json/*.json",
     webmanifest: "src/*.webmanifest.json"
   },
   clean: "./build", //директории которые могут очищаться
@@ -119,6 +122,14 @@ gulp.task("inlinesource", function () {
 gulp.task("fonts", function () {
   return gulp.src(path.src.fonts)
     .pipe(gulp.dest(path.build.fonts))
+    .pipe(server.reload({stream: true}));
+});
+//-------------------------------------
+
+//Копируем файлы *.json
+gulp.task("json", function () {
+  return gulp.src(path.src.json)
+    .pipe(gulp.dest(path.build.json))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -323,6 +334,7 @@ gulp.task("watcher", function () {
   gulp.watch(path.watch.js, ["scripts:build"]);
   gulp.watch(path.watch.js, ["scriptsJq:build"]);
   gulp.watch(path.watch.plagjs, ["copyjs"]);
+  gulp.watch(path.watch.json, ["json"]);
   gulp.watch(path.watch.css, ["style:build"]);
   gulp.watch(path.watch.fonts, ["fonts"]);
   gulp.watch(path.watch.favicon, ["copyfavicon"]);
@@ -344,6 +356,7 @@ gulp.task("build", function (callback) {
     "scripts:build",
     "scriptsJq:build",
     "fonts",
+    "json",
     "copyjs",
     "copyfavicon",
     "blocksvg:build",
@@ -367,6 +380,7 @@ gulp.task("production", function (callback) {
     "scripts",
     "scriptsJq",
     "fonts",
+    "json",
     "copyjs",
     "copyfavicon",
     "blocksvg",
