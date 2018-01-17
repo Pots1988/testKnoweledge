@@ -36,6 +36,12 @@
 .test__question-text {
   margin: 0 0 0.5em;
   text-align: center;
+  font-size: 80%;
+
+  span {
+    color: green;
+    font-size: 120%;
+  }
 }
 
 .test__answer {
@@ -57,20 +63,20 @@
   outline: none;
   transition: border-color ease-in-out 0.15s;
 
-  &::-webkit-input-placeholder {
-    color: $dark;
-    opacity: 1;
-  }
+  // &::-webkit-input-placeholder {
+  //   color: $dark;
+  //   opacity: 1;
+  // }
 
-  &::-moz-placeholder {
-    color: $dark;
-    opacity: 1;
-  }
+  // &::-moz-placeholder {
+  //   color: $dark;
+  //   opacity: 1;
+  // }
 
-  &:-ms-input-placeholder {
-    color: $dark;
-    opacity: 1;
-  }
+  // &:-ms-input-placeholder {
+  //   color: $dark;
+  //   opacity: 1;
+  // }
 
   &:focus,
   &:active,
