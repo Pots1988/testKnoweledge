@@ -1,0 +1,158 @@
+[
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Выведите длину строки <span>str</span>?",
+    "time": 10,
+    "answer": "str.length"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Обрезать пробелы в строке <span>str</span>?",
+    "time": 10,
+    "answer": "str.trim()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Получить 3-ий символ в строке <span>str</span>?",
+    "time": 10,
+    "answer": "str[2]"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Какой символ на позиции 2 в строке <span>str</span>?",
+    "time": 10,
+    "answer": "str.charAt(1)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Привести строку <span>str</span> к верхнему регистру?",
+    "time": 10,
+    "answer": "str.toUpperCase()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Привести строку <span>str</span> к нижнему регистру?",
+    "time": 10,
+    "answer": "str.toLowerCase()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Как найти символ <span>а</span> в строке <span>str</span>? Используйте одинарные кавычки.",
+    "time": 10,
+    "answer": "str.indexOf('a')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Как найти символ <span>а</span> в строке <span>str</span> с конца? Используйте одинарные кавычки.",
+    "time": 10,
+    "answer": "str.lasIndexOf('a')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Верните из строки <span>str</span> 5 символов с позиции 3?",
+    "time": 10,
+    "answer": "str.substr(3, 5)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Верните из строки <span>str</span> символы с позиции 2 по 5?",
+    "time": 10,
+    "answer": "str.slice(2, 6)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Получите строку с кода 1050?",
+    "time": 10,
+    "answer": "String.fromCharCode(1050)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "String",
+    "text": "Что вернет функция <span>'мышка'.localeCompare('береза')</span>",
+    "time": 10,
+    "answer": "1"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+]
