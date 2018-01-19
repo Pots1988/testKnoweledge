@@ -41,7 +41,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Какой символ на позиции 2 в строке <span>str</span>?",
+    "text": "Получить символ на позиции 2 в строке <span>str</span>?",
     "time": 10,
     "answer": "str.charAt(1)"
   },
@@ -80,7 +80,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Как найти символ <span>а</span> в строке <span>str</span>? Используйте одинарные кавычки.",
+    "text": "Найти символ <span>а</span> в строке <span>str</span>? Используйте одинарные кавычки.",
     "time": 10,
     "answer": "str.indexOf('a')"
   },
@@ -93,7 +93,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Как найти символ <span>а</span> в строке <span>str</span> с конца? Используйте одинарные кавычки.",
+    "text": "Найти символ <span>а</span> в строке <span>str</span> с конца? Используйте одинарные кавычки.",
     "time": 10,
     "answer": "str.lasIndexOf('a')"
   },
@@ -132,7 +132,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Получите строку с кода 1050?",
+    "text": "Получите строку по коду 1050?",
     "time": 10,
     "answer": "String.fromCharCode(1050)"
   },

@@ -3,7 +3,7 @@
     "section": "JavaScript",
     "theme": "Basic",
     "text": "Какое слово заставляет функцию вернуть результат?",
-    "time": 10,
+    "time": 20,
     "answer": "return"
   },
   "answer": {
@@ -16,7 +16,7 @@
     "section": "JavaScript",
     "theme": "Basic",
     "text": "Что возвращает <span>function(){}</span>, если нет <span>return</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "undefined"
   },
   "answer": {
@@ -29,7 +29,7 @@
     "section": "JavaScript",
     "theme": "Basic",
     "text": "В каком слове хранятся переданные функции значения?",
-    "time": 10,
+    "time": 20,
     "answer": "arguments"
   },
   "answer": {
@@ -42,7 +42,7 @@
     "section": "JavaScript",
     "theme": "Basic",
     "text": "Какой будет результат <span>2 < 1 ? false : true</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "true"
   },
   "answer": {
@@ -55,7 +55,7 @@
     "section": "JavaScript",
     "theme": "Basic",
     "text": "Какое слово прерывает текущую итерацию цикла?",
-    "time": 10,
+    "time": 20,
     "answer": "continue"
   },
   "answer": {
@@ -68,7 +68,7 @@
     "section": "JavaScript",
     "theme": "Basic",
     "text": "Какое слово служит для выхода из цикла?",
-    "time": 10,
+    "time": 20,
     "answer": "break"
   },
   "answer": {
@@ -80,8 +80,8 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для установки таймаута <span>без параметров</span>?",
-    "time": 10,
+    "text": "Какая функция для установки таймаута?",
+    "time": 20,
     "answer": "setTimeout()"
   },
   "answer": {
@@ -93,8 +93,8 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для сброса таймаута <span>без параметров</span>?",
-    "time": 10,
+    "text": "Какая функция для сброса таймаута?",
+    "time": 20,
     "answer": "clearTimeout()"
   },
   "answer": {
@@ -106,8 +106,8 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для установки интервала повторения <span>без параметров</span>?",
-    "time": 10,
+    "text": "Какая функция для установки интервала повторения?",
+    "time": 20,
     "answer": "setInterval()"
   },
   "answer": {
@@ -119,8 +119,8 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для сброса интервала повторения <span>без параметров</span>?",
-    "time": 10,
+    "text": "Какая функция для сброса интервала повторения?",
+    "time": 20,
     "answer": "clearInterval()"
   },
   "answer": {
