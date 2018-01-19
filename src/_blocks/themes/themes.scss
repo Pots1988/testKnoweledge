@@ -2,6 +2,9 @@
   display: block;
   z-index: 99;
   position: relative;
+  &.themes--hidden {
+    display: none;
+  }
 }
 
 .themes__container {
