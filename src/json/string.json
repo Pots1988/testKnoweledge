@@ -1,5 +1,4 @@
-[
-{
+[{
   "question": {
     "section": "JavaScript",
     "theme": "String",
@@ -154,5 +153,4 @@
     "time": "",
     "text": ""
   }
-},
-]
+}]

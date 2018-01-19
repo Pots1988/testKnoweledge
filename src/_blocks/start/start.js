@@ -1,11 +1,14 @@
-document.addEventListener('DOMContentLoaded', function(){
-  var screen = document.querySelector("[data-start]");
-  if (screen) {
-    var btnStart = screen.querySelector("[data-btn-start]");
+let start = document.querySelector("[data-start]");
 
-    btnStart.addEventListener("click", function (e) {
-      e.preventDefault();
-      screen.classList.add("start--hidden");
-    });
-  }
-});
+if (start) {
+  let btnStart = start.querySelector("[data-btn-start]");
+
+  btnStart.addEventListener("click", function(e) {
+    e.preventDefault();
+    start.classList.add("start--hidden");
+    testObject._setQuestion();
+
+    document.querySelector("#test").classList.add("test--active");
+  });
+}
+

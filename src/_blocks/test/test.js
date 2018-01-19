@@ -1,30 +1,3 @@
-let obj = [{
-  question: {
-    section: "JavaScript",
-    theme: "Basic",
-    text: "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если введено значение?",
-    time: 10,
-    answer: "string"
-  },
-  answer: {
-    time: "",
-    text: ""
-  }
-},
-{
-  question: {
-    section: "JavaScript",
-    theme: "Basic",
-    text: "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если не введено значение?",
-    time: 10,
-    answer: "null"
-  },
-  answer: {
-    time: "",
-    text: ""
-  }
-}];
-
 function Test(params) {
   this.item = params.item;
   this.questionsArr = params.questions; /* Массив вопросов */
@@ -53,7 +26,7 @@ function Test(params) {
 
   this._mixQuestion(); /* Запуск функции случайного или линейного задания вопросов */
 
-  this._setQuestion(); /* Запуск функцию задавания вопросов */
+  // this._setQuestion(); /* Запуск функцию задавания вопросов */
 }
 
 Test.prototype._startTimer = function() {
@@ -151,10 +124,5 @@ Test.prototype._mixQuestion = function() {
   }
 }
 
-var test = new Test({
-  item: document.querySelector("#test"),
-  questions: obj,
-  time: 10
-});
 
 
