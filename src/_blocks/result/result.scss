@@ -1,6 +1,7 @@
 .result {
   display: none;
   font-size: 20px;
+  line-height: 1;
   padding: 2em 0;
 
   &--active {
@@ -14,4 +15,84 @@
 
 .result__title {
   @include title($margin: 0 0 1em);
+}
+
+.result__stat {
+  font-size: 1.2em;
+
+  svg {
+    fill: currentColor;
+  }
+}
+
+.result__list {
+  margin: 0;
+  padding: 1em 0;
+  list-style: none;
+  counter-reset: numbers;
+
+  li {
+    counter-increment: numbers;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+    padding-left: 1.5em;
+    padding-top: 1em;
+    position: relative;
+
+    &::before {
+      content: counter(numbers);
+      font-size: 3em;
+      color: rgba($blue, 0.5);
+      margin-bottom: 0.1em;
+    }
+
+    p {
+      margin: 0 0 0.5em;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}
+
+.result__question-time {
+  svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 0.3em;
+    fill: $blue;
+  }
+}
+
+.result__question-text {
+  font-size: 0.9em;
+  color: $grey;
+}
+
+.result__answer {
+  &--default {
+    color: $blue;
+  }
+
+  svg {
+    margin-right: 0.3em;
+    fill: currentColor;
+  }
+}
+
+
+
+
+.result-correct {
+  color: $green;
+}
+
+.result-incorrect {
+  color: $red;
+}
+
+.result-total {
+  color: $blue;
 }

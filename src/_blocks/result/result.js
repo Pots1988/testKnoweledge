@@ -25,25 +25,40 @@ ResultWrite.prototype._setAnswer = function() {
         answerUser = document.createElement("p");
 
     time.classList.add("result__question-time");
-    time.textContent = item.answer.time + "c";
+    time.insertAdjacentHTML("afterBegin",
+      `<svg width="10px" height="10px">
+          <use xlink:href="#icon-clock" />
+        </svg>`);
+
+    let timeText = document.createElement("span");
+    timeText.textContent = item.answer.time + "c";
+    time.appendChild(timeText);
 
     question.classList.add("result__question-text");
-    question.textContent = item.question.text;
+    question.innerHTML = item.question.text;
 
     answerDefault.classList.add("result__answer");
     answerDefault.classList.add("result__answer--default");
-    answerDefault.textContent = item.question.answer;
+    answerDefault.innerHTML = item.question.answer;
 
     answerUser.classList.add("result__answer");
     answerUser.classList.add("result__answer--user");
-    answerUser.textContent = item.answer.text;
+    answerUser.innerHTML = item.answer.text;
 
     if (item.question.answer == item.answer.text) {
       correctCount++;
       answerUser.classList.add("result-correct");
+      answerUser.insertAdjacentHTML("afterBegin",
+      `<svg width="15px" height="15px">
+          <use xlink:href="#icon-ok" />
+        </svg>`);
     } else {
       incorrectCount++;
       answerUser.classList.add("result-incorrect");
+      answerUser.insertAdjacentHTML("afterBegin",
+      `<svg width="15px" height="15px">
+          <use xlink:href="#icon-error" />
+        </svg>`);
     }
 
     li.appendChild(time);

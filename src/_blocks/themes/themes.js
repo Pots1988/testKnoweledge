@@ -65,7 +65,7 @@ if (screen) {
         testObject = new Test({
           item: document.querySelector("#test"),
           questions: arrIssues,
-          time: 10
+          time: 20
         });
       }
     }

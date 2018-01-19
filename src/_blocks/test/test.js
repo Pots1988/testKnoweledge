@@ -1,7 +1,7 @@
 function Test(params) {
   this.item = params.item;
   this.questionsArr = params.questions; /* Массив вопросов */
-  this.time = params.time || 10; /* Время ответа на вопрос */
+  this.time = params.time || 20; /* Время ответа на вопрос */
   this.accidentally = params.accidentally || false; /* Сортировать в случайном поряжке вопросы */
   this._questionStart = false; /* Задан вопрос или нет */
 
@@ -56,12 +56,12 @@ Test.prototype._startTimer = function() {
       circle.path.setAttribute('stroke', state.color);
       circle.path.setAttribute('stroke-width', state.width);
 
-      let value = Math.round(circle.value() * 100);
+      let value = circle.value() * obj.time;
 
       if (value === 0) {
         circle.setText("");
       } else {
-        circle.setText(Math.floor(value/10));
+        circle.setText(value.toFixed(1));
       }
 
       if (circle.value() === 1) {
