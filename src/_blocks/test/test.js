@@ -35,7 +35,7 @@ function Test(params) {
   this.activeQuestion = null; /* Активный вопрос */
   this.questionsArrPosed = [];
 
-  this.domElements = { /* Список DOM-объектовдля обработки событий */
+  this.domElements = { /* Список DOM-объектов для обработки событий */
     question: this.item.querySelector("[data-test-question]"),
     answer: this.item.querySelector("[data-test-answer]"),
     button: this.item.querySelector("[data-test-btn]")
@@ -110,9 +110,18 @@ Test.prototype._setQuestion = function() {
     this.domElements.answer.focus();
     this._startTimer();
   } else {
-    console.log("Вопросы закончились");
-    console.log(this.questionsArrPosed);
+    this._showResult();
   }
+}
+
+Test.prototype._showResult = function() {
+  new ResultWrite({
+    item: document.querySelector("#result"),
+    questionArr: this.questionsArrPosed
+  });
+
+  this.item.classList.remove("test--active");
+  document.querySelector("#result").classList.add("result--active");
 }
 
 Test.prototype._getAnswer = function() {

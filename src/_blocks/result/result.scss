@@ -1,0 +1,17 @@
+.result {
+  display: none;
+  font-size: 20px;
+  padding: 2em 0;
+
+  &--active {
+    display: block;
+  }
+}
+
+.result__wrap {
+  @include wrap($max-width: 900px);
+}
+
+.result__title {
+  @include title($margin: 0 0 1em);
+}
