@@ -1,0 +1,118 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Преобразование <span>JSON</span> в <span>obj</span>?",
+    "time": 20,
+    "answer": "JSON.parse()"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Преобразовать <span>obj</span> в <span>JSON</span>?",
+    "time": 20,
+    "answer": "JSON.stringify(obj)"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Внутри какого блока выполняется код для поиска ошибки?",
+    "time": 20,
+    "answer": "try"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Если в коде есть ошибки и указан код <span>try</span>, в какой блок передается ошибка?",
+    "time": 20,
+    "answer": "catch(err)"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Какое св-во объекта ошибки <span>err</span> отвечает за тип ошибки?",
+    "time": 20,
+    "answer": "name"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Какое св-во объекта ошибки <span>err</span> содержит текстовое сообщение?",
+    "time": 20,
+    "answer": "message"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "Какое св-во объекта ошибки <span>err</span> содержит стэк вызовов?",
+    "time": 20,
+    "answer": "stack"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Other",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  }
+}
+]

@@ -1,0 +1,90 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Вызов ф-ии с передачей контекста и определенного списка аргументов?",
+    "time": 20,
+    "answer": ".call()"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Вызов ф-ии с передачей контекста и массива аргументов?",
+    "time": 20,
+    "answer": ".apply()"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Ф-ия создания обертки с сохранением контекста?",
+    "time": 20,
+    "answer": ".bind()"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Задание прототипа объекта внутри самого объекта?",
+    "time": 20,
+    "answer": ".__proto__"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Задание прототипа для ф-ии конструктора <span>Func</span>?",
+    "time": 20,
+    "answer": "Func.prototype"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Проверка: принадлежит ли св-во <span>prop</span> самому объекту <span>obj</span> или его прототипу?",
+    "time": 20,
+    "answer": "obj.hasOwnProperty(prop)"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Создание объекта без прототипа?",
+    "time": 20,
+    "answer": "Object.create(null)"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Создание пустого объекта с прототипом <span>proto</span>?",
+    "time": 20,
+    "answer": "Object.create(proto)"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Получение прототипа объекта <span>obj</span>?",
+    "time": 20,
+    "answer": "Object.getPrototypeOf(obj)"
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Prototype",
+    "text": "Установка прототипа объекта <span>obj</span>?",
+    "time": 20,
+    "answer": "Object.setPrototypeOf(obj)"
+  }
+}]

@@ -1,9 +1,48 @@
 [{
   "question": {
     "section": "JavaScript",
-    "theme": "Basic",
-    "text": "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если введено значение?",
-    "time": 10,
+    "theme": "Date",
+    "text": "Текущая дата в виде строки?",
+    "time": 20,
+    "answer": "new Date()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Текущая дата в виде <span>ms</span>?",
+    "time": 20,
+    "answer": "Date.now()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Время прошедшее от загрузки страницы?",
+    "time": 20,
+    "answer": "performance.now()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Разбор даты заданной в виде строки в <span>ms</span>?",
+    "time": 20,
     "answer": "string"
   },
   "answer": {
@@ -14,10 +53,36 @@
 {
   "question": {
     "section": "JavaScript",
-    "theme": "Basic",
-    "text": "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если не введено значение?",
-    "time": 10,
-    "answer": "null"
+    "theme": "Date",
+    "text": "Получение года из даты?",
+    "time": 20,
+    "answer": "getFullYear()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установка года в дате?",
+    "time": 20,
+    "answer": ".setFullYear()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение дня недели?",
+    "time": 20,
+    "answer": ".getDay()"
   },
   "answer": {
     "time": "",

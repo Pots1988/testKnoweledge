@@ -1,10 +1,10 @@
 [{
   "question": {
     "section": "JavaScript",
-    "theme": "Basic",
-    "text": "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если введено значение?",
-    "time": 10,
-    "answer": "string"
+    "theme": "Number",
+    "text": "Проверка на NaN?",
+    "time": 20,
+    "answer": "isNaN()"
   },
   "answer": {
     "time": "",
@@ -14,10 +14,192 @@
 {
   "question": {
     "section": "JavaScript",
-    "theme": "Basic",
-    "text": "Что вернет <span>typeof prompt('Вопрос', 'Ответ по умолчанию')</span>, если не введено значение?",
-    "time": 10,
-    "answer": "null"
+    "theme": "Number",
+    "text": "Проверка на NaN, Infinity?",
+    "time": 20,
+    "answer": "isFinite()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Получение целого числа из строки?",
+    "time": 20,
+    "answer": "parseInt()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Получение дробного числа из строки?",
+    "time": 20,
+    "answer": "parseFloat()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Форматированный вывод чисел?",
+    "time": 20,
+    "answer": ".toLocaleString()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Перевод в 16-ричную систему счисления?",
+    "time": 20,
+    "answer": ".toString(16)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Кругление вниз?",
+    "time": 20,
+    "answer": "Math.floor()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Округление в верх?",
+    "time": 20,
+    "answer": "Math.ceil()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Округление по правилам математики?",
+    "time": 20,
+    "answer": "Math.round()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Округление до заданной точности?",
+    "time": 20,
+    "answer": ".toFixed()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Квадратный корень?",
+    "time": 20,
+    "answer": "Math.sqrt()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Возведение в степень?",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Math.pow()",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Поиск большего числа?",
+    "time": 20,
+    "answer": "Math.max()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Поиск меньшего числа?",
+    "time": 20,
+    "answer": "Math.min()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Number",
+    "text": "Генерация случайного числа от 0 до 1?",
+    "time": 20,
+    "answer": "Math.random()"
   },
   "answer": {
     "time": "",

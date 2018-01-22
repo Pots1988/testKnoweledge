@@ -1,0 +1,273 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Короткий синтаксис создания массива?",
+    "time": 20,
+    "answer": "[]"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Длинный синтаксис создания массива?",
+    "time": 20,
+    "answer": "new Aray()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Длина массива?",
+    "time": 20,
+    "answer": ".length"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Удалить элемент с конца массива?",
+    "time": 20,
+    "answer": ".pop()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Добавить элемент в конец массива?",
+    "time": 20,
+    "answer": ".push()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Удалить элемент с начала массива?",
+    "time": 20,
+    "answer": ".shift()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Добавить элемент в начало массива?",
+    "time": 20,
+    "answer": ".unshift()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Скопировать массив со 2 по 5 позицию включительно?",
+    "time": 20,
+    "answer": ".slice(1, 6)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Удалить в массиве с 1-ой позиции 2 элемента и заменить их на 3, 4?",
+    "time": 20,
+    "answer": ".splice(1, 2, 3, 4)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Разбить строку по разделителю и записать в массив?",
+    "time": 20,
+    "answer": ".split()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Объединить массив в строку с разделителем?",
+    "time": 20,
+    "answer": ".join()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Сортировать массив как строки?",
+    "time": 20,
+    "answer": ".sort()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Развернуть массив задом на перед?",
+    "time": 20,
+    "answer": ".reverse()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Добавить в текущий массив еще массивы?",
+    "time": 20,
+    "answer": ".concat()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Поиск по массиву?",
+    "time": 20,
+    "answer": ".indexOf()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Применить функцию для каждого элемента массива?",
+    "time": 20,
+    "answer": ".forEach()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Фильтрация массива?",
+    "time": 20,
+    "answer": ".filter()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Создание нового массива из результатов вызова функции?",
+    "time": 20,
+    "answer": ".map()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Ф-ия последовательной обработки массива с сохр. промежуточного результата?",
+    "time": 20,
+    "answer": ".reduce()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Проверка массива на соответствие всех элементов?",
+    "time": 20,
+    "answer": ".every()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Проверка массива на соответствие любого элемента?",
+    "time": 20,
+    "answer": ".some()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+}]

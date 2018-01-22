@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какое слово заставляет функцию вернуть результат?",
+    "text": "Как ф-цию возвращает результат?",
     "time": 20,
     "answer": "return"
   },
@@ -28,7 +28,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "В каком слове хранятся переданные функции значения?",
+    "text": "Где хранятся переданные ф-ции значения?",
     "time": 20,
     "answer": "arguments"
   },
@@ -54,7 +54,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какое слово прерывает текущую итерацию цикла?",
+    "text": "Как прервать текущую итерацию цикла?",
     "time": 20,
     "answer": "continue"
   },
@@ -67,7 +67,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какое слово служит для выхода из цикла?",
+    "text": "Как выйти из цикла?",
     "time": 20,
     "answer": "break"
   },
@@ -80,7 +80,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для установки таймаута?",
+    "text": "Как установить таймаут?",
     "time": 20,
     "answer": "setTimeout()"
   },
@@ -93,7 +93,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для сброса таймаута?",
+    "text": "Как сбросить таймаут?",
     "time": 20,
     "answer": "clearTimeout()"
   },
@@ -106,7 +106,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для установки интервала повторения?",
+    "text": "Как установить интервал повторения?",
     "time": 20,
     "answer": "setInterval()"
   },
@@ -119,7 +119,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Какая функция для сброса интервала повторения?",
+    "text": "Как сбросить интервал повторения?",
     "time": 20,
     "answer": "clearInterval()"
   },
