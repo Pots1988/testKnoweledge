@@ -65,18 +65,18 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "",
+    "text": "Какой блок кода выполняется всегда после <span>try или catch</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "finally"
   }
 },
 {
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "",
+    "text": "Как сгенерировать свою ошибку в блоке <span>try или catch</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "throw"
   }
 },
 {
