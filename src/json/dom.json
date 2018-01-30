@@ -1,0 +1,737 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер ширина окна браузера?",
+    "time": 20,
+    "answer": "window.innerWidth"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер высоты окна браузера?",
+    "time": 20,
+    "answer": "window.innerHeight"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Координата <span>X</span> верхнего левого угла браузера?",
+    "time": 20,
+    "answer": "window.screenX"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Координата <span>Y</span> верхнего левого угла браузера?",
+    "time": 20,
+    "answer": "window.screenY"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер ширины экрана?",
+    "time": 20,
+    "answer": "screen.width"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер высоты экрана?",
+    "time": 20,
+    "answer": "screen.height"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Доступная ширина экрана за вычетом таскбаров и т.п.?",
+    "time": 20,
+    "answer": "screen.availWidth"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Доступная высота экрана за вычетом таскбаров и т.п.?",
+    "time": 20,
+    "answer": "screen.availHeight"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить <span>html</span> элемент?",
+    "time": 20,
+    "answer": "document.documentElement"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить элемент <span>body</span>?",
+    "time": 20,
+    "answer": "document.body"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить <span>head</span> элемент?",
+    "time": 20,
+    "answer": "document.head"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить все дочерние элементы <span>теги</span>?",
+    "time": 20,
+    "answer": ".children"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить все дочерние элементы?",
+    "time": 20,
+    "answer": ".childNodes"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Проверить наличие дочерних элементов?",
+    "time": 20,
+    "answer": ".hasChildNodes()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить предыдущий элемент?",
+    "time": 20,
+    "answer": ".previousSibling"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить предыдущий элемент <span>тег</span>?",
+    "time": 20,
+    "answer": ".previousElementSibling"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить следующий элемент?",
+    "time": 20,
+    "answer": ".nextSibling"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить следующий элемент <span>тег</span>?",
+    "time": 20,
+    "answer": ".nextElementSibling"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить родительский элемент?",
+    "time": 20,
+    "answer": ".parentElement"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "На каком элементе .parentElement и .parentNode вернут разные значения?",
+    "time": 20,
+    "answer": "html"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как узнать тип узла?",
+    "time": 20,
+    "answer": ".nodeType"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Какой тип узла у элемента?",
+    "time": 20,
+    "answer": "1"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Какой тип узла у текста?",
+    "time": 20,
+    "answer": "3"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как узнать название только элемента?",
+    "time": 20,
+    "answer": ".tagName"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как узнать название любого узла?",
+    "time": 20,
+    "answer": ".nodeName"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Что вернет <span>document.documentElement.tagName</span>",
+    "time": 20,
+    "answer": "HTML"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как найти ближайщий элемент с определенным селектором?",
+    "time": 20,
+    "answer": ".closest()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как проверить удовлетворяет элемент селектору?",
+    "time": 20,
+    "answer": ".mathces()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить содержимое элемента в виде строки с тегами?",
+    "time": 20,
+    "answer": ".innerHTML"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить содержимое элемента и сам элемент в виде строки с тегами?",
+    "time": 20,
+    "answer": ".outerHTML"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить содержимое элемента в виде текста?",
+    "time": 20,
+    "answer": ".textContent"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить содержимое не в узлах элементах?",
+    "time": 20,
+    "answer": ".data"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как создать элемент?",
+    "time": 20,
+    "answer": "document.createElement()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как создать текстовый узел?",
+    "time": 20,
+    "answer": "document.createTextNode()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить элемент <span>elem</span> в <span>parent</span>?",
+    "time": 20,
+    "answer": "parent.appendChild(elem)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить элемент <span>elem</span> в <span>parent</span>, перед элементом <span>elem2</span>?",
+    "time": 20,
+    "answer": "parent.insertBefore(elem, elem2)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить <span>html</span> перед началом <span>el</span>?",
+    "time": 20,
+    "answer": "el.insertAdjacentHTML('beforeBegin', html)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить <span>html</span> после начала <span>el</span>?",
+    "time": 20,
+    "answer": "el.insertAdjacentHTML('afterBegin', html)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить <span>html</span> перед концом <span>el</span>?",
+    "time": 20,
+    "answer": "el.insertAdjacentHTML('beforeEnd', html)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить <span>html</span> после конца <span>el</span>?",
+    "time": 20,
+    "answer": "el.insertAdjacentHTML('afterEnd', html)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить элемент <span>el2</span> после начала <span>el</span>?",
+    "time": 20,
+    "answer": "el.insertAdjacentHTML('afterBegin', el2)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вставить текст <span>text</span> после начала <span>el</span>?",
+    "time": 20,
+    "answer": "el.insertAdjacentText('afterBegin', text)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Удалить <span>el</span> из <span>par</span>?",
+    "time": 20,
+    "answer": "par.removeChild(el)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Заменить в родителе <span>par</span> элемент <span>el</span> на <span>el2</span>?",
+    "time": 20,
+    "answer": "par.replaceChild(el, el2)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как создать DOM-узел, который исчезает после вставки в DOM?",
+    "time": 20,
+    "answer": "document.createDocumentFragment()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Клонируйте <span>el</span> без внутренних элементов?",
+    "time": 20,
+    "answer": "el.cloneNode(false)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Клонируйте <span>el</span> с внутренними элементами?",
+    "time": 20,
+    "answer": "el.cloneNode(true)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Проверить наличие аттрибута?",
+    "time": 20,
+    "answer": ".hasAttribute()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Удалить аттрибут?",
+    "time": 20,
+    "answer": ".removeAttribute()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Аттрибуты в виде массива?",
+    "time": 20,
+    "answer": ".attributes"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить значение аттрибута?",
+    "time": 20,
+    "answer": ".getAttribute()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Установить аттрибут?",
+    "time": 20,
+    "answer": ".setAttribute()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить значение data-аттрибута <span>name</span>?",
+    "time": 20,
+    "answer": ".dataset.name"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить классы в виде строки?",
+    "time": 20,
+    "answer": ".className"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить классы в виде массива?",
+    "time": 20,
+    "answer": ".classList"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Добавить класс?",
+    "time": 20,
+    "answer": ".classList.add()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Удалить класс?",
+    "time": 20,
+    "answer": ".classList.remove()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Проверить наличие класса?",
+    "time": 20,
+    "answer": ".classList.contains()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Триггер (переключатель) класса?",
+    "time": 20,
+    "answer": ".classList.toggle()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Содержит <span>par</span> элемент <span>el</span>?",
+    "time": 20,
+    "answer": "par.contains(el)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Полусить битовую маску расположения элементов друг относительно друга?",
+    "time": 20,
+    "answer": ".compareDocumentPosition()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как задать элементу <span>margin</span>?",
+    "time": 20,
+    "answer": ".style.margin"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Стиль элемента в виде строки?",
+    "time": 20,
+    "answer": ".style.cssText"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить значение свойства margin для элемента <span>el</span>, указанные в CSS?",
+    "time": 20,
+    "answer": ".getComputedStyle(el).margin"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Ссылка на родительский элемент от которого позиционируется текущий элемент?",
+    "time": 20,
+    "answer": ".offsetParent"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Смещение сверху относительно offsetParent?",
+    "time": 20,
+    "answer": ".offsetTop"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Смещение слева относительно offsetParent?",
+    "time": 20,
+    "answer": ".offsetLeft"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "'Внешний' размер ширины элемента?",
+    "time": 20,
+    "answer": ".offsetWidth"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "'Внешний' размер высоты элемента?",
+    "time": 20,
+    "answer": ".offsetHeight"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Отступ сверху внутренней части элемент от внешней?",
+    "time": 20,
+    "answer": ".clientTop"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Отступ слева внутренней части элемент от внешней?",
+    "time": 20,
+    "answer": ".clientLeft"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер ширины элемента внутри рамок?",
+    "time": 20,
+    "answer": ".clentWidth"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер высоты элемента внутри рамок?",
+    "time": 20,
+    "answer": ".clientHeight"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер ширины элемента с учетом прокрученной области?",
+    "time": 20,
+    "answer": ".scrollWidth"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Размер высоты элемента с учетом прокрученной области?",
+    "time": 20,
+    "answer": ".scrollHeight"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Высота прокрученной в данный момент области?",
+    "time": 20,
+    "answer": ".scrollTop"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Ширина прокрученной в данный момент области?",
+    "time": 20,
+    "answer": ".scrollLeft"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как узнать величину прокрутки страницы по оси <span>Y</span>?",
+    "time": 20,
+    "answer": "window.pageYOffset"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как узнать величину прокрутки страницы по оси <span>X</span>?",
+    "time": 20,
+    "answer": "window.pageXOffset"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как прокрутить страницу относительно текущих координат на <span>x</span> и <span>y</span>?",
+    "time": 20,
+    "answer": "window.scrollBy(x, y)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как прокрутить страницу к координатам <span>x</span> и <span>y</span>?",
+    "time": 20,
+    "answer": "window.scrollTo(x, y)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как прокрутить страницу чтобы элемент <span>el</span> оказался вверху?",
+    "time": 20,
+    "answer": "el.scrollIntoView(true)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Как прокрутить страницу чтобы элемент <span>el</span> оказался снизу?",
+    "time": 20,
+    "answer": "el.scrollIntoView(false)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить координаты элемента <span>el</span> относительно окна браузера?",
+    "time": 20,
+    "answer": "el.getBoundingClientRect()"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить координаты элемента сверху <span>el</span> относительно окна браузера?",
+    "time": 20,
+    "answer": "el.getBoundingClientRect().top"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Вернуть элемент, находящийся на координатах <span>x, y</span> относительно окна браузера?",
+    "time": 20,
+    "answer": "document.elementFromPoint(x, y)"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить все строки в таблице <span>table</span>?",
+    "time": 20,
+    "answer": "table.rows"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить номер строки <span>tr</span> в таблице?",
+    "time": 20,
+    "answer": "tr.rowIndex"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить все строки в <span>tbody</span>?",
+    "time": 20,
+    "answer": "tbody.rows"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить номер строки <span>tr</span> в thead или tbody?",
+    "time": 20,
+    "answer": "tr.sectionRowIndex"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить псевдо-массив ячеек строки?",
+    "time": 20,
+    "answer": "tr.cells"
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "DOM",
+    "text": "Получить номер <span>td</span> в строке?",
+    "time": 20,
+    "answer": "td.cellIndex"
+  }
+}]
