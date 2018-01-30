@@ -1,66 +1,79 @@
-let screen = document.querySelector("[data-themes]"),
+let themes = document.querySelector("[data-themes]"),
     testObject;
 
-if (screen) {
-  var form = screen.querySelector("[data-themes-form]"),
-      themePath = form.querySelector("[data-theme-path]").getAttribute("data-theme-path"),
+if (themes) {
+  let form = themes.querySelector("[data-themes-form]"),
+      languagePath = form.querySelector("[data-theme-path]").dataset.themePath,
       btnAll = form.querySelector("[data-btn-theme-all]"),
       btnReset = form.querySelector("[data-btn-theme-reset]"),
       inputColection = form.querySelectorAll("[data-theme-name]");
 
-  btnAll.addEventListener("click", function (e) {
+  btnAll.addEventListener("click", e => {
     e.preventDefault();
-    for (var i = 0; i < inputColection.length; i++) {
-      inputColection[i].checked = true;
-    }
+
+    inputColection.forEach(item => {
+      item.checked = true;
+    });
   });
 
-  btnReset.addEventListener("click", function (e) {
+  btnReset.addEventListener("click", e => {
     e.preventDefault();
-    for (var i = 0; i < inputColection.length; i++) {
-      inputColection[i].checked = false;
-    }
+
+    inputColection.forEach(item => {
+      item.checked = false;
+    });
   });
 
-  form.addEventListener("submit", function (e) {
+  form.addEventListener("submit", e => {
     e.preventDefault();
-    var inputCheckedLenght = 0,
-        path = "",
+
+    let inputCheckedLenght = 0,
         arrIssues = [],
-        iteral = 0;
-    for (var i = 0; i < inputColection.length; i++) {
-      if(inputColection[i].checked){
-        path = inputColection[i].getAttribute("data-theme-name");
-        inputCheckedLenght++;
-        loadJson();
+        counter = 0,
+        windowUrl = window.location.href;
 
+    inputColection.forEach(item => {
+      if (item.checked) {
+        let themePath = item.dataset.themeName;
+        inputCheckedLenght++;
+
+        loadJson({
+          themePath: themePath
+        });
       }
-    }
-    function loadJson(){
-      var xhr = new XMLHttpRequest(),
-          url = "";
-      url = window.location.href + themePath + path;
+    });
+
+    function loadJson(params) {
+      let xhr = new XMLHttpRequest(),
+          url = windowUrl + languagePath + params.themePath;
+
       xhr.open("GET", url, true);
+
       xhr.send();
-      xhr.onreadystatechange = function (data) {
-        if(xhr.readyState != 4) return false;
-          if(xhr.status == 200) {
-          var arr = [];
+
+      xhr.onreadystatechange = function(data) {
+        if (xhr.readyState != 4) return false;
+
+        if (xhr.status == 200) {
+          let arr = [];
           arr = JSON.parse(data.currentTarget.responseText);
-          for (var i = 0; i < arr.length; i++) {
-            arrIssues.push(arr[i]);
+
+          arr.forEach(item => {
+            arrIssues.push(item);
+
             lastJson();
-          }
+          });
         } else {
-          console.log("С JSON-ом беда");
+          console.error("С JSON-ом беда");
         }
       }
     }
-    function lastJson(){
-      iteral++;
 
-      if(iteral == inputCheckedLenght) {
-        screen.classList.add("themes--hidden");
+    function lastJson() {
+      counter++;
+
+      if (counter == inputCheckedLenght) {
+        themes.classList.add("themes--hidden");
 
         testObject = new Test({
           item: document.querySelector("#test"),

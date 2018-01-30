@@ -25,8 +25,6 @@ function Test(params) {
   });
 
   this._mixQuestion(); /* Запуск функции случайного или линейного задания вопросов */
-
-  // this._setQuestion(); /* Запуск функцию задавания вопросов */
 }
 
 Test.prototype._startTimer = function() {
@@ -118,11 +116,16 @@ Test.prototype._getAnswer = function() {
 
 Test.prototype._mixQuestion = function() {
   if (this.accidentally) {
-
+    // Функция случайной конвертации массива
   } else {
-    this.questionsArr.reverse();
+    console.log(this.questionsArr);
+    // this.questionsArr.reverse();
   }
 }
+
+var a = [1,2,3];
+a.reverse();
+console.log(a);
 
 
 

@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как ф-цию возвращает результат?",
+    "text": "Как функция возвращает результат?",
     "time": 20,
     "answer": "return"
   },
