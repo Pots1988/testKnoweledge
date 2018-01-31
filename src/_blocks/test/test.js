@@ -1,5 +1,6 @@
 function Test(params) {
   this.item = params.item;
+
   this.questionsArr = params.questions; /* Массив вопросов */
   this.time = params.time || 20; /* Время ответа на вопрос */
   this.accidentally = params.accidentally || false; /* Сортировать в случайном поряжке вопросы */
@@ -118,14 +119,9 @@ Test.prototype._mixQuestion = function() {
   if (this.accidentally) {
     // Функция случайной конвертации массива
   } else {
-    console.log(this.questionsArr);
-    // this.questionsArr.reverse();
+    this.questionsArr.reverse();
   }
 }
-
-var a = [1,2,3];
-a.reverse();
-console.log(a);
 
 
 

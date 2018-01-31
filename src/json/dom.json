@@ -5,6 +5,10 @@
     "text": "Размер ширина окна браузера?",
     "time": 20,
     "answer": "window.innerWidth"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -13,6 +17,10 @@
     "text": "Размер высоты окна браузера?",
     "time": 20,
     "answer": "window.innerHeight"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -21,6 +29,10 @@
     "text": "Координата <span>X</span> верхнего левого угла браузера?",
     "time": 20,
     "answer": "window.screenX"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -29,6 +41,10 @@
     "text": "Координата <span>Y</span> верхнего левого угла браузера?",
     "time": 20,
     "answer": "window.screenY"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -37,6 +53,10 @@
     "text": "Размер ширины экрана?",
     "time": 20,
     "answer": "screen.width"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -45,6 +65,10 @@
     "text": "Размер высоты экрана?",
     "time": 20,
     "answer": "screen.height"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -53,6 +77,10 @@
     "text": "Доступная ширина экрана за вычетом таскбаров и т.п.?",
     "time": 20,
     "answer": "screen.availWidth"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -61,6 +89,10 @@
     "text": "Доступная высота экрана за вычетом таскбаров и т.п.?",
     "time": 20,
     "answer": "screen.availHeight"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -69,6 +101,10 @@
     "text": "Получить <span>html</span> элемент?",
     "time": 20,
     "answer": "document.documentElement"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -77,6 +113,10 @@
     "text": "Получить элемент <span>body</span>?",
     "time": 20,
     "answer": "document.body"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -85,6 +125,10 @@
     "text": "Получить <span>head</span> элемент?",
     "time": 20,
     "answer": "document.head"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -93,6 +137,10 @@
     "text": "Получить все дочерние элементы <span>теги</span>?",
     "time": 20,
     "answer": ".children"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -101,6 +149,10 @@
     "text": "Получить все дочерние элементы?",
     "time": 20,
     "answer": ".childNodes"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -109,6 +161,10 @@
     "text": "Проверить наличие дочерних элементов?",
     "time": 20,
     "answer": ".hasChildNodes()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -117,6 +173,10 @@
     "text": "Получить предыдущий элемент?",
     "time": 20,
     "answer": ".previousSibling"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -125,6 +185,10 @@
     "text": "Получить предыдущий элемент <span>тег</span>?",
     "time": 20,
     "answer": ".previousElementSibling"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -133,6 +197,10 @@
     "text": "Получить следующий элемент?",
     "time": 20,
     "answer": ".nextSibling"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -141,6 +209,10 @@
     "text": "Получить следующий элемент <span>тег</span>?",
     "time": 20,
     "answer": ".nextElementSibling"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -149,6 +221,10 @@
     "text": "Получить родительский элемент?",
     "time": 20,
     "answer": ".parentElement"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -157,6 +233,10 @@
     "text": "На каком элементе .parentElement и .parentNode вернут разные значения?",
     "time": 20,
     "answer": "html"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -165,6 +245,10 @@
     "text": "Как узнать тип узла?",
     "time": 20,
     "answer": ".nodeType"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -173,6 +257,10 @@
     "text": "Какой тип узла у элемента?",
     "time": 20,
     "answer": "1"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -181,6 +269,10 @@
     "text": "Какой тип узла у текста?",
     "time": 20,
     "answer": "3"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -189,6 +281,10 @@
     "text": "Как узнать название только элемента?",
     "time": 20,
     "answer": ".tagName"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -197,6 +293,10 @@
     "text": "Как узнать название любого узла?",
     "time": 20,
     "answer": ".nodeName"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -205,6 +305,10 @@
     "text": "Что вернет <span>document.documentElement.tagName</span>",
     "time": 20,
     "answer": "HTML"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -213,6 +317,10 @@
     "text": "Как найти ближайщий элемент с определенным селектором?",
     "time": 20,
     "answer": ".closest()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -221,6 +329,10 @@
     "text": "Как проверить удовлетворяет элемент селектору?",
     "time": 20,
     "answer": ".mathces()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -229,6 +341,10 @@
     "text": "Получить содержимое элемента в виде строки с тегами?",
     "time": 20,
     "answer": ".innerHTML"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -237,6 +353,10 @@
     "text": "Получить содержимое элемента и сам элемент в виде строки с тегами?",
     "time": 20,
     "answer": ".outerHTML"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -245,6 +365,10 @@
     "text": "Получить содержимое элемента в виде текста?",
     "time": 20,
     "answer": ".textContent"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -253,6 +377,10 @@
     "text": "Получить содержимое не в узлах элементах?",
     "time": 20,
     "answer": ".data"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -261,6 +389,10 @@
     "text": "Как создать элемент?",
     "time": 20,
     "answer": "document.createElement()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -269,6 +401,10 @@
     "text": "Как создать текстовый узел?",
     "time": 20,
     "answer": "document.createTextNode()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -277,6 +413,10 @@
     "text": "Вставить элемент <span>elem</span> в <span>parent</span>?",
     "time": 20,
     "answer": "parent.appendChild(elem)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -285,6 +425,10 @@
     "text": "Вставить элемент <span>elem</span> в <span>parent</span>, перед элементом <span>elem2</span>?",
     "time": 20,
     "answer": "parent.insertBefore(elem, elem2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -293,6 +437,10 @@
     "text": "Вставить <span>html</span> перед началом <span>el</span>?",
     "time": 20,
     "answer": "el.insertAdjacentHTML('beforeBegin', html)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -301,6 +449,10 @@
     "text": "Вставить <span>html</span> после начала <span>el</span>?",
     "time": 20,
     "answer": "el.insertAdjacentHTML('afterBegin', html)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -309,6 +461,10 @@
     "text": "Вставить <span>html</span> перед концом <span>el</span>?",
     "time": 20,
     "answer": "el.insertAdjacentHTML('beforeEnd', html)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -317,6 +473,10 @@
     "text": "Вставить <span>html</span> после конца <span>el</span>?",
     "time": 20,
     "answer": "el.insertAdjacentHTML('afterEnd', html)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -325,6 +485,10 @@
     "text": "Вставить элемент <span>el2</span> после начала <span>el</span>?",
     "time": 20,
     "answer": "el.insertAdjacentHTML('afterBegin', el2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -333,6 +497,10 @@
     "text": "Вставить текст <span>text</span> после начала <span>el</span>?",
     "time": 20,
     "answer": "el.insertAdjacentText('afterBegin', text)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -341,6 +509,10 @@
     "text": "Удалить <span>el</span> из <span>par</span>?",
     "time": 20,
     "answer": "par.removeChild(el)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -349,6 +521,10 @@
     "text": "Заменить в родителе <span>par</span> элемент <span>el</span> на <span>el2</span>?",
     "time": 20,
     "answer": "par.replaceChild(el, el2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -357,6 +533,10 @@
     "text": "Как создать DOM-узел, который исчезает после вставки в DOM?",
     "time": 20,
     "answer": "document.createDocumentFragment()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -365,6 +545,10 @@
     "text": "Клонируйте <span>el</span> без внутренних элементов?",
     "time": 20,
     "answer": "el.cloneNode(false)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -373,6 +557,10 @@
     "text": "Клонируйте <span>el</span> с внутренними элементами?",
     "time": 20,
     "answer": "el.cloneNode(true)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -381,6 +569,10 @@
     "text": "Проверить наличие аттрибута?",
     "time": 20,
     "answer": ".hasAttribute()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -389,6 +581,10 @@
     "text": "Удалить аттрибут?",
     "time": 20,
     "answer": ".removeAttribute()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -397,6 +593,10 @@
     "text": "Аттрибуты в виде массива?",
     "time": 20,
     "answer": ".attributes"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -405,6 +605,10 @@
     "text": "Получить значение аттрибута?",
     "time": 20,
     "answer": ".getAttribute()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -413,6 +617,10 @@
     "text": "Установить аттрибут?",
     "time": 20,
     "answer": ".setAttribute()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -421,6 +629,10 @@
     "text": "Получить значение data-аттрибута <span>name</span>?",
     "time": 20,
     "answer": ".dataset.name"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -429,6 +641,10 @@
     "text": "Получить классы в виде строки?",
     "time": 20,
     "answer": ".className"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -437,6 +653,10 @@
     "text": "Получить классы в виде массива?",
     "time": 20,
     "answer": ".classList"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -445,6 +665,10 @@
     "text": "Добавить класс?",
     "time": 20,
     "answer": ".classList.add()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -453,6 +677,10 @@
     "text": "Удалить класс?",
     "time": 20,
     "answer": ".classList.remove()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -461,6 +689,10 @@
     "text": "Проверить наличие класса?",
     "time": 20,
     "answer": ".classList.contains()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -469,6 +701,10 @@
     "text": "Триггер (переключатель) класса?",
     "time": 20,
     "answer": ".classList.toggle()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -477,6 +713,10 @@
     "text": "Содержит <span>par</span> элемент <span>el</span>?",
     "time": 20,
     "answer": "par.contains(el)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -485,6 +725,10 @@
     "text": "Полусить битовую маску расположения элементов друг относительно друга?",
     "time": 20,
     "answer": ".compareDocumentPosition()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -493,6 +737,10 @@
     "text": "Как задать элементу <span>margin</span>?",
     "time": 20,
     "answer": ".style.margin"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -501,6 +749,10 @@
     "text": "Стиль элемента в виде строки?",
     "time": 20,
     "answer": ".style.cssText"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -509,6 +761,10 @@
     "text": "Получить значение свойства margin для элемента <span>el</span>, указанные в CSS?",
     "time": 20,
     "answer": ".getComputedStyle(el).margin"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -517,6 +773,10 @@
     "text": "Ссылка на родительский элемент от которого позиционируется текущий элемент?",
     "time": 20,
     "answer": ".offsetParent"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -525,6 +785,10 @@
     "text": "Смещение сверху относительно offsetParent?",
     "time": 20,
     "answer": ".offsetTop"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -533,6 +797,10 @@
     "text": "Смещение слева относительно offsetParent?",
     "time": 20,
     "answer": ".offsetLeft"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -541,6 +809,10 @@
     "text": "'Внешний' размер ширины элемента?",
     "time": 20,
     "answer": ".offsetWidth"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -549,6 +821,10 @@
     "text": "'Внешний' размер высоты элемента?",
     "time": 20,
     "answer": ".offsetHeight"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -557,6 +833,10 @@
     "text": "Отступ сверху внутренней части элемент от внешней?",
     "time": 20,
     "answer": ".clientTop"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -565,6 +845,10 @@
     "text": "Отступ слева внутренней части элемент от внешней?",
     "time": 20,
     "answer": ".clientLeft"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -573,6 +857,10 @@
     "text": "Размер ширины элемента внутри рамок?",
     "time": 20,
     "answer": ".clentWidth"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -581,6 +869,10 @@
     "text": "Размер высоты элемента внутри рамок?",
     "time": 20,
     "answer": ".clientHeight"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -589,6 +881,10 @@
     "text": "Размер ширины элемента с учетом прокрученной области?",
     "time": 20,
     "answer": ".scrollWidth"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -597,6 +893,10 @@
     "text": "Размер высоты элемента с учетом прокрученной области?",
     "time": 20,
     "answer": ".scrollHeight"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -605,6 +905,10 @@
     "text": "Высота прокрученной в данный момент области?",
     "time": 20,
     "answer": ".scrollTop"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -613,6 +917,10 @@
     "text": "Ширина прокрученной в данный момент области?",
     "time": 20,
     "answer": ".scrollLeft"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -621,6 +929,10 @@
     "text": "Как узнать величину прокрутки страницы по оси <span>Y</span>?",
     "time": 20,
     "answer": "window.pageYOffset"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -629,6 +941,10 @@
     "text": "Как узнать величину прокрутки страницы по оси <span>X</span>?",
     "time": 20,
     "answer": "window.pageXOffset"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -637,6 +953,10 @@
     "text": "Как прокрутить страницу относительно текущих координат на <span>x</span> и <span>y</span>?",
     "time": 20,
     "answer": "window.scrollBy(x, y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -645,6 +965,10 @@
     "text": "Как прокрутить страницу к координатам <span>x</span> и <span>y</span>?",
     "time": 20,
     "answer": "window.scrollTo(x, y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -653,6 +977,10 @@
     "text": "Как прокрутить страницу чтобы элемент <span>el</span> оказался вверху?",
     "time": 20,
     "answer": "el.scrollIntoView(true)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -661,6 +989,10 @@
     "text": "Как прокрутить страницу чтобы элемент <span>el</span> оказался снизу?",
     "time": 20,
     "answer": "el.scrollIntoView(false)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -669,6 +1001,10 @@
     "text": "Получить координаты элемента <span>el</span> относительно окна браузера?",
     "time": 20,
     "answer": "el.getBoundingClientRect()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -677,6 +1013,10 @@
     "text": "Получить координаты элемента сверху <span>el</span> относительно окна браузера?",
     "time": 20,
     "answer": "el.getBoundingClientRect().top"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -685,6 +1025,10 @@
     "text": "Вернуть элемент, находящийся на координатах <span>x, y</span> относительно окна браузера?",
     "time": 20,
     "answer": "document.elementFromPoint(x, y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -693,6 +1037,10 @@
     "text": "Получить все строки в таблице <span>table</span>?",
     "time": 20,
     "answer": "table.rows"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -701,6 +1049,10 @@
     "text": "Получить номер строки <span>tr</span> в таблице?",
     "time": 20,
     "answer": "tr.rowIndex"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -709,6 +1061,10 @@
     "text": "Получить все строки в <span>tbody</span>?",
     "time": 20,
     "answer": "tbody.rows"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -717,6 +1073,10 @@
     "text": "Получить номер строки <span>tr</span> в thead или tbody?",
     "time": 20,
     "answer": "tr.sectionRowIndex"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -725,6 +1085,10 @@
     "text": "Получить псевдо-массив ячеек строки?",
     "time": 20,
     "answer": "tr.cells"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },{
   "question": {
@@ -733,5 +1097,9 @@
     "text": "Получить номер <span>td</span> в строке?",
     "time": 20,
     "answer": "td.cellIndex"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 }]

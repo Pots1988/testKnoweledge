@@ -55,14 +55,13 @@ if (themes) {
         if (xhr.readyState != 4) return false;
 
         if (xhr.status == 200) {
-          let arr = [];
-          arr = JSON.parse(data.currentTarget.responseText);
+          let arr = JSON.parse(data.currentTarget.responseText);
 
           arr.forEach(item => {
             arrIssues.push(item);
-
-            lastJson();
           });
+
+          lastJson();
         } else {
           console.error("С JSON-ом беда");
         }

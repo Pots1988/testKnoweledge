@@ -135,6 +135,10 @@
     "text": "Создайте для объекта <span>obj</span> свойство <span>prop</span> с найстройкой дискриптором <span>descriptor</span>?",
     "time": 20,
     "answer": "Object.defineProperty(obj, prop, descriptor)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -144,6 +148,10 @@
     "text": "Создайте для объекта <span>obj</span> дискрипторы свойств <span>descriptors</span>?",
     "time": 20,
     "answer": "Object.defineproperties(obj, descriptors)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -162,6 +170,10 @@
     "text": "Св-во в дескрипторе, которое разрешает изменять значение св-ва?",
     "time": 20,
     "answer": "writable"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -171,6 +183,10 @@
     "text": "Св-во в дескрипторе, разрешающее удалять/менять св-во?",
     "time": 20,
     "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -180,6 +196,10 @@
     "text": "Св-во в дескрипторе разрашает/запрещает просмотр св-ва в цикле?",
     "time": 20,
     "answer": "enumerable"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -189,6 +209,10 @@
     "text": "Св-во ф-ия, возврающая значение св-ва в дескрипторе?",
     "time": 20,
     "answer": "get"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -198,6 +222,10 @@
     "text": "Св-во ф-ия, записывающая значение св-ва в дескрипторе?",
     "time": 20,
     "answer": "set"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -207,6 +235,10 @@
     "text": "Получение <span>enumerable</span> св-в объекта <span>obj</span> в виде массива?",
     "time": 20,
     "answer": "Object.keys(obj)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -216,6 +248,10 @@
     "text": "Получение всех св-в объекта <span>obj</span> в виде массива?",
     "time": 20,
     "answer": "Object.getOwnPropertyNames(obj)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -225,6 +261,10 @@
     "text": "Получить дескриптор для св-ва объекта?",
     "time": 20,
     "answer": "Object.getOwnPropertyDescriptor()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -234,6 +274,10 @@
     "text": "Запрет добавления св-в в объект?",
     "time": 20,
     "answer": "Object.preventExtensions()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -243,6 +287,10 @@
     "text": "Запрет добавления и удаления св-в в объект?",
     "time": 20,
     "answer": "Object.seal()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -252,5 +300,9 @@
     "text": "Запрет добавления, удаления и изменения св-в в объекте?",
     "time": 20,
     "answer": "Object.freeze()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 }]

@@ -5,6 +5,10 @@
     "text": "Вызов ф-ии с передачей контекста и определенного списка аргументов?",
     "time": 20,
     "answer": ".call()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -14,6 +18,10 @@
     "text": "Вызов ф-ии с передачей контекста и массива аргументов?",
     "time": 20,
     "answer": ".apply()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -23,6 +31,10 @@
     "text": "Ф-ия создания обертки с сохранением контекста?",
     "time": 20,
     "answer": ".bind()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -32,6 +44,10 @@
     "text": "Задание прототипа объекта внутри самого объекта?",
     "time": 20,
     "answer": ".__proto__"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -41,6 +57,10 @@
     "text": "Задание прототипа для ф-ии конструктора <span>Func</span>?",
     "time": 20,
     "answer": "Func.prototype"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -50,6 +70,10 @@
     "text": "Проверка: принадлежит ли св-во <span>prop</span> самому объекту <span>obj</span> или его прототипу?",
     "time": 20,
     "answer": "obj.hasOwnProperty(prop)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -59,6 +83,10 @@
     "text": "Создание объекта без прототипа?",
     "time": 20,
     "answer": "Object.create(null)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -68,6 +96,10 @@
     "text": "Создание пустого объекта с прототипом <span>proto</span>?",
     "time": 20,
     "answer": "Object.create(proto)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -77,6 +109,10 @@
     "text": "Получение прототипа объекта <span>obj</span>?",
     "time": 20,
     "answer": "Object.getPrototypeOf(obj)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 },
 {
@@ -86,5 +122,9 @@
     "text": "Установка прототипа объекта <span>obj</span>?",
     "time": 20,
     "answer": "Object.setPrototypeOf(obj)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
   }
 }]
