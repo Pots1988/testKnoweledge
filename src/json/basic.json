@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как функция возвращает результат?",
+    "text": "Какое слово в функции возвращает результат?",
     "time": 20,
     "answer": "return"
   },
@@ -28,7 +28,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Где хранятся переданные ф-ции значения?",
+    "text": "Где хранятся переданные функции значения?",
     "time": 20,
     "answer": "arguments"
   },
@@ -67,7 +67,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как выйти из цикла?",
+    "text": "Как прервать выполнение цикла?",
     "time": 20,
     "answer": "break"
   },
@@ -80,9 +80,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как установить таймаут?",
+    "text": "Как установить таймаут в <span>1с</span> для функции <span>func</span>?",
     "time": 20,
-    "answer": "setTimeout()"
+    "answer": "setTimeout(func, 1000)"
   },
   "answer": {
     "time": "",
@@ -93,9 +93,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как сбросить таймаут?",
+    "text": "Как сбросить таймаут для таймера <span>timer</span>?",
     "time": 20,
-    "answer": "clearTimeout()"
+    "answer": "clearTimeout(timer)"
   },
   "answer": {
     "time": "",
@@ -106,9 +106,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как установить интервал повторения?",
+    "text": "Как установить интервал повторения <span>func</span> с периодом <span>2с</span>?",
     "time": 20,
-    "answer": "setInterval()"
+    "answer": "setInterval(func, 2000)"
   },
   "answer": {
     "time": "",
@@ -119,9 +119,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Basic",
-    "text": "Как сбросить интервал повторения?",
+    "text": "Как сбросить интервал повторения для таймера <span>timer</span>?",
     "time": 20,
-    "answer": "clearInterval()"
+    "answer": "clearInterval(timer)"
   },
   "answer": {
     "time": "",
