@@ -2,9 +2,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Проверка на NaN?",
+    "text": "Проверка переменной <span>n</span> на NaN?",
     "time": 20,
-    "answer": "isNaN()"
+    "answer": "isNaN(n)"
   },
   "answer": {
     "time": "",
@@ -15,9 +15,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Проверка на NaN, Infinity?",
+    "text": "Проверка переменной <span>n</span> на NaN, Infinity, -Infinity?",
     "time": 20,
-    "answer": "isFinite()"
+    "answer": "isFinite(n)"
   },
   "answer": {
     "time": "",
@@ -28,9 +28,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Получение целого числа из строки?",
+    "text": "Получение целого числа из переменной <span>n</span>?",
     "time": 20,
-    "answer": "parseInt()"
+    "answer": "parseInt(n)"
   },
   "answer": {
     "time": "",
@@ -41,9 +41,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Получение дробного числа из строки?",
+    "text": "Получение дробного числа из переменной <span>n</span>?",
     "time": 20,
-    "answer": "parseFloat()"
+    "answer": "parseFloat(n)"
   },
   "answer": {
     "time": "",
@@ -54,9 +54,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Форматированный вывод чисел?",
+    "text": "Форматированный вывод чисел <span>123 123 123</span> для переменой <span>n</span>?",
     "time": 20,
-    "answer": ".toLocaleString()"
+    "answer": "n.toLocaleString()"
   },
   "answer": {
     "time": "",
@@ -67,9 +67,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Перевод в 16-ричную систему счисления?",
+    "text": "Перевод переменной <span>n</span> в 16-ричную систему счисления?",
     "time": 20,
-    "answer": ".toString(16)"
+    "answer": "n.toString(16)"
   },
   "answer": {
     "time": "",
@@ -80,9 +80,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Кругление вниз?",
+    "text": "Круглить переменную <span>n</span> вниз?",
     "time": 20,
-    "answer": "Math.floor()"
+    "answer": "Math.floor(n)"
   },
   "answer": {
     "time": "",
@@ -93,9 +93,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Округление в верх?",
+    "text": "Округлить переменную <span>n</span> в верх?",
     "time": 20,
-    "answer": "Math.ceil()"
+    "answer": "Math.ceil(n)"
   },
   "answer": {
     "time": "",
@@ -106,9 +106,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Округление по правилам математики?",
+    "text": "Округлить переменную <span>n</span> по правилам математики?",
     "time": 20,
-    "answer": "Math.round()"
+    "answer": "Math.round(n)"
   },
   "answer": {
     "time": "",
@@ -119,9 +119,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Округление до заданной точности?",
+    "text": "Округлить переменную <span>n</span> до точности <span>2</span>?",
     "time": 20,
-    "answer": ".toFixed()"
+    "answer": "n.toFixed(2)"
   },
   "answer": {
     "time": "",
@@ -132,9 +132,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Квадратный корень?",
+    "text": "Взять квадратный корень из переменной <span>n</span>?",
     "time": 20,
-    "answer": "Math.sqrt()"
+    "answer": "Math.sqrt(n)"
   },
   "answer": {
     "time": "",
@@ -145,9 +145,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Возведение в степень?",
+    "text": "Возвести переменую <span>n</span> в степень <span>2</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "Math.pow(n, 2)"
   },
   "answer": {
     "time": "",
@@ -158,9 +158,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Math.pow()",
+    "text": "Найти наибольшее число из <span>1, 2, 3</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "Math.max(1, 2, 3)"
   },
   "answer": {
     "time": "",
@@ -171,9 +171,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Поиск большего числа?",
+    "text": "Найти наменьшее число из <span>3, 5, 7</span>?",
     "time": 20,
-    "answer": "Math.max()"
+    "answer": "Math.min(3, 5, 7)"
   },
   "answer": {
     "time": "",
@@ -184,20 +184,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Поиск меньшего числа?",
-    "time": 20,
-    "answer": "Math.min()"
-  },
-  "answer": {
-    "time": "",
-    "text": ""
-  }
-},
-{
-  "question": {
-    "section": "JavaScript",
-    "theme": "Number",
-    "text": "Генерация случайного числа от 0 до 1?",
+    "text": "Сгенерировать случайное число от 0 до 1?",
     "time": 20,
     "answer": "Math.random()"
   },

@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Текущая дата в виде строки?",
+    "text": "Получить текущую дату в виде строки?",
     "time": 20,
     "answer": "new Date()"
   },
@@ -15,7 +15,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Текущая дата в виде <span>ms</span>?",
+    "text": "Получить текущую дату в виде <span>ms</span>?",
     "time": 20,
     "answer": "Date.now()"
   },
@@ -28,7 +28,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Время прошедшее от загрузки страницы?",
+    "text": "Как узнать время прошедшее от начала загрузки страницы?",
     "time": 20,
     "answer": "performance.now()"
   },
@@ -41,9 +41,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Разбор даты заданной в виде строки в <span>ms</span>?",
+    "text": "Разбор даты заданной в виде строки <span>str</span>?",
     "time": 20,
-    "answer": "string"
+    "answer": "Date.parse(str)"
   },
   "answer": {
     "time": "",
@@ -54,9 +54,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Получение года из даты?",
+    "text": "Преобразовать дату <span>date</span> в количество <span>ms</span>?",
     "time": 20,
-    "answer": "getFullYear()"
+    "answer": "+date"
   },
   "answer": {
     "time": "",
@@ -67,9 +67,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Установка года в дате?",
+    "text": "Получение года из даты <span>date</span>?",
     "time": 20,
-    "answer": ".setFullYear()"
+    "answer": "date.getFullYear()"
   },
   "answer": {
     "time": "",
@@ -80,9 +80,256 @@
   "question": {
     "section": "JavaScript",
     "theme": "Date",
-    "text": "Получение дня недели?",
+    "text": "Установить <span>2010</span> год в дате <span>date</span>?",
     "time": 20,
-    "answer": ".getDay()"
+    "answer": "date.setFullYear(2010)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение месяца из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getMonth()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить месяц <span>февраль</span> в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setMonth(1)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение часов из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getHours()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить <span>5</span> часов в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setHours(5)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение минут из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getMinutes()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить <span>15</span> минут в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setMinutes(15)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение дня из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getDate()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить <span>12</span> день в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setDate(12)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение секунд из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getSeconds()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить <span>32</span> секунды в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setSeconds(32)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение миллисекунд из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getMilliseconds()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить <span>15</span> миллисекунд в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setMilliseconds(15)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение времени из даты <span>date</span>?",
+    "time": 20,
+    "answer": "date.getTime()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Установить время <span>15</span> в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.setTime(15)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получение дня недели в дате <span>date</span>?",
+    "time": 20,
+    "answer": "date.getDay()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получить сдвиг во времени для <span>date</span> от Гринвича?",
+    "time": 20,
+    "answer": "date.getTimezoneOffset()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Преобразовать дату <span>date</span> в строку?",
+    "time": 20,
+    "answer": "date.toString()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получить из даты <span>date</span> - дату без времени в строку?",
+    "time": 20,
+    "answer": "date.toDateString()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Date",
+    "text": "Получить из даты <span>date</span> - время без даты в строку?",
+    "time": 20,
+    "answer": "date.toTimeString()"
   },
   "answer": {
     "time": "",
