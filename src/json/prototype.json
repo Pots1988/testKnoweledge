@@ -2,9 +2,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Вызов ф-ии с передачей контекста и определенного списка аргументов?",
+    "text": "Вызвать функцию <span>func</span> в контексте <span>obj</span> и аргументов <span>1, 2</span>?",
     "time": 20,
-    "answer": ".call()"
+    "answer": "func.call(obj, 1, 2)"
   },
   "answer": {
     "time": "",
@@ -15,9 +15,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Вызов ф-ии с передачей контекста и массива аргументов?",
+    "text": "Вызвать функцию <span>func</span> в контексте <span>obj</span> и с массивом аргументов <span>arr</span>?",
     "time": 20,
-    "answer": ".apply()"
+    "answer": "func.apply(obj, arr)"
   },
   "answer": {
     "time": "",
@@ -28,9 +28,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Ф-ия создания обертки с сохранением контекста?",
+    "text": "Создать обертку над функцией <span>func</span> с привязанным контекстом <span>obj</span>?",
     "time": 20,
-    "answer": ".bind()"
+    "answer": "func.bind(obj)"
   },
   "answer": {
     "time": "",
@@ -41,9 +41,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Задание прототипа объекта внутри самого объекта?",
+    "text": "Для объекта <span>obj</span> узнать прототип?",
     "time": 20,
-    "answer": ".__proto__"
+    "answer": "obj.__proto__"
   },
   "answer": {
     "time": "",
@@ -54,9 +54,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Задание прототипа для ф-ии конструктора <span>Func</span>?",
+    "text": "Записать в свойство <span>age</span> прототипа функции конструктора <span>Func</span> значение <span>25</span>?",
     "time": 20,
-    "answer": "Func.prototype"
+    "answer": "Func.prototype.age = 25"
   },
   "answer": {
     "time": "",
@@ -67,7 +67,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Проверка: принадлежит ли св-во <span>prop</span> самому объекту <span>obj</span> или его прототипу?",
+    "text": "Проверить принадлежит ли свойство <span>prop</span> самому объекту <span>obj</span> или его прототипу?",
     "time": 20,
     "answer": "obj.hasOwnProperty(prop)"
   },
@@ -80,7 +80,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Создание объекта без прототипа?",
+    "text": "Создайте объекта без прототипа?",
     "time": 20,
     "answer": "Object.create(null)"
   },
@@ -93,7 +93,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Создание пустого объекта с прототипом <span>proto</span>?",
+    "text": "Создайте пустой объект с прототипом <span>proto</span>?",
     "time": 20,
     "answer": "Object.create(proto)"
   },
@@ -106,7 +106,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Получение прототипа объекта <span>obj</span>?",
+    "text": "Получить прототип объекта <span>obj</span>?",
     "time": 20,
     "answer": "Object.getPrototypeOf(obj)"
   },
@@ -119,9 +119,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Prototype",
-    "text": "Установка прототипа объекта <span>obj</span>?",
+    "text": "Установить объекту <span>obj</span> прототип <span>proto</span>?",
     "time": 20,
-    "answer": "Object.setPrototypeOf(obj)"
+    "answer": "Object.setPrototypeOf(obj, proto)"
   },
   "answer": {
     "time": "",
