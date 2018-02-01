@@ -270,4 +270,17 @@
     "time": "",
     "text": ""
   }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Проверка переменной <span>n</span> на <span>массив</span>?",
+    "time": 20,
+    "answer": "Array.isArray(n)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
 }]

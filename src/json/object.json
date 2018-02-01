@@ -106,19 +106,6 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Проверка на <span>массив</span>?",
-    "time": 20,
-    "answer": "Array.isArray()"
-  },
-  "answer": {
-    "time": "",
-    "text": ""
-  }
-},
-{
-  "question": {
-    "section": "JavaScript",
-    "theme": "Object",
     "text": "Проверка: создан <span>obj</span> функцией <span>Func</span>?",
     "time": 20,
     "answer": "obj instanceof Func"

@@ -2,9 +2,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Длина строки?",
+    "text": "Узнать длину строки <span>str</span>?",
     "time": 10,
-    "answer": ".length"
+    "answer": "str.length"
   },
   "answer": {
     "time": "",
@@ -15,9 +15,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Убрать пробелы в строке?",
+    "text": "Убрать пробелы в строке <span>str</span>?",
     "time": 10,
-    "answer": ".trim()"
+    "answer": "str.trim()"
   },
   "answer": {
     "time": "",
@@ -28,7 +28,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "3-ий символ в строке <span>str</span>?",
+    "text": "Узнать 3-ий символ в строке <span>str</span>?",
     "time": 10,
     "answer": "str[2]"
   },
@@ -41,7 +41,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Символ на позиции 2 в строке <span>str</span>?",
+    "text": "Узнать символ на позиции 2 в строке <span>str</span>?",
     "time": 10,
     "answer": "str.charAt(1)"
   },
@@ -54,7 +54,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "<span>str</span> к верхнему регистру?",
+    "text": "Привести строку <span>str</span> к верхнему регистру?",
     "time": 10,
     "answer": "str.toUpperCase()"
   },
@@ -67,7 +67,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "<span>str</span> к нижнему регистру?",
+    "text": "Привести строку <span>str</span> к нижнему регистру?",
     "time": 10,
     "answer": "str.toLowerCase()"
   },
@@ -80,9 +80,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Поиска символа в строке?",
+    "text": "Найти переменную <span>n</span> в строке <span>str</span>?",
     "time": 10,
-    "answer": ".indexOf()"
+    "answer": "str.indexOf(n)"
   },
   "answer": {
     "time": "",
@@ -93,9 +93,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Поиск символа в строке с конца",
+    "text": "Найти переменую <span>n</span> в строке <span>str</span> с конца?",
     "time": 10,
-    "answer": ".lasIndexOf()"
+    "answer": "str.lasIndexOf(n)"
   },
   "answer": {
     "time": "",
@@ -106,9 +106,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "5 символов с позиции 3?",
+    "text": "Найти в строке <span>str</span> <span>5</span> символов с позиции <span>3</span>?",
     "time": 10,
-    "answer": ".substr(3, 5)"
+    "answer": "str.substr(3, 5)"
   },
   "answer": {
     "time": "",
@@ -119,9 +119,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Символы с позиции 2 по 5 включительно?",
+    "text": "Найти в строке <span>str</span> символы с позиции <span>2</span> по </span>5</span> включительно?",
     "time": 10,
-    "answer": ".slice(2, 6)"
+    "answer": "str.slice(2, 6)"
   },
   "answer": {
     "time": "",
@@ -132,7 +132,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Строку по коду 1050?",
+    "text": "Получить символ по коду <span>1050</span>?",
     "time": 10,
     "answer": "String.fromCharCode(1050)"
   },
@@ -145,7 +145,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Какой результат <span>'мышка'.localeCompare('береза')</span>",
+    "text": "Какой будет результат <span>'мышка'.localeCompare('береза')</span>",
     "time": 10,
     "answer": "1"
   },
