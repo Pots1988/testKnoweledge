@@ -2,9 +2,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Преобразование <span>JSON</span> в <span>obj</span>?",
+    "text": "Преобразовать данные вида <span>JSON</span> в переменной <span>str</span>?",
     "time": 20,
-    "answer": "JSON.parse()"
+    "answer": "JSON.parse(str)"
   },
   "answer": {
     "time": "",
@@ -15,7 +15,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Преобразовать <span>obj</span> в <span>JSON</span>?",
+    "text": "Преобразовать объект <span>obj</span> в формат <span>JSON</span>?",
     "time": 20,
     "answer": "JSON.stringify(obj)"
   },
@@ -28,9 +28,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Внутри какого блока выполняется код для поиска ошибки?",
+    "text": "Внутри какого блока выполняется код для поиска ошибки <span>(со скобками)</span>?",
     "time": 20,
-    "answer": "try"
+    "answer": "try{}"
   },
   "answer": {
     "time": "",
@@ -41,7 +41,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Если в коде есть ошибки и указан код <span>try</span>, в какой блок передается ошибка?",
+    "text": "Если в коде есть ошибки и указан код <span>try{}</span>, как указать блок для обработки ошибки <span>err</span>?",
     "time": 20,
     "answer": "catch(err)"
   },
@@ -54,9 +54,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Какое св-во объекта ошибки <span>err</span> отвечает за тип ошибки?",
+    "text": "Получить тип ошибки из объекта ошибки <span>err</span>?",
     "time": 20,
-    "answer": "name"
+    "answer": "err.name"
   },
   "answer": {
     "time": "",
@@ -67,9 +67,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Какое св-во объекта ошибки <span>err</span> содержит текстовое сообщение?",
+    "text": "Получить текст сообщения ошибки <span>err</span>?",
     "time": 20,
-    "answer": "message"
+    "answer": "err.message"
   },
   "answer": {
     "time": "",
@@ -80,9 +80,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Какое св-во объекта ошибки <span>err</span> содержит стэк вызовов?",
+    "text": "Получить стэк вызовов ошибки <span>err</span>?",
     "time": 20,
-    "answer": "stack"
+    "answer": "err.stack"
   },
   "answer": {
     "time": "",
@@ -93,9 +93,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Какой блок кода выполняется всегда после <span>try или catch</span>?",
+    "text": "Какой блок кода выполняется всегда после <span>try или catch</span> <span>со скобками</span>?",
     "time": 20,
-    "answer": "finally"
+    "answer": "finally{}"
   },
   "answer": {
     "time": "",
@@ -106,9 +106,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Other",
-    "text": "Как сгенерировать свою ошибку в блоке <span>try или catch</span>?",
+    "text": "Как сгенерировать свою синтаксическую ошибку в блоке <span>try или catch</span>?",
     "time": 20,
-    "answer": "throw"
+    "answer": "throw new SyntaxError()"
   },
   "answer": {
     "time": "",
