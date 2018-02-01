@@ -15,7 +15,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Длинный синтаксис создания массива?",
+    "text": "Создайте новый объект через функцию конструктор?",
     "time": 20,
     "answer": "new Aray()"
   },
@@ -28,9 +28,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Длина массива?",
+    "text": "Для массива <span>arr</span> найдите длину?",
     "time": 20,
-    "answer": ".length"
+    "answer": "arr.length"
   },
   "answer": {
     "time": "",
@@ -41,9 +41,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Удалить элемент с конца массива?",
+    "text": "В массиве <span>arr</span> удалите последний элемент?",
     "time": 20,
-    "answer": ".pop()"
+    "answer": "arr.pop()"
   },
   "answer": {
     "time": "",
@@ -54,9 +54,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Добавить элемент в конец массива?",
+    "text": "В массиве <span>arr</span> добавьте элемент <span>new</span> в конец массива?",
     "time": 20,
-    "answer": ".push()"
+    "answer": "arr.push(new)"
   },
   "answer": {
     "time": "",
@@ -67,9 +67,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Удалить элемент с начала массива?",
+    "text": "Из массива <span>arr</span> удалить первый элемент?",
     "time": 20,
-    "answer": ".shift()"
+    "answer": "arr.shift(0)"
   },
   "answer": {
     "time": "",
@@ -80,9 +80,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Добавить элемент в начало массива?",
+    "text": "В начало массива <span>arr</span> добавить элемент <span>2</span>?",
     "time": 20,
-    "answer": ".unshift()"
+    "answer": "arr.unshift(2)"
   },
   "answer": {
     "time": "",
@@ -93,9 +93,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Скопировать массив со 2 по 5 позицию включительно?",
+    "text": "Скопировать массив <span>arr</span> со 2 по 5 позицию включительно?",
     "time": 20,
-    "answer": ".slice(1, 6)"
+    "answer": "arr.slice(1, 6)"
   },
   "answer": {
     "time": "",
@@ -106,9 +106,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Удалить в массиве с 1-ой позиции 2 элемента и заменить их на 3, 4?",
+    "text": "В массиве <span>arr</span> удалить <span>2</span> элемента с позиции <span>1</span> и заменить их на элементы <span>3, 4</span>?",
     "time": 20,
-    "answer": ".splice(1, 2, 3, 4)"
+    "answer": "arr.splice(1, 2, 3, 4)"
   },
   "answer": {
     "time": "",
@@ -119,9 +119,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Разбить строку по разделителю и записать в массив?",
+    "text": "Разбить строку <span>str</span> по разделителю <span>-</span>?",
     "time": 20,
-    "answer": ".split()"
+    "answer": "str.split('-')"
   },
   "answer": {
     "time": "",
@@ -132,9 +132,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Объединить массив в строку с разделителем?",
+    "text": "Объединить массив <span>arr</span> в строку с разделителем <span>-</span>?",
     "time": 20,
-    "answer": ".join()"
+    "answer": "arr.join('-')"
   },
   "answer": {
     "time": "",
@@ -145,9 +145,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Сортировать массив как строки?",
+    "text": "Сортировать массив <span>arr</span> как строки?",
     "time": 20,
-    "answer": ".sort()"
+    "answer": "arr.sort()"
   },
   "answer": {
     "time": "",
@@ -158,9 +158,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Развернуть массив задом на перед?",
+    "text": "Развернуть массив <span>arr</span> задом на перед?",
     "time": 20,
-    "answer": ".reverse()"
+    "answer": "arr.reverse()"
   },
   "answer": {
     "time": "",
@@ -171,9 +171,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Добавить в текущий массив еще массивы?",
+    "text": "Добавить в массив <span>arr</span> еще массивы <span>arr1</span>, <span>arr2</span>?",
     "time": 20,
-    "answer": ".concat()"
+    "answer": "arr.concat(arr1, arr2)"
   },
   "answer": {
     "time": "",
@@ -184,9 +184,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Поиск по массиву?",
+    "text": "Найти в массиве <span>arr</span> элемент <span>'obj'</span>?",
     "time": 20,
-    "answer": ".indexOf()"
+    "answer": "arr.indexOf('obj')"
   },
   "answer": {
     "time": "",
@@ -197,9 +197,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Применить функцию для каждого элемента массива?",
+    "text": "Применить функцию <span>func</span> для каждого элемента массива <span>arr</span>?",
     "time": 20,
-    "answer": ".forEach()"
+    "answer": "arr.forEach(func)"
   },
   "answer": {
     "time": "",
@@ -210,9 +210,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Фильтрация массива?",
+    "text": "Отфильтровать массив <span>arr</span> функцией <span>func</span>?",
     "time": 20,
-    "answer": ".filter()"
+    "answer": "arr.filter(func)"
   },
   "answer": {
     "time": "",
@@ -223,9 +223,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Создание нового массива из результатов вызова функции?",
+    "text": "Создание нового массива из результатов вызова функции <span>func</span> для массива <span>arr</span>?",
     "time": 20,
-    "answer": ".map()"
+    "answer": "arr.map(func)"
   },
   "answer": {
     "time": "",
@@ -236,9 +236,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Ф-ия последовательной обработки массива с сохр. промежуточного результата?",
+    "text": "Функция последовательной обработки массива <span>arr</span> с сохранением промежуточного результата?",
     "time": 20,
-    "answer": ".reduce()"
+    "answer": "arr.reduce()"
   },
   "answer": {
     "time": "",
@@ -249,9 +249,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Проверка массива на соответствие всех элементов?",
+    "text": "Проверка массива <span>arr</span> на соответствие всех элементов функцией <span>func</span>?",
     "time": 20,
-    "answer": ".every()"
+    "answer": "arr.every(func)"
   },
   "answer": {
     "time": "",
@@ -262,9 +262,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Проверка массива на соответствие любого элемента?",
+    "text": "Проверка массива <span>arr</span> на соответствие любого элемента функции <span>func</span>?",
     "time": 20,
-    "answer": ".some()"
+    "answer": "arr.some(func)"
   },
   "answer": {
     "time": "",
