@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Создание объекта в коротком синтаксисе?",
+    "text": "Создайте объект с помощью короткого синтаксиса?",
     "time": 20,
     "answer": "{}"
   },
@@ -28,7 +28,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Добавить свойство <span>new date</span> в объект <span>obj</span>?",
+    "text": "Добавить свойство <span>new date</span> в объект <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
     "answer": "obj['new date']"
   },
@@ -54,9 +54,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Проверить наличие свойства <span>prop</span> в объекте <span>obj</span>?",
+    "text": "Проверить наличие свойства <span>prop</span> в объекте <span>obj</span> <small>пробелы между скобками не нужны</small>?",
     "time": 20,
-    "answer": "if(prop on obj)"
+    "answer": "if(prop on obj){}"
   },
   "answer": {
     "time": "",
@@ -67,9 +67,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Перебор всех свойств в объекте через ключ <span>prop</span>?",
+    "text": "Перебор всех свойств в объекте <span>obj</span> через ключ <span>key</span>, <small>пробелы между скобками не нужны</small>?",
     "time": 20,
-    "answer": "for(var prop in obj)"
+    "answer": "for(var key in obj){}"
   },
   "answer": {
     "time": "",
@@ -80,9 +80,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Ф-ия используемая при строковом преобразовании объекта?",
+    "text": "Вызовите у объекта <span>obj</span> функцию, используемую при строковом преобразовании объекта?",
     "time": 20,
-    "answer": ".toString"
+    "answer": "obj.toString()"
   },
   "answer": {
     "time": "",
@@ -93,9 +93,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Ф-ия используемая при численном преобразовании объекта?",
+    "text": "Вызовите у объекта <span>obj</span> функцию, используемую при численном преобразовании объекта?",
     "time": 20,
-    "answer": ".valueOf"
+    "answer": "obj.valueOf()"
   },
   "answer": {
     "time": "",
@@ -106,7 +106,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Проверка: создан <span>obj</span> функцией <span>Func</span>?",
+    "text": "Проверьте: создан ли объект <span>obj</span> функцией <span>Func</span>?",
     "time": 20,
     "answer": "obj instanceof Func"
   },
@@ -145,7 +145,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Значение св-ва в дескрипторе?",
+    "text": "В каком свойстве дискриптора хранится значение свойства?",
     "time": 20,
     "answer": "value"
   },
@@ -158,7 +158,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Св-во в дескрипторе, которое разрешает изменять значение св-ва?",
+    "text": "В каком свойстве дискриптора хранится значение, которое разрешает менять значение свойства?",
     "time": 20,
     "answer": "writable"
   },
@@ -171,9 +171,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Св-во в дескрипторе, разрешающее удалять/менять св-во?",
+    "text": "В каком свойстве дискриптора хранится свойство, разрешающее удалять/менять свойство?",
     "time": 20,
-    "answer": ""
+    "answer": "configurable"
   },
   "answer": {
     "time": "",
@@ -184,7 +184,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Св-во в дескрипторе разрашает/запрещает просмотр св-ва в цикле?",
+    "text": "В каком свойстве дискриптора хранися свойство разрашает/запрещает просмотр свойства в цикле?",
     "time": 20,
     "answer": "enumerable"
   },
@@ -197,7 +197,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Св-во ф-ия, возврающая значение св-ва в дескрипторе?",
+    "text": "Свойство функция, возврающая значение свойста в дескрипторе?",
     "time": 20,
     "answer": "get"
   },
@@ -210,7 +210,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Св-во ф-ия, записывающая значение св-ва в дескрипторе?",
+    "text": "Свойсво функция, записывающая значение свойства в дескрипторе?",
     "time": 20,
     "answer": "set"
   },
@@ -223,7 +223,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Получение <span>enumerable</span> св-в объекта <span>obj</span> в виде массива?",
+    "text": "Получение <span>enumerable</span> свойств объекта <span>obj</span> в виде массива?",
     "time": 20,
     "answer": "Object.keys(obj)"
   },
@@ -236,7 +236,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Получение всех св-в объекта <span>obj</span> в виде массива?",
+    "text": "Получение всех свойств объекта <span>obj</span> в виде массива?",
     "time": 20,
     "answer": "Object.getOwnPropertyNames(obj)"
   },
@@ -249,9 +249,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Получить дескриптор для св-ва объекта?",
+    "text": "Получить дескриптор для свойства <span>prop</span> объекта <span>obj</span>?",
     "time": 20,
-    "answer": "Object.getOwnPropertyDescriptor()"
+    "answer": "Object.getOwnPropertyDescriptor(obj, prop)"
   },
   "answer": {
     "time": "",
@@ -262,9 +262,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Запрет добавления св-в в объект?",
+    "text": "Запретить добавлять свойства в объект <span>obj</span>?",
     "time": 20,
-    "answer": "Object.preventExtensions()"
+    "answer": "Object.preventExtensions(obj)"
   },
   "answer": {
     "time": "",
@@ -275,9 +275,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Запрет добавления и удаления св-в в объект?",
+    "text": "Запретить добавлять и удалять свойства в объект <span>obj</span>?",
     "time": 20,
-    "answer": "Object.seal()"
+    "answer": "Object.seal(obj)"
   },
   "answer": {
     "time": "",
@@ -288,9 +288,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Запрет добавления, удаления и изменения св-в в объекте?",
+    "text": "Запретить добавлять, удалять и изменять свойства в объект <span>obj</span>?",
     "time": 20,
-    "answer": "Object.freeze()"
+    "answer": "Object.freeze(obj)"
   },
   "answer": {
     "time": "",

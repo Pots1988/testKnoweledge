@@ -15,9 +15,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Создайте новый объект через функцию конструктор?",
+    "text": "Создайте новый пустой массив через функцию конструктор?",
     "time": 20,
-    "answer": "new Aray()"
+    "answer": "new Array()"
   },
   "answer": {
     "time": "",
