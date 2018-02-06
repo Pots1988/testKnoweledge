@@ -134,7 +134,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить все дочерние элементы <span>теги</span> у объекта <span>obj</span>?",
+    "text": "Получить все дочерние <span>теги</span> у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.children"
   },
@@ -146,7 +146,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить все дочерние элементы у объекта <span>obj</span>?",
+    "text": "Получить все дочерние ноды у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.childNodes"
   },
@@ -158,7 +158,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Проверить наличие дочерних элементов у объекта <span>obj</span>?",
+    "text": "Проверить наличие дочерних нод у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.hasChildNodes()"
   },
@@ -170,7 +170,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить предыдущий элемент от <span>obj</span>?",
+    "text": "Получить предыдущую ноду от <span>obj</span>?",
     "time": 20,
     "answer": "obj.previousSibling"
   },
@@ -182,7 +182,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить предыдущий элемент <span>тег</span> от <span>obj</span>?",
+    "text": "Получить предыдущий элемент от <span>obj</span>?",
     "time": 20,
     "answer": "obj.previousElementSibling"
   },
@@ -194,7 +194,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить следующий элемент от <span>obj</span>?",
+    "text": "Получить следующую ноду от <span>obj</span>?",
     "time": 20,
     "answer": "obj.nextSibling"
   },
@@ -206,7 +206,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить следующий элемент <span>тег</span> от <span>obj</span>?",
+    "text": "Получить следующий элемент от <span>obj</span>?",
     "time": 20,
     "answer": "obj.nextElementSibling"
   },
@@ -242,7 +242,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как узнать тип узла у объекта <span>obj</span>?",
+    "text": "Как узнать тип ноды у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.nodeType"
   },
@@ -266,7 +266,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как узнать название любого узла у объекта <span>obj</span>?",
+    "text": "Как узнать название ноды у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.nodeName"
   },
@@ -304,7 +304,7 @@
     "theme": "DOM",
     "text": "Как проверить удовлетворяет ли объект <span>obj</span> селектору <span>.class</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "obj.mathces('.class')"
+    "answer": "obj.matches('.class')"
   },
   "answer": {
     "time": "",
@@ -830,7 +830,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер ширины объекта <span>obj</span> внутри рамок?",
+    "text": "Размер ширины <span>obj</span> внутри рамок?",
     "time": 20,
     "answer": "obj.clentWidth"
   },
@@ -842,7 +842,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер высоты =объекта <span>obj</span> внутри рамок?",
+    "text": "Размер высоты <span>obj</span> внутри рамок?",
     "time": 20,
     "answer": "obj.clientHeight"
   },
@@ -854,7 +854,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер ширины объекта <span>obj</span> с учетом прокрученной области?",
+    "text": "Размер ширины <span>obj</span> с учетом прокрученной области?",
     "time": 20,
     "answer": "obj.scrollWidth"
   },
@@ -866,7 +866,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер высоты объекта <span>obj</span> с учетом прокрученной области?",
+    "text": "Размер высоты <span>obj</span> с учетом прокрученной области?",
     "time": 20,
     "answer": "obj.scrollHeight"
   },
@@ -878,7 +878,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Высота прокрученной в данный момент области объекта <span>obj</span>?",
+    "text": "Высота прокрученной в данный момент области <span>obj</span>?",
     "time": 20,
     "answer": "obj.scrollTop"
   },
@@ -890,7 +890,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Ширина прокрученной в данный момент области объекта <span>obj</span>?",
+    "text": "Ширина прокрученной в данный момент области <span>obj</span>?",
     "time": 20,
     "answer": "obj.scrollLeft"
   },
@@ -950,7 +950,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как прокрутить страницу чтобы объект <span>obj</span> оказался вверху?",
+    "text": "Как прокрутить страницу чтобы <span>obj</span> оказался вверху?",
     "time": 20,
     "answer": "obj.scrollIntoView(true)"
   },
@@ -962,7 +962,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как прокрутить страницу чтобы объект <span>obj</span> оказался снизу?",
+    "text": "Как прокрутить страницу чтобы <span>obj</span> оказался снизу?",
     "time": 20,
     "answer": "obj.scrollIntoView(false)"
   },
@@ -974,7 +974,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить координаты у объекта <span>obj</span> относительно окна браузера?",
+    "text": "Получить координаты у <span>obj</span> относительно окна браузера?",
     "time": 20,
     "answer": "obj.getBoundingClientRect()"
   },
@@ -986,7 +986,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить координаты сверху у объекта <span>obj</span> относительно окна браузера?",
+    "text": "Получить координаты сверху у <span>obj</span> относительно окна браузера?",
     "time": 20,
     "answer": "obj.getBoundingClientRect().top"
   },
