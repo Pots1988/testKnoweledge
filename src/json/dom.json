@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер ширина окна браузера?",
+    "text": "Размер ширины окна браузера?",
     "time": 20,
     "answer": "window.innerWidth"
   },
@@ -134,9 +134,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить все дочерние элементы <span>теги</span>?",
+    "text": "Получить все дочерние элементы <span>теги</span> у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".children"
+    "answer": "obj.children"
   },
   "answer": {
     "time": "",
@@ -146,9 +146,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить все дочерние элементы?",
+    "text": "Получить все дочерние элементы у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".childNodes"
+    "answer": "obj.childNodes"
   },
   "answer": {
     "time": "",
@@ -158,9 +158,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Проверить наличие дочерних элементов?",
+    "text": "Проверить наличие дочерних элементов у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".hasChildNodes()"
+    "answer": "obj.hasChildNodes()"
   },
   "answer": {
     "time": "",
@@ -170,9 +170,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить предыдущий элемент?",
+    "text": "Получить предыдущий элемент от <span>obj</span>?",
     "time": 20,
-    "answer": ".previousSibling"
+    "answer": "obj.previousSibling"
   },
   "answer": {
     "time": "",
@@ -182,9 +182,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить предыдущий элемент <span>тег</span>?",
+    "text": "Получить предыдущий элемент <span>тег</span> от <span>obj</span>?",
     "time": 20,
-    "answer": ".previousElementSibling"
+    "answer": "obj.previousElementSibling"
   },
   "answer": {
     "time": "",
@@ -194,9 +194,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить следующий элемент?",
+    "text": "Получить следующий элемент от <span>obj</span>?",
     "time": 20,
-    "answer": ".nextSibling"
+    "answer": "obj.nextSibling"
   },
   "answer": {
     "time": "",
@@ -206,9 +206,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить следующий элемент <span>тег</span>?",
+    "text": "Получить следующий элемент <span>тег</span> от <span>obj</span>?",
     "time": 20,
-    "answer": ".nextElementSibling"
+    "answer": "obj.nextElementSibling"
   },
   "answer": {
     "time": "",
@@ -218,9 +218,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить родительский элемент?",
+    "text": "Получить родительский элемент от <span>obj</span>?",
     "time": 20,
-    "answer": ".parentElement"
+    "answer": "obj.parentElement"
   },
   "answer": {
     "time": "",
@@ -230,7 +230,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "На каком элементе .parentElement и .parentNode вернут разные значения?",
+    "text": "На каком элементе <span>.parentElement</span> и <span>.parentNode</span> вернут разные значения?",
     "time": 20,
     "answer": "html"
   },
@@ -242,9 +242,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как узнать тип узла?",
+    "text": "Как узнать тип узла у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".nodeType"
+    "answer": "obj.nodeType"
   },
   "answer": {
     "time": "",
@@ -254,9 +254,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Какой тип узла у элемента?",
+    "text": "Как узнать название только элемента у объекта <span>obj</span>?",
     "time": 20,
-    "answer": "1"
+    "answer": "obj.tagName"
   },
   "answer": {
     "time": "",
@@ -266,33 +266,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Какой тип узла у текста?",
+    "text": "Как узнать название любого узла у объекта <span>obj</span>?",
     "time": 20,
-    "answer": "3"
-  },
-  "answer": {
-    "time": "",
-    "text": ""
-  }
-},{
-  "question": {
-    "section": "JavaScript",
-    "theme": "DOM",
-    "text": "Как узнать название только элемента?",
-    "time": 20,
-    "answer": ".tagName"
-  },
-  "answer": {
-    "time": "",
-    "text": ""
-  }
-},{
-  "question": {
-    "section": "JavaScript",
-    "theme": "DOM",
-    "text": "Как узнать название любого узла?",
-    "time": 20,
-    "answer": ".nodeName"
+    "answer": "obj.nodeName"
   },
   "answer": {
     "time": "",
@@ -314,9 +290,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как найти ближайщий элемент с определенным селектором?",
+    "text": "Как найти ближайщий элемент от объекта <span>obj</span> с селектором <span>.class</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".closest()"
+    "answer": "obj.closest('.class')"
   },
   "answer": {
     "time": "",
@@ -326,9 +302,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как проверить удовлетворяет элемент селектору?",
+    "text": "Как проверить удовлетворяет ли объект <span>obj</span> селектору <span>.class</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".mathces()"
+    "answer": "obj.mathces('.class')"
   },
   "answer": {
     "time": "",
@@ -338,9 +314,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить содержимое элемента в виде строки с тегами?",
+    "text": "Получить содержимое объекта <span>obj</span> в виде строки с тегами?",
     "time": 20,
-    "answer": ".innerHTML"
+    "answer": "obj.innerHTML"
   },
   "answer": {
     "time": "",
@@ -350,9 +326,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить содержимое элемента и сам элемент в виде строки с тегами?",
+    "text": "Получить содержимое объекта <span>obj</span> и сам элемент в виде строки с тегами?",
     "time": 20,
-    "answer": ".outerHTML"
+    "answer": "obj.outerHTML"
   },
   "answer": {
     "time": "",
@@ -362,9 +338,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить содержимое элемента в виде текста?",
+    "text": "Получить содержимое объекта <span>obj</span> в виде текста?",
     "time": 20,
-    "answer": ".textContent"
+    "answer": "obj.textContent"
   },
   "answer": {
     "time": "",
@@ -374,9 +350,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить содержимое не в узлах элементах?",
+    "text": "Получить содержимое объекта <span>obj</span>, если он является комментарием?",
     "time": 20,
-    "answer": ".data"
+    "answer": "obj.data"
   },
   "answer": {
     "time": "",
@@ -386,9 +362,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как создать элемент?",
+    "text": "Как создать элемент <span>div</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "document.createElement()"
+    "answer": "document.createElement('div')"
   },
   "answer": {
     "time": "",
@@ -398,9 +374,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как создать текстовый узел?",
+    "text": "Как создать текстовый узел с текстом <span>Help</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "document.createTextNode()"
+    "answer": "document.createTextNode('Help')"
   },
   "answer": {
     "time": "",
@@ -410,9 +386,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить элемент <span>elem</span> в <span>parent</span>?",
+    "text": "Вставить элемент <span>elem</span> в объект <span>obj</span>?",
     "time": 20,
-    "answer": "parent.appendChild(elem)"
+    "answer": "obj.appendChild(elem)"
   },
   "answer": {
     "time": "",
@@ -422,9 +398,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить элемент <span>elem</span> в <span>parent</span>, перед элементом <span>elem2</span>?",
+    "text": "Вставить элемент <span>elem</span> в объект <span>obj</span>, перед элементом <span>elem2</span>?",
     "time": 20,
-    "answer": "parent.insertBefore(elem, elem2)"
+    "answer": "obj.insertBefore(elem, elem2)"
   },
   "answer": {
     "time": "",
@@ -434,9 +410,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> перед началом <span>el</span>?",
+    "text": "Вставить <span>html</span> перед началом объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "el.insertAdjacentHTML('beforeBegin', html)"
+    "answer": "obj.insertAdjacentHTML('beforeBegin', html)"
   },
   "answer": {
     "time": "",
@@ -446,9 +422,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> после начала <span>el</span>?",
+    "text": "Вставить <span>html</span> после начала <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "el.insertAdjacentHTML('afterBegin', html)"
+    "answer": "obj.insertAdjacentHTML('afterBegin', html)"
   },
   "answer": {
     "time": "",
@@ -458,9 +434,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> перед концом <span>el</span>?",
+    "text": "Вставить <span>html</span> перед концом <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "el.insertAdjacentHTML('beforeEnd', html)"
+    "answer": "obj.insertAdjacentHTML('beforeEnd', html)"
   },
   "answer": {
     "time": "",
@@ -470,9 +446,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> после конца <span>el</span>?",
+    "text": "Вставить <span>html</span> после конца <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "el.insertAdjacentHTML('afterEnd', html)"
+    "answer": "obj.insertAdjacentHTML('afterEnd', html)"
   },
   "answer": {
     "time": "",
@@ -482,9 +458,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить элемент <span>el2</span> после начала <span>el</span>?",
+    "text": "Вставить элемент <span>el2</span> после начала <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "el.insertAdjacentHTML('afterBegin', el2)"
+    "answer": "obj.insertAdjacentHTML('afterBegin', el2)"
   },
   "answer": {
     "time": "",
@@ -494,9 +470,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить текст <span>text</span> после начала <span>el</span>?",
+    "text": "Вставить текст <span>text</span> после начала <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": "el.insertAdjacentText('afterBegin', text)"
+    "answer": "obj.insertAdjacentText('afterBegin', text)"
   },
   "answer": {
     "time": "",
@@ -506,9 +482,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Удалить <span>el</span> из <span>par</span>?",
+    "text": "Удалить <span>el</span> из <span>obj</span>?",
     "time": 20,
-    "answer": "par.removeChild(el)"
+    "answer": "obj.removeChild(el)"
   },
   "answer": {
     "time": "",
@@ -518,9 +494,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Заменить в родителе <span>par</span> элемент <span>el</span> на <span>el2</span>?",
+    "text": "Заменить в объекте <span>obj</span> элемент <span>el</span> на <span>el2</span>?",
     "time": 20,
-    "answer": "par.replaceChild(el, el2)"
+    "answer": "obj.replaceChild(el, el2)"
   },
   "answer": {
     "time": "",
@@ -542,9 +518,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Клонируйте <span>el</span> без внутренних элементов?",
+    "text": "Клонируйте <span>obj</span> без внутренних элементов?",
     "time": 20,
-    "answer": "el.cloneNode(false)"
+    "answer": "obj.cloneNode(false)"
   },
   "answer": {
     "time": "",
@@ -554,9 +530,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Клонируйте <span>el</span> с внутренними элементами?",
+    "text": "Клонируйте <span>obj</span> с внутренними элементами?",
     "time": 20,
-    "answer": "el.cloneNode(true)"
+    "answer": "obj.cloneNode(true)"
   },
   "answer": {
     "time": "",
@@ -566,9 +542,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Проверить наличие аттрибута?",
+    "text": "Проверить наличие аттрибута <span>src</span> у объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".hasAttribute()"
+    "answer": "obj.hasAttribute('src')"
   },
   "answer": {
     "time": "",
@@ -578,9 +554,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Удалить аттрибут?",
+    "text": "Удалить аттрибут <span>src</span> у объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".removeAttribute()"
+    "answer": "obj.removeAttribute('src')"
   },
   "answer": {
     "time": "",
@@ -590,9 +566,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Аттрибуты в виде массива?",
+    "text": "Получить аттрибуты у объекта <span>obj</span> в виде массива?",
     "time": 20,
-    "answer": ".attributes"
+    "answer": "obj.attributes"
   },
   "answer": {
     "time": "",
@@ -602,9 +578,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить значение аттрибута?",
+    "text": "Получить значение аттрибута <span>src</span> у объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".getAttribute()"
+    "answer": "obj.getAttribute('src')"
   },
   "answer": {
     "time": "",
@@ -614,9 +590,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Установить аттрибут?",
+    "text": "Установить аттрибут <span>src</span> у объекта <span>obj</span> в значение <span>http</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".setAttribute()"
+    "answer": "obj.setAttribute('src', 'http')"
   },
   "answer": {
     "time": "",
@@ -626,9 +602,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить значение data-аттрибута <span>name</span>?",
+    "text": "Получить значение data-аттрибута <span>name</span> у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".dataset.name"
+    "answer": "obj.dataset.name"
   },
   "answer": {
     "time": "",
@@ -638,9 +614,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить классы в виде строки?",
+    "text": "Получить классы у объекта <span>obj</span> в виде строки?",
     "time": 20,
-    "answer": ".className"
+    "answer": "obj.className"
   },
   "answer": {
     "time": "",
@@ -650,9 +626,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить классы в виде массива?",
+    "text": "Получить классы у объекта <span>obj</span> в виде массива?",
     "time": 20,
-    "answer": ".classList"
+    "answer": "obj.classList"
   },
   "answer": {
     "time": "",
@@ -662,9 +638,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Добавить класс?",
+    "text": "Добавить класс <span>new</span> в объект <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".classList.add()"
+    "answer": "obj.classList.add('new')"
   },
   "answer": {
     "time": "",
@@ -674,9 +650,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Удалить класс?",
+    "text": "Удалить класс <span>new</span> в объект <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".classList.remove()"
+    "answer": "obj.classList.remove('new')"
   },
   "answer": {
     "time": "",
@@ -686,9 +662,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Проверить наличие класса?",
+    "text": "Проверить наличие класса <span>new</span> в объекте <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".classList.contains()"
+    "answer": "obj.classList.contains('new')"
   },
   "answer": {
     "time": "",
@@ -698,9 +674,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Триггер (переключатель) класса?",
+    "text": "Триггер (переключатель) класса <span>new</span> в объекте <span>obj</span>, <small>используйте одинарные кавычки</small>?",
     "time": 20,
-    "answer": ".classList.toggle()"
+    "answer": "obj.classList.toggle('new')"
   },
   "answer": {
     "time": "",
@@ -710,9 +686,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Содержит <span>par</span> элемент <span>el</span>?",
+    "text": "Содержит ли объект <span>obj</span> элемент <span>el</span>?",
     "time": 20,
-    "answer": "par.contains(el)"
+    "answer": "obj.contains(el)"
   },
   "answer": {
     "time": "",
@@ -722,9 +698,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Полусить битовую маску расположения элементов друг относительно друга?",
+    "text": "Получить битовую маску расположения элемента <span>obj</span> относительно элемента <span>el</span>?",
     "time": 20,
-    "answer": ".compareDocumentPosition()"
+    "answer": "obj.compareDocumentPosition(el)"
   },
   "answer": {
     "time": "",
@@ -734,9 +710,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как задать элементу <span>margin</span>?",
+    "text": "Как задать элементу <span>obj</span> <span>margin</span>?",
     "time": 20,
-    "answer": ".style.margin"
+    "answer": "obj.style.margin"
   },
   "answer": {
     "time": "",
@@ -746,9 +722,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Стиль элемента в виде строки?",
+    "text": "Задать стиль объекта <span>obj</span> в виде строки?",
     "time": 20,
-    "answer": ".style.cssText"
+    "answer": "obj.style.cssText"
   },
   "answer": {
     "time": "",
@@ -758,9 +734,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить значение свойства margin для элемента <span>el</span>, указанные в CSS?",
+    "text": "Получить значение свойства <span>margin</span> для элемента <span>obj</span>, указанные в CSS?",
     "time": 20,
-    "answer": ".getComputedStyle(el).margin"
+    "answer": "getComputedStyle(obj).margin"
   },
   "answer": {
     "time": "",
@@ -770,9 +746,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Ссылка на родительский элемент от которого позиционируется текущий элемент?",
+    "text": "Ссылка на родительский элемент от которого позиционируется текущий элемент <span>obj</span>?",
     "time": 20,
-    "answer": ".offsetParent"
+    "answer": "obj.offsetParent"
   },
   "answer": {
     "time": "",
@@ -782,9 +758,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Смещение сверху относительно offsetParent?",
+    "text": "Смещение сверху объекта <span>obj</span> относительно offsetParent?",
     "time": 20,
-    "answer": ".offsetTop"
+    "answer": "obj.offsetTop"
   },
   "answer": {
     "time": "",
@@ -794,9 +770,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Смещение слева относительно offsetParent?",
+    "text": "Смещение объекта <span>obj</span> слева относительно offsetParent?",
     "time": 20,
-    "answer": ".offsetLeft"
+    "answer": "obj.offsetLeft"
   },
   "answer": {
     "time": "",
@@ -806,9 +782,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "'Внешний' размер ширины элемента?",
+    "text": "'Внешний' размер ширины у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".offsetWidth"
+    "answer": "obj.offsetWidth"
   },
   "answer": {
     "time": "",
@@ -818,9 +794,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "'Внешний' размер высоты элемента?",
+    "text": "'Внешний' размер высоты элемента у объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".offsetHeight"
+    "answer": "obj.offsetHeight"
   },
   "answer": {
     "time": "",
@@ -830,9 +806,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Отступ сверху внутренней части элемент от внешней?",
+    "text": "Отступ сверху внутренней части у объекта <span>obj</span> от внешней?",
     "time": 20,
-    "answer": ".clientTop"
+    "answer": "obj.clientTop"
   },
   "answer": {
     "time": "",
@@ -842,9 +818,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Отступ слева внутренней части элемент от внешней?",
+    "text": "Отступ слева внутренней части у объекта <span>obj</span> от внешней?",
     "time": 20,
-    "answer": ".clientLeft"
+    "answer": "obj.clientLeft"
   },
   "answer": {
     "time": "",
@@ -854,9 +830,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер ширины элемента внутри рамок?",
+    "text": "Размер ширины объекта <span>obj</span> внутри рамок?",
     "time": 20,
-    "answer": ".clentWidth"
+    "answer": "obj.clentWidth"
   },
   "answer": {
     "time": "",
@@ -866,9 +842,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер высоты элемента внутри рамок?",
+    "text": "Размер высоты =объекта <span>obj</span> внутри рамок?",
     "time": 20,
-    "answer": ".clientHeight"
+    "answer": "obj.clientHeight"
   },
   "answer": {
     "time": "",
@@ -878,9 +854,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер ширины элемента с учетом прокрученной области?",
+    "text": "Размер ширины объекта <span>obj</span> с учетом прокрученной области?",
     "time": 20,
-    "answer": ".scrollWidth"
+    "answer": "obj.scrollWidth"
   },
   "answer": {
     "time": "",
@@ -890,9 +866,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Размер высоты элемента с учетом прокрученной области?",
+    "text": "Размер высоты объекта <span>obj</span> с учетом прокрученной области?",
     "time": 20,
-    "answer": ".scrollHeight"
+    "answer": "obj.scrollHeight"
   },
   "answer": {
     "time": "",
@@ -902,9 +878,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Высота прокрученной в данный момент области?",
+    "text": "Высота прокрученной в данный момент области объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".scrollTop"
+    "answer": "obj.scrollTop"
   },
   "answer": {
     "time": "",
@@ -914,9 +890,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Ширина прокрученной в данный момент области?",
+    "text": "Ширина прокрученной в данный момент области объекта <span>obj</span>?",
     "time": 20,
-    "answer": ".scrollLeft"
+    "answer": "obj.scrollLeft"
   },
   "answer": {
     "time": "",
@@ -974,9 +950,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как прокрутить страницу чтобы элемент <span>el</span> оказался вверху?",
+    "text": "Как прокрутить страницу чтобы объект <span>obj</span> оказался вверху?",
     "time": 20,
-    "answer": "el.scrollIntoView(true)"
+    "answer": "obj.scrollIntoView(true)"
   },
   "answer": {
     "time": "",
@@ -986,9 +962,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как прокрутить страницу чтобы элемент <span>el</span> оказался снизу?",
+    "text": "Как прокрутить страницу чтобы объект <span>obj</span> оказался снизу?",
     "time": 20,
-    "answer": "el.scrollIntoView(false)"
+    "answer": "obj.scrollIntoView(false)"
   },
   "answer": {
     "time": "",
@@ -998,9 +974,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить координаты элемента <span>el</span> относительно окна браузера?",
+    "text": "Получить координаты у объекта <span>obj</span> относительно окна браузера?",
     "time": 20,
-    "answer": "el.getBoundingClientRect()"
+    "answer": "obj.getBoundingClientRect()"
   },
   "answer": {
     "time": "",
@@ -1010,9 +986,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить координаты элемента сверху <span>el</span> относительно окна браузера?",
+    "text": "Получить координаты сверху у объекта <span>obj</span> относительно окна браузера?",
     "time": 20,
-    "answer": "el.getBoundingClientRect().top"
+    "answer": "obj.getBoundingClientRect().top"
   },
   "answer": {
     "time": "",

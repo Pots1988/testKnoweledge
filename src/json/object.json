@@ -134,7 +134,7 @@
     "theme": "Object",
     "text": "Создайте для объекта <span>obj</span> дискрипторы свойств <span>descriptors</span>?",
     "time": 20,
-    "answer": "Object.defineproperties(obj, descriptors)"
+    "answer": "Object.defineProperties(obj, descriptors)"
   },
   "answer": {
     "time": "",

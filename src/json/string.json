@@ -28,19 +28,6 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Узнать 3-ий символ в строке <span>str</span>?",
-    "time": 10,
-    "answer": "str[2]"
-  },
-  "answer": {
-    "time": "",
-    "text": ""
-  }
-},
-{
-  "question": {
-    "section": "JavaScript",
-    "theme": "String",
     "text": "Узнать символ на позиции 2 в строке <span>str</span>?",
     "time": 10,
     "answer": "str.charAt(1)"
@@ -106,7 +93,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Найти в строке <span>str</span> <span>5</span> символов с позиции <span>3</span>?",
+    "text": "Взять в строке <span>str</span> <span>5</span> символов с позиции <span>3</span>?",
     "time": 10,
     "answer": "str.substr(3, 5)"
   },
@@ -119,7 +106,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Найти в строке <span>str</span> символы с позиции <span>2</span> по </span>5</span> включительно?",
+    "text": "Взять в строке <span>str</span> символы с позиции <span>2</span> по </span>5</span> включительно?",
     "time": 10,
     "answer": "str.slice(2, 6)"
   },

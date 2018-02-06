@@ -80,7 +80,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Number",
-    "text": "Круглить переменную <span>n</span> вниз?",
+    "text": "Округлить переменную <span>n</span> вниз?",
     "time": 20,
     "answer": "Math.floor(n)"
   },
