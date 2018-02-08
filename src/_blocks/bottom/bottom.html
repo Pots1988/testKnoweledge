@@ -1,2 +1,19 @@
-<script src="/js/progressbar.min.js"></script>
-<script src="/js/script.js"></script>
+<noscript data-load-css>
+  <link rel="stylesheet" href="/css/main.css?__inline=true">
+</noscript>
+<noscript data-load-css>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700&amp;PT+Sans:400,700&amp;subset=cyrillic">
+</noscript>
+<script>
+  var loadDeferredStyles = function() {
+    document.querySelectorAll("[data-load-css]").forEach(function(item){
+      var replacement = document.createElement("div");
+      replacement.innerHTML = item.textContent;
+      document.body.appendChild(replacement);
+      item.parentElement.removeChild(item);
+    });
+  };
+  document.addEventListener("DOMContentLoaded", loadDeferredStyles)
+</script>
+<script src="/js/progressbar.min.js" defer></script>
+<script src="/js/script.js" defer></script>

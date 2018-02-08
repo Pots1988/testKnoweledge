@@ -1,15 +1,15 @@
 {
-  "name": "Fariga Test",
-  "short_name": "Fariga Test",
-  "description": "",
-  "lang": "en",
+  "name": "Test your knoweledge",
+  "short_name": "Test knoweledge",
+  "description": "Тест знаний. Поможет лучше закрепить и запомнить знания из различных областей.",
+  "lang": "ru",
   "dir": "ltr",
   "start_url": "/",
   "scope": "/",
   "display": "browser",
   "orientation": "any",
-  "theme_color": "#121212",
-  "background_color": "#fdfbfb",
+  "theme_color": "#0275d8",
+  "background_color": "#fff",
   "icons": [
     {
       "src": "/img/favicon.svg",

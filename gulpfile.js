@@ -37,7 +37,7 @@ var path = {
     sprite: "build/img/sprite/",
     svgSprite: "build/img/svg",
     json: "build/js/json/",
-    webmanifest: "build/"
+    root: "build/"
   },
   src: { //Пути откуда брать исходники
     html: ["src/**/*.html", "!src/_blocks/**/*.html"], //Синтаксис src/*.html все файлы с расширением .html в папке src.
@@ -53,7 +53,8 @@ var path = {
     sprite: "src/img/sprite/*",
     svg: "src/img/svg/*.svg",
     json: "src/json/*.json",
-    webmanifest: "src/*.webmanifest.json"
+    webmanifest: "src/*.webmanifest.json",
+    htaccess: ".htaccess"
   },
   watch: { //Тут мы укажем, за изменением каких файлов мы хотим наблюдать
     html: "src/**/*.html",
@@ -66,7 +67,8 @@ var path = {
     blocksvg: "src/img/_blocks/**/*.svg",
     svg: "src/img/svg/*.svg",
     json: "src/json/*.json",
-    webmanifest: "src/*.webmanifest.json"
+    webmanifest: "src/*.webmanifest.json",
+    htaccess: ".htaccess"
   },
   clean: "./build", //директории которые могут очищаться
 };
@@ -162,7 +164,15 @@ gulp.task("copyfavicon", function () {
 //Копируем webmanifest
 gulp.task("copywebmanifest", function () {
   return gulp.src(path.src.webmanifest)
-    .pipe(gulp.dest(path.build.webmanifest))
+    .pipe(gulp.dest(path.build.root))
+    .pipe(server.reload({stream: true}));
+});
+//-------------------------------------
+
+//Копируем htaccess
+gulp.task("htaccess", function () {
+  return gulp.src(path.src.htaccess)
+    .pipe(gulp.dest(path.build.root))
     .pipe(server.reload({stream: true}));
 });
 //-------------------------------------
@@ -339,6 +349,7 @@ gulp.task("watcher", function () {
   gulp.watch(path.watch.fonts, ["fonts"]);
   gulp.watch(path.watch.favicon, ["copyfavicon"]);
   gulp.watch(path.watch.webmanifest, ["copywebmanifest"]);
+  gulp.watch(path.watch.htaccess, ["htaccess"]);
   gulp.watch(path.watch.blocksvg, ["blocksvg:build"]);
   gulp.watch(path.watch.sprite, ["copysprite"]);
 });
@@ -361,7 +372,8 @@ gulp.task("build", function (callback) {
     "copyfavicon",
     "blocksvg:build",
     "copysprite",
-    "copywebmanifest"
+    "copywebmanifest",
+    "htaccess"
     ],
     "serve",
     "watcher",
@@ -386,7 +398,8 @@ gulp.task("production", function (callback) {
     "blocksvg",
     "fileinclude",
     "copysprite",
-    "copywebmanifest"
+    "copywebmanifest",
+    "htaccess"
     ],
   callback);
 });
