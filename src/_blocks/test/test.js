@@ -19,11 +19,31 @@ function Test(params) {
     this._getAnswer();
   });
 
-  this.domElements.answer.addEventListener("keypress", (e) => { /* Событие нажатия на Enter */
+  this.domElements.answer.onkeypress = function(e) { /* Событие проверки нажатия Enter */
     if (e.keyCode == 13) {
       this._getAnswer();
+    } else {
+      function getChar(event) {
+        if (event.which == null) {
+          if (event.keyCode < 32) return null;
+          return event.keyCode;
+        }
+
+        if (event.which != 0 && event.charCode != 0) {
+          if (event.which < 32) return null;
+          return event.which;
+        }
+
+        return null;
+      }
+
+      if (getChar(e) > 1024 && getChar(e) < 1106) {
+        alert("Смените раскладку клавиатуры");
+
+        return false;
+      }
     }
-  });
+  }.bind(this);
 
   this._mixQuestion(); /* Запуск функции случайного или линейного задания вопросов */
 }
@@ -100,7 +120,8 @@ Test.prototype._getAnswer = function() {
   if (this._questionStart) {
     this._questionStart = false;
     this.timer.stop();
-    this.activeQuestion.answer.text = this.domElements.answer.value.trim();
+    this.activeQuestion.answer.text = this.domElements.answer.value.trim().replace(/"/g, "'");
+
     this.activeQuestion.answer.time = (this.timer.value() * 10).toFixed(2);
 
     setTimeout(() => {
@@ -122,6 +143,5 @@ Test.prototype._mixQuestion = function() {
     this.questionsArr.reverse();
   }
 }
-
 
 

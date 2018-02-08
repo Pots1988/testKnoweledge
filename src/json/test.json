@@ -1,0 +1,13 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "Проверка работы кавычек",
+    "time": 20,
+    "answer": "'abc'"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+}]

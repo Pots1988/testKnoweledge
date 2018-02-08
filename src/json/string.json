@@ -93,7 +93,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Взять в строке <span>str</span> <span>5</span> символов с позиции <span>3</span>?",
+    "text": "В строке <span>str</span> взять <span>5</span> символов с позиции <span>3</span>?",
     "time": 10,
     "answer": "str.substr(3, 5)"
   },
@@ -106,7 +106,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "String",
-    "text": "Взять в строке <span>str</span> символы с позиции <span>2</span> по </span>5</span> включительно?",
+    "text": "Взять в строке <span>str</span> символы с позиции <span>2</span> по <span>5</span> включительно?",
     "time": 10,
     "answer": "str.slice(2, 6)"
   },

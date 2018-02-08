@@ -56,7 +56,7 @@
     "theme": "Object",
     "text": "Проверить наличие свойства <span>prop</span> в объекте <span>obj</span> <small>пробелы между скобками не нужны</small>?",
     "time": 20,
-    "answer": "if(prop on obj){}"
+    "answer": "if(prop in obj){}"
   },
   "answer": {
     "time": "",
