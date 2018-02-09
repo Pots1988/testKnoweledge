@@ -43,7 +43,7 @@
     "theme": "Other",
     "text": "Если в коде есть ошибки и указан код <span>try{}</span>, как указать блок для обработки ошибки <span>err</span>?",
     "time": 20,
-    "answer": "catch(err)"
+    "answer": "catch(err){}"
   },
   "answer": {
     "time": "",

@@ -2,7 +2,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие клика левой кнопкой мыши?",
+    "text": "Событие клика левой кнопкой <span>мыши</span>?",
     "time": 20,
     "answer": "click"
   },
@@ -14,7 +14,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие клика правой кнопкой мыши?",
+    "text": "Событие клика правой кнопкой <span>мыши</span>?",
     "time": 20,
     "answer": "contextmenu"
   },
@@ -26,7 +26,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие двойного клика?",
+    "text": "Событие двойного клика <span>мышью</span>?",
     "time": 20,
     "answer": "dbclick"
   },
@@ -38,7 +38,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие нажатия кнопки?",
+    "text": "Событие нажатия кнопки <span>мыши</span>?",
     "time": 20,
     "answer": "mousedown"
   },
@@ -50,7 +50,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие отпускания кнопки?",
+    "text": "Событие отпускания кнопки <span>мыши</span>?",
     "time": 20,
     "answer": "mouseup"
   },
@@ -62,7 +62,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие появления мыши над элементом?",
+    "text": "Событие появления <span>мыши</span> над элементом?",
     "time": 20,
     "answer": "mouseover"
   },
@@ -74,7 +74,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие ухода мыши с элемента?",
+    "text": "Событие ухода <span>мыши</span> с элемента?",
     "time": 20,
     "answer": "mouseout"
   },
@@ -86,7 +86,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие движения мыши над элементом?",
+    "text": "Событие движения <span>мыши</span> над элементом?",
     "time": 20,
     "answer": "mousemove"
   },
@@ -98,7 +98,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие появления мыши над элементом <span>без учета перехода между элементами</span>?",
+    "text": "Событие появления <span>мыши</span> над элементом <span>без учета перехода между элементами</span>?",
     "time": 20,
     "answer": "mouseenter"
   },
@@ -110,7 +110,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие ухода мыши с элемента <span>без учета перехода между элементами</span>?",
+    "text": "Событие ухода <span>мыши</span> с элемента <span>без учета перехода между элементами</span>?",
     "time": 20,
     "answer": "mouseleave"
   },
@@ -122,7 +122,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие нажатия кнопки на клавиатуре?",
+    "text": "Событие нажатия кнопки на <span>клавиатуре</span>?",
     "time": 20,
     "answer": "keydown"
   },
@@ -134,7 +134,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие отпускания кнопки клавиатуры?",
+    "text": "Событие отпускания кнопки <span>клавиатуры</span>?",
     "time": 20,
     "answer": "keyup"
   },
@@ -158,7 +158,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие скрола мышью?",
+    "text": "Событие скрола <span>мышью</span>?",
     "time": 20,
     "answer": "wheel"
   },
@@ -242,7 +242,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Ошибка загрузки ресурса?",
+    "text": "Событие ошибки загрузки ресурса?",
     "time": 20,
     "answer": "error"
   },
@@ -254,7 +254,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как повесить обработку события <span>click</span>, для объекта <span>obj</span>, функцией <span>func</span>?",
+    "text": "Для объекта <span>obj</span> повесить обработку события <span>click</span>, функцией <span>func</span>?",
     "time": 20,
     "answer": "obj.addEventListener('click', func)"
   },
@@ -266,7 +266,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как повесить снятия события <span>click</span>, для объекта <span>obj</span>, функцией <span>func</span>?",
+    "text": "Для объекта <span>obj</span> повесить снятия события <span>click</span>, функции <span>func</span>?",
     "time": 20,
     "answer": "obj.removeEventListener('click', func)"
   },
@@ -374,7 +374,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "В форме <span>form</span> получить <span>fieldset</span> с именем <span>fieldset</span>, в котором получить элемент с именем <span>input</span>?",
+    "text": "В <span>form</span> получить <span>fieldset</span> с именем <span>fieldset</span>, в котором получить элемент с именем <span>input</span>?",
     "time": 20,
     "answer": "form.elements.fieldset.elements.input"
   },
@@ -386,7 +386,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "У элемента <span>elem</span> получить форму, в которой он лежит?",
+    "text": "У <span>elem</span> получить форму, в которой он лежит?",
     "time": 20,
     "answer": "elem.form"
   },
@@ -398,7 +398,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Установить объект <span>select</span> в значение <span>25</span>?",
+    "text": "Установить <span>select</span> в значение <span>25</span>?",
     "time": 20,
     "answer": "select.value = 25"
   },
@@ -410,9 +410,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Установить в объекте <span>select</span> выбранным <span>5-ый</span> номер?",
+    "text": "Установить в <span>select</span> выбранным <span>5-ый</span> номер?",
     "time": 20,
-    "answer": "select.selectIndex = 5"
+    "answer": "select.selectedIndex = 5"
   },
   "answer": {
     "time": "",
@@ -422,7 +422,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Получить список элементов-опций в объекте <span>select</span>?",
+    "text": "Получить список элементов-опций в <span>select</span>?",
     "time": 20,
     "answer": "select.options"
   },
@@ -434,7 +434,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Для объекта <span>option</span> узнать выбран он или нет?",
+    "text": "Для <span>option</span> узнать выбран он или нет?",
     "time": 20,
     "answer": "option.selected"
   },
@@ -446,7 +446,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Для объекта <span>option</span> узнать его номер в списке?",
+    "text": "Для <span>option</span> узнать его номер в списке?",
     "time": 20,
     "answer": "option.index"
   },
@@ -458,7 +458,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Для объекта <span>option</span> узнать его текстовое содержимое?",
+    "text": "Для <span>option</span> узнать его текстовое содержимое?",
     "time": 20,
     "answer": "option.text"
   },
@@ -470,7 +470,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Создать новый элемент <span>option</span> со всеми допустимыми параметрами?",
+    "text": "Создать новый <span>option</span> со всеми допустимыми параметрами?",
     "time": 20,
     "answer": "new Option(text, value, defaultSelected, selected)"
   },
@@ -506,7 +506,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие, возникающее по окончании изменения элемента формы?",
+    "text": "Событие изменения элемента формы?",
     "time": 20,
     "answer": "change"
   },
@@ -518,7 +518,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Событие, возникающее сразу при изменении текстового элемента?",
+    "text": "Событие изменения текстового элемента?",
     "time": 20,
     "answer": "input"
   },
@@ -542,9 +542,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать тип события у объекта <span>e</span>?",
+    "text": "Тип события у <span>event</span>?",
     "time": 20,
-    "answer": "e.type"
+    "answer": "event.type"
   },
   "answer": {
     "time": "",
@@ -554,9 +554,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать какая клавиша была нажата у объекта <span>e</span>?",
+    "text": "Какая клавиша была нажата у <span>event</span>?",
     "time": 20,
-    "answer": "e.which"
+    "answer": "event.which"
   },
   "answer": {
     "time": "",
@@ -566,9 +566,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать кто сгенерировал событие у объекта <span>e</span>?",
+    "text": "Кто сгенерировал событие у <span>event</span>?",
     "time": 20,
-    "answer": "e.isTrusted"
+    "answer": "event.isTrusted"
   },
   "answer": {
     "time": "",
@@ -578,9 +578,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать на ком висит обработчик события для<span>e</span>?",
+    "text": "На ком висит обработчик события для <span>event</span>?",
     "time": 20,
-    "answer": "e.currentTarget"
+    "answer": "event.currentTarget"
   },
   "answer": {
     "time": "",
@@ -590,9 +590,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать кто является инициатором события для <span>e</span>?",
+    "text": "Кто является инициатором события для <span>event</span>?",
     "time": 20,
-    "answer": "e.target"
+    "answer": "event.target"
   },
   "answer": {
     "time": "",
@@ -602,9 +602,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать на кого ушел или откуда пришел курсор мыши у объекта <span>e</span>?",
+    "text": "На кого ушел или откуда пришел курсор мыши у <span>event</span>?",
     "time": 20,
-    "answer": "e.relatedTarget"
+    "answer": "event.relatedTarget"
   },
   "answer": {
     "time": "",
@@ -614,9 +614,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Координаты мыши по оси <span>X</span> относительно окна для объекта <span>e</span>?",
+    "text": "Координаты мыши по оси <span>X</span> относительно окна для <span>event</span>?",
     "time": 20,
-    "answer": "e.clientX"
+    "answer": "event.clientX"
   },
   "answer": {
     "time": "",
@@ -626,9 +626,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Координаты мыши по оси <span>Y</span> относительно окна для объекта <span>e</span>?",
+    "text": "Координаты мыши по оси <span>Y</span> относительно окна для <span>event</span>?",
     "time": 20,
-    "answer": "e.clientY"
+    "answer": "event.clientY"
   },
   "answer": {
     "time": "",
@@ -638,9 +638,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Координаты мыши по оси <span>X</span> относительно страницы для объекта <span>e</span>?",
+    "text": "Координаты мыши по оси <span>X</span> относительно страницы для <span>event</span>?",
     "time": 20,
-    "answer": "e.pageX"
+    "answer": "event.pageX"
   },
   "answer": {
     "time": "",
@@ -650,9 +650,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Координаты мыши по оси <span>Y</span> относительно страницы для объекта <span>e</span>?",
+    "text": "Координаты мыши по оси <span>Y</span> относительно страницы для <span>event</span>?",
     "time": 20,
-    "answer": "e.pageY"
+    "answer": "event.pageY"
   },
   "answer": {
     "time": "",
@@ -662,9 +662,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать скан-код нажатой кнопки мыши для объекта <span>e</span>?",
+    "text": "Узнать скан-код нажатой кнопки мыши для <span>event</span>?",
     "time": 20,
-    "answer": "e.keyCode"
+    "answer": "event.keyCode"
   },
   "answer": {
     "time": "",
@@ -674,9 +674,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать символ нажатой кнопки мыши для объекта <span>e</span>?",
+    "text": "Узнать символ нажатой кнопки мыши для <span>event</span>?",
     "time": 20,
-    "answer": "e.charCode"
+    "answer": "event.charCode"
   },
   "answer": {
     "time": "",
@@ -686,9 +686,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать чтобы была нажата клавиша <span>SHIFT</span> у объекта <span>e</span>?",
+    "text": "Узнать чтобы была нажата клавиша <span>SHIFT</span> у <span>event</span>?",
     "time": 20,
-    "answer": "e.shifKey"
+    "answer": "event.shifKey"
   },
   "answer": {
     "time": "",
@@ -698,9 +698,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать чтобы была нажата клавиша <span>ALT</span> у объекта <span>e</span>?",
+    "text": "Узнать чтобы была нажата клавиша <span>ALT</span> у <span>event</span>?",
     "time": 20,
-    "answer": "e.altKey"
+    "answer": "event.altKey"
   },
   "answer": {
     "time": "",
@@ -710,9 +710,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать чтобы была нажата клавиша <span>CTRL</span> у объекта <span>e</span>?",
+    "text": "Узнать чтобы была нажата клавиша <span>CTRL</span> у <span>event</span>?",
     "time": 20,
-    "answer": "e.ctrlKey"
+    "answer": "event.ctrlKey"
   },
   "answer": {
     "time": "",
@@ -722,9 +722,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как узнать чтобы была нажата клавиша <span>Cmd</span> у объекта <span>e</span>?",
+    "text": "Узнать чтобы была нажата клавиша <span>Cmd</span> у <span>event</span>?",
     "time": 20,
-    "answer": "e.metaKey"
+    "answer": "event.metaKey"
   },
   "answer": {
     "time": "",
@@ -734,9 +734,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как отменить действие по умолчанию у объекта <span>e</span>?",
+    "text": "Отменить действие по умолчанию у объекта <span>event</span>?",
     "time": 20,
-    "answer": "e.preventDeafault()"
+    "answer": "event.preventDeafault()"
   },
   "answer": {
     "time": "",
@@ -746,9 +746,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как отменить всплытие события у объекта <span>e</span>?",
+    "text": "Как отменить всплытие события у объекта <span>event</span>?",
     "time": 20,
-    "answer": "e.stopPropagation()"
+    "answer": "event.stopPropagation()"
   },
   "answer": {
     "time": "",
@@ -758,9 +758,9 @@
   "question": {
     "section": "JavaScript",
     "theme": "Events",
-    "text": "Как отменить остальные события на элементе у объекта <span>e</span>?",
+    "text": "Как отменить остальные события на элементе у объекта <span>event</span>?",
     "time": 20,
-    "answer": "e.stopImmediatePropagation()"
+    "answer": "event.stopImmediatePropagation()"
   },
   "answer": {
     "time": "",
