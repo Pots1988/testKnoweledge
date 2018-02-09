@@ -68,21 +68,6 @@
   outline: none;
   transition: border-color ease-in-out 0.15s;
 
-  // &::-webkit-input-placeholder {
-  //   color: $dark;
-  //   opacity: 1;
-  // }
-
-  // &::-moz-placeholder {
-  //   color: $dark;
-  //   opacity: 1;
-  // }
-
-  // &:-ms-input-placeholder {
-  //   color: $dark;
-  //   opacity: 1;
-  // }
-
   &:focus,
   &:active,
   &:hover {
@@ -91,22 +76,5 @@
 }
 
 .test__answer-btn {
-  border: 1px solid $blue;
-  outline: 0;
-  flex-shrink: 0;
-  background: none;
   margin-left: 0.7em;
-  background: $blue;
-  color: $light;
-  border-radius: $border-radius;
-  padding: 0.5em;
-  min-width: 150px;
-  transition: background 0.3s, border-color 0.3s;
-
-  &:hover,
-  &:active,
-  &:focus {
-    background-color: $blue-hover;
-    border-color: $blue-hover;
-  }
 }

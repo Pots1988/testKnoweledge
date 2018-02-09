@@ -1,6 +1,5 @@
 .btn {
   border: 1px solid $blue;
-  outline: 0;
   flex-shrink: 0;
   background: none;
   margin: 0 0.5em;
@@ -9,12 +8,11 @@
   border-radius: $border-radius;
   padding: 0.5em;
   min-width: 150px;
-  transition: background 0.3s, border-color 0.3s;
+  transition: color 0.3s, background 0.3s;
 
   &:hover,
-  &:active,
-  &:focus {
-    background-color: $blue-hover;
-    border-color: $blue-hover;
+  &:active {
+    background: transparent;
+    color: $blue;
   }
 }
