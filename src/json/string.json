@@ -82,7 +82,7 @@
     "theme": "String",
     "text": "Найти переменую <span>n</span> в строке <span>str</span> с конца?",
     "time": 10,
-    "answer": "str.lasIndexOf(n)"
+    "answer": "str.lastIndexOf(n)"
   },
   "answer": {
     "time": "",
