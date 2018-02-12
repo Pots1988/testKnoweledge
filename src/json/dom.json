@@ -290,7 +290,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как найти ближайщий элемент от объекта <span>obj</span> с селектором <span>.class</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Как найти ближайщий элемент от объекта <span>obj</span> с селектором <span>.class</span>?",
     "time": 20,
     "answer": "obj.closest('.class')"
   },
@@ -302,7 +302,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как проверить удовлетворяет ли объект <span>obj</span> селектору <span>.class</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Как проверить удовлетворяет ли объект <span>obj</span> селектору <span>.class</span>?",
     "time": 20,
     "answer": "obj.matches('.class')"
   },
@@ -362,7 +362,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как создать элемент <span>div</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Как создать элемент <span>div</span>?",
     "time": 20,
     "answer": "document.createElement('div')"
   },
@@ -374,7 +374,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Как создать текстовый узел с текстом <span>Help</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Как создать текстовый узел с текстом <span>Help</span>?",
     "time": 20,
     "answer": "document.createTextNode('Help')"
   },
@@ -410,7 +410,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> перед началом объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Вставить <span>html</span> перед началом объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.insertAdjacentHTML('beforeBegin', html)"
   },
@@ -422,7 +422,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> после начала <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Вставить <span>html</span> после начала <span>obj</span>?",
     "time": 20,
     "answer": "obj.insertAdjacentHTML('afterBegin', html)"
   },
@@ -434,7 +434,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> перед концом <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Вставить <span>html</span> перед концом <span>obj</span>?",
     "time": 20,
     "answer": "obj.insertAdjacentHTML('beforeEnd', html)"
   },
@@ -446,7 +446,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить <span>html</span> после конца <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Вставить <span>html</span> после конца <span>obj</span>?",
     "time": 20,
     "answer": "obj.insertAdjacentHTML('afterEnd', html)"
   },
@@ -458,7 +458,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить элемент <span>el2</span> после начала <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Вставить элемент <span>el2</span> после начала <span>obj</span>?",
     "time": 20,
     "answer": "obj.insertAdjacentHTML('afterBegin', el2)"
   },
@@ -470,7 +470,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Вставить текст <span>text</span> после начала <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Вставить текст <span>text</span> после начала <span>obj</span>?",
     "time": 20,
     "answer": "obj.insertAdjacentText('afterBegin', text)"
   },
@@ -542,7 +542,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Проверить наличие аттрибута <span>src</span> у объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Проверить наличие аттрибута <span>src</span> у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.hasAttribute('src')"
   },
@@ -554,7 +554,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Удалить аттрибут <span>src</span> у объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Удалить аттрибут <span>src</span> у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.removeAttribute('src')"
   },
@@ -578,7 +578,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Получить значение аттрибута <span>src</span> у объекта <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Получить значение аттрибута <span>src</span> у объекта <span>obj</span>?",
     "time": 20,
     "answer": "obj.getAttribute('src')"
   },
@@ -590,7 +590,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Установить аттрибут <span>src</span> у объекта <span>obj</span> в значение <span>http</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Установить аттрибут <span>src</span> у объекта <span>obj</span> в значение <span>http</span>?",
     "time": 20,
     "answer": "obj.setAttribute('src', 'http')"
   },
@@ -638,7 +638,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Добавить класс <span>new</span> в объект <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Добавить класс <span>new</span> в объект <span>obj</span>?",
     "time": 20,
     "answer": "obj.classList.add('new')"
   },
@@ -650,7 +650,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Удалить класс <span>new</span> в объект <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Удалить класс <span>new</span> в объект <span>obj</span>?",
     "time": 20,
     "answer": "obj.classList.remove('new')"
   },
@@ -662,7 +662,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Проверить наличие класса <span>new</span> в объекте <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Проверить наличие класса <span>new</span> в объекте <span>obj</span>?",
     "time": 20,
     "answer": "obj.classList.contains('new')"
   },
@@ -674,7 +674,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "DOM",
-    "text": "Триггер (переключатель) класса <span>new</span> в объекте <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Триггер (переключатель) класса <span>new</span> в объекте <span>obj</span>?",
     "time": 20,
     "answer": "obj.classList.toggle('new')"
   },

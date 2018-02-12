@@ -688,7 +688,7 @@
     "theme": "Events",
     "text": "Узнать чтобы была нажата клавиша <span>SHIFT</span> у <span>event</span>?",
     "time": 20,
-    "answer": "event.shifKey"
+    "answer": "event.shiftKey"
   },
   "answer": {
     "time": "",
@@ -736,7 +736,7 @@
     "theme": "Events",
     "text": "Отменить действие по умолчанию у объекта <span>event</span>?",
     "time": 20,
-    "answer": "event.preventDeafault()"
+    "answer": "event.preventDefault()"
   },
   "answer": {
     "time": "",

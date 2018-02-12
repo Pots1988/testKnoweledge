@@ -28,7 +28,7 @@
   "question": {
     "section": "JavaScript",
     "theme": "Object",
-    "text": "Добавить свойство <span>new date</span> в объект <span>obj</span>, <small>используйте одинарные кавычки</small>?",
+    "text": "Добавить свойство <span>new date</span> в объект <span>obj</span>?",
     "time": 20,
     "answer": "obj['new date']"
   },
