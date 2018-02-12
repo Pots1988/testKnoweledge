@@ -21,23 +21,37 @@
 }
 
 .themes__form {
+  width: 100%;
   max-width: 600px;
   margin: 15px auto;
   text-align: center;
 }
 
 .themes__fieldset {
-  margin: 0 0 20px 0;
+  margin: 0 0 20px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .themes__legend {
-  margin: 0 auto 15px auto;
+  margin: 0 auto 15px;
+  width: 100%;
+}
+
+.themes__btn-config {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .themes__label {
   display: block;
+  width: 50%;
+  flex-grow: 1;
+  max-width: 200px;
   margin: 0 0 20px 0;
   text-align: left;
+
   &:last-child {
     margin: 0 0 10px 0;
   }

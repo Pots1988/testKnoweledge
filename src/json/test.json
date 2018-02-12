@@ -2,9 +2,34 @@
   "question": {
     "section": "JavaScript",
     "theme": "Array",
-    "text": "Проверка работы кавычек",
+    "text": "1",
     "time": 20,
-    "answer": "'abc'"
+    "answer": "abc"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "2",
+    "time": 20,
+    "answer": "abc"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Array",
+    "text": "3",
+    "time": 20,
+    "answer": "abc"
   },
   "answer": {
     "time": "",

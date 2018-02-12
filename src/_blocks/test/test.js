@@ -13,7 +13,7 @@ function Test(params) {
     question: this.item.querySelector("[data-test-question]"),
     answer: this.item.querySelector("[data-test-answer]"),
     button: this.item.querySelector("[data-test-btn]")
-  }
+  };
 
   this.domElements.button.addEventListener("click", () => { /* Событие нажатия на кнопку */
     this._getAnswer();
@@ -84,8 +84,6 @@ Test.prototype._startTimer = function() {
       }
 
       if (circle.value() === 1) {
-        console.log("TIMER END");
-
         obj._getAnswer();
       }
     }
@@ -109,20 +107,21 @@ Test.prototype._setQuestion = function() {
 Test.prototype._showResult = function() {
   new ResultWrite({
     item: document.querySelector("#result"),
-    questionArr: this.questionsArrPosed
+    questionArr: this.questionsArrPosed,
+    totalTime: this._getTotalTime()
   });
 
   this.item.classList.remove("test--active");
   document.querySelector("#result").classList.add("result--active");
 }
 
-Test.prototype._getAnswer = function() {
+Test.prototype._getAnswer = function(time) {
   if (this._questionStart) {
     this._questionStart = false;
     this.timer.stop();
     this.activeQuestion.answer.text = this.domElements.answer.value.trim().replace(/"/g, "'");
 
-    this.activeQuestion.answer.time = (this.timer.value() * 10).toFixed(2);
+    this.activeQuestion.answer.time = +(this.timer.value() * this.time).toFixed(2);
 
     setTimeout(() => {
       this.timer.destroy();
@@ -142,6 +141,12 @@ Test.prototype._mixQuestion = function() {
   } else {
     this.questionsArr.reverse();
   }
+}
+
+Test.prototype._getTotalTime = function() {
+  return this.questionsArrPosed.reduce(function(sum, item) {
+    return sum + item.answer.time;
+  }, 0).toFixed(2);
 }
 
 

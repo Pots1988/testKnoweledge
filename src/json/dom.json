@@ -832,7 +832,7 @@
     "theme": "DOM",
     "text": "Размер ширины <span>obj</span> внутри рамок?",
     "time": 20,
-    "answer": "obj.clentWidth"
+    "answer": "obj.clientWidth"
   },
   "answer": {
     "time": "",

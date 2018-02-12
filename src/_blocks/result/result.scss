@@ -57,12 +57,16 @@
   }
 }
 
-.result__question-time {
-  svg {
+.result__time {
+  &::before {
+    content: "";
     width: 1em;
     height: 1em;
     margin-right: 0.3em;
-    fill: $blue;
+    display: inline-block;
+    vertical-align: middle;
+    background: url("/img/svg-icons/timer.svg") no-repeat 50% 50%;
+    background-size: contain;
   }
 }
 

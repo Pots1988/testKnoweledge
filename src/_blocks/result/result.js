@@ -1,12 +1,14 @@
 function ResultWrite(params) {
   this.item = params.item;
   this.questionArr = params.questionArr;
+  this.totalTime = params.totalTime;
 
   this.domElements = {
     resultCorrect: this.item.querySelector("[data-result-correct]"),
     resultIncorrect: this.item.querySelector("[data-result-incorrect]"),
     resultTotal: this.item.querySelector("[data-result-total]"),
     resultList: this.item.querySelector("[data-result-list]"),
+    resultTotalTime: this.item.querySelector("[data-result-total-time]")
   };
 
   this._setAnswer();
@@ -25,12 +27,9 @@ ResultWrite.prototype._setAnswer = function() {
         answerUser = document.createElement("p");
 
     time.classList.add("result__question-time");
-    time.insertAdjacentHTML("afterBegin",
-      `<svg width="10px" height="10px">
-          <use xlink:href="#icon-clock" />
-        </svg>`);
 
-    let timeText = document.createElement("span");
+    let timeText = document.createElement("time");
+    timeText.classList.add("result__time");
     timeText.textContent = item.answer.time + "c";
     time.appendChild(timeText);
 
@@ -72,6 +71,7 @@ ResultWrite.prototype._setAnswer = function() {
   this.domElements.resultCorrect.textContent = correctCount;
   this.domElements.resultIncorrect.textContent = incorrectCount;
   this.domElements.resultTotal.textContent = totalCount;
+  this.domElements.resultTotalTime.textContent = this.totalTime + "c";
 }
 
 // Добавить запись этих данных в LocalStorage

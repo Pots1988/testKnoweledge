@@ -1,8 +1,8 @@
 <section class="themes" data-themes>
   <div class="themes__container">
     <form action="" class="themes__form" data-themes-form>
-      <fieldset class="themes__fieldset" data-theme-path="js/json/">
-        <legend class="themes__legend">Выберите тему</legend>
+      <div class="themes__fieldset" data-theme-path="js/json/">
+        <h2 class="themes__legend">Выберите тему</h2>
         <label class="themes__label">
           <input type="checkbox" class="themes__input" data-theme-name="basic.json">
           Базовый раздел
@@ -63,9 +63,11 @@
           <input type="checkbox" class="themes__input" data-theme-name="test.json">
           Тестовый
         </label>
-        <button class="btn" type="button" data-btn-theme-all>Выбрать все</button>
-        <button class="btn" type="button" data-btn-theme-reset>Сбросить</button>
-      </fieldset>
+        <div class="themes__btn-config">
+          <button class="btn" type="button" data-btn-theme-all>Выбрать все</button>
+          <button class="btn" type="button" data-btn-theme-reset>Сбросить</button>
+        </div>
+      </div>
       <button class="btn" type="submit" data-btn-theme-submit>OK</button>
     </form>
   </div>
