@@ -77,7 +77,8 @@ if (themes) {
         testObject = new Test({
           item: document.querySelector("#test"),
           questions: arrIssues,
-          time: 20
+          time: 20,
+          accidentally: true
         });
       }
     }

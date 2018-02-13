@@ -3,7 +3,7 @@ function Test(params) {
 
   this.questionsArr = params.questions; /* Массив вопросов */
   this.time = params.time || 20; /* Время ответа на вопрос */
-  this.accidentally = params.accidentally || false; /* Сортировать в случайном поряжке вопросы */
+  this.accidentally = params.accidentally || false; /* Сортировать в случайном порядке вопросы */
   this._questionStart = false; /* Задан вопрос или нет */
 
   this.activeQuestion = null; /* Активный вопрос */
@@ -138,6 +138,9 @@ Test.prototype._getAnswer = function(time) {
 Test.prototype._mixQuestion = function() {
   if (this.accidentally) {
     // Функция случайной конвертации массива
+    this.questionsArr.sort(function(a, b) {
+      return Math.random() - 0.5;
+    });
   } else {
     this.questionsArr.reverse();
   }

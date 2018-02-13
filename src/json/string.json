@@ -95,7 +95,7 @@
     "theme": "String",
     "text": "В строке <span>str</span> взять <span>5</span> символов с позиции <span>3</span>?",
     "time": 10,
-    "answer": "str.substr(3, 5)"
+    "answer": "str.substr(2, 5)"
   },
   "answer": {
     "time": "",
@@ -108,7 +108,7 @@
     "theme": "String",
     "text": "Взять в строке <span>str</span> символы с позиции <span>2</span> по <span>5</span> включительно?",
     "time": 10,
-    "answer": "str.slice(2, 6)"
+    "answer": "str.slice(1, 6)"
   },
   "answer": {
     "time": "",
