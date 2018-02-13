@@ -8,10 +8,15 @@ function ResultWrite(params) {
     resultIncorrect: this.item.querySelector("[data-result-incorrect]"),
     resultTotal: this.item.querySelector("[data-result-total]"),
     resultList: this.item.querySelector("[data-result-list]"),
-    resultTotalTime: this.item.querySelector("[data-result-total-time]")
+    resultTotalTime: this.item.querySelector("[data-result-total-time]"),
+    resultFilter: this.item.querySelector("[data-result-filter]")
   };
 
   this._setAnswer();
+
+  this.domElements.resultFilter.addEventListener("change", e => {
+    this.showFilterQuestion(e.target.value);
+  });
 }
 
 ResultWrite.prototype._setAnswer = function() {
@@ -51,6 +56,7 @@ ResultWrite.prototype._setAnswer = function() {
       `<svg width="15px" height="15px">
           <use xlink:href="#icon-ok" />
         </svg>`);
+      li.dataset.correct = true;
     } else {
       incorrectCount++;
       answerUser.classList.add("result-incorrect");
@@ -58,6 +64,7 @@ ResultWrite.prototype._setAnswer = function() {
       `<svg width="15px" height="15px">
           <use xlink:href="#icon-error" />
         </svg>`);
+      li.dataset.correct = false;
     }
 
     li.appendChild(time);
@@ -72,6 +79,28 @@ ResultWrite.prototype._setAnswer = function() {
   this.domElements.resultIncorrect.textContent = incorrectCount;
   this.domElements.resultTotal.textContent = totalCount;
   this.domElements.resultTotalTime.textContent = this.totalTime + "c";
+}
+
+ResultWrite.prototype.showFilterQuestion = function(type) {
+  let setVisibleElement = function(value) {
+    Array.prototype.forEach.call(this.item.querySelectorAll("li"), (item) => {
+      if (item.dataset.correct == value || value === undefined) {
+        item.hidden = false;
+      } else {
+        item.hidden = true;
+      }
+    });
+  }
+
+  switch(type) {
+    case "correct": setVisibleElement.call(this, "true");
+    break;
+
+    case "incorrect": setVisibleElement.call(this, "false");
+    break;
+
+    default: setVisibleElement.call(this);
+  }
 }
 
 // Добавить запись этих данных в LocalStorage

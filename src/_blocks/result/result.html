@@ -21,6 +21,20 @@
         Общее время: <time class="result__time" data-result-total-time></time>
       </p>
     </div>
+    <form name="result-filter" class="result__filter" data-result-filter>
+      <label class="result__filter-option">
+        <input type="radio" name="filter-option" value="all" checked>
+        Все
+      </label>
+      <label class="result__filter-option">
+        <input type="radio" name="filter-option" value="correct">
+        Правильные
+      </label>
+      <label class="result__filter-option">
+        <input type="radio" name="filter-option" value="incorrect">
+        Не правильные
+      </label>
+    </form>
     <ol class="result__list" data-result-list=""></ol>
   <a class="btn" href="/">К выбору тем</a>
   </div>

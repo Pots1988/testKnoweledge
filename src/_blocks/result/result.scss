@@ -40,6 +40,10 @@
     padding-top: 1em;
     position: relative;
 
+    &[hidden] {
+      display: none;
+    }
+
     &::before {
       content: counter(numbers);
       font-size: 3em;
