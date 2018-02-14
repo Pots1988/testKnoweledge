@@ -12,7 +12,9 @@ function Test(params) {
   this.domElements = { /* Список DOM-объектов для обработки событий */
     question: this.item.querySelector("[data-test-question]"),
     answer: this.item.querySelector("[data-test-answer]"),
-    button: this.item.querySelector("[data-test-btn]")
+    button: this.item.querySelector("[data-test-btn]"),
+    testNumber: this.item.querySelector("[data-test-question-number]"),
+    testNumberTotal: this.item.querySelector("[data-test-question-total]")
   };
 
   this.domElements.button.addEventListener("click", () => { /* Событие нажатия на кнопку */
@@ -99,6 +101,7 @@ Test.prototype._setQuestion = function() {
     this._questionStart = true;
     this.domElements.answer.focus();
     this._startTimer();
+    this._setQuestionNumber((this.questionsArrPosed.length + 1));
   } else {
     this._showResult();
   }
@@ -152,4 +155,11 @@ Test.prototype._getTotalTime = function() {
   }, 0).toFixed(2);
 }
 
+Test.prototype._setQuestionNumber = function(number) {
+  if (!this.domElements.testNumberTotal.textContent.length) {
+    this.domElements.testNumberTotal.textContent = this.questionsArr.length + 1;
+  }
+
+  this.domElements.testNumber.textContent = number;
+}
 
