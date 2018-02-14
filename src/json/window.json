@@ -1,0 +1,146 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "Открыть окно с <span>url</span>, <span>name</span>, <span>params</span>?",
+    "time": 20,
+    "answer": "window.open(url, name, params)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "Получить ссылку на родительское окно, открывщее текущее?",
+    "time": 20,
+    "answer": "window.opener"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "theme": "Window & Frame",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+]
