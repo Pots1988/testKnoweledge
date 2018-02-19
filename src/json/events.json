@@ -1,6 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "Events",
     "text": "Событие клика левой кнопкой <span>мыши</span>?",
     "time": 20,
@@ -13,6 +14,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "Events",
     "text": "Событие клика правой кнопкой <span>мыши</span>?",
     "time": 20,
@@ -25,6 +27,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "Events",
     "text": "Событие двойного клика <span>мышью</span>?",
     "time": 20,
@@ -37,6 +40,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "Events",
     "text": "Событие нажатия кнопки <span>мыши</span>?",
     "time": 20,
@@ -49,6 +53,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "Events",
     "text": "Событие отпускания кнопки <span>мыши</span>?",
     "time": 20,
@@ -61,6 +66,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "Events",
     "text": "Событие появления <span>мыши</span> над элементом?",
     "time": 20,
@@ -73,6 +79,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "Events",
     "text": "Событие ухода <span>мыши</span> с элемента?",
     "time": 20,
@@ -85,6 +92,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "Events",
     "text": "Событие движения <span>мыши</span> над элементом?",
     "time": 20,
@@ -97,6 +105,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "Events",
     "text": "Событие появления <span>мыши</span> над элементом <span>без учета перехода между элементами</span>?",
     "time": 20,
@@ -109,6 +118,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 10,
     "theme": "Events",
     "text": "Событие ухода <span>мыши</span> с элемента <span>без учета перехода между элементами</span>?",
     "time": 20,
@@ -121,6 +131,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 11,
     "theme": "Events",
     "text": "Событие нажатия кнопки на <span>клавиатуре</span>?",
     "time": 20,
@@ -133,6 +144,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 12,
     "theme": "Events",
     "text": "Событие отпускания кнопки <span>клавиатуры</span>?",
     "time": 20,
@@ -145,6 +157,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 13,
     "theme": "Events",
     "text": "Событие, возникающее сразу после <span>keydown</span>, но перед <span>keyup</span>?",
     "time": 20,
@@ -157,6 +170,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 14,
     "theme": "Events",
     "text": "Событие скрола <span>мышью</span>?",
     "time": 20,
@@ -169,6 +183,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 15,
     "theme": "Events",
     "text": "Событие скрола <span>мышью</span> или <span>клавиатурой</span>?",
     "time": 20,
@@ -181,6 +196,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 16,
     "theme": "Events",
     "text": "Событие, позволяющее получить <span>код символа</span>?",
     "time": 20,
@@ -193,6 +209,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 17,
     "theme": "Events",
     "text": "Событие загрузки и построения <span>DOM</span>?",
     "time": 20,
@@ -205,6 +222,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 18,
     "theme": "Events",
     "text": "Событие загрузки страницы или ресурса?",
     "time": 20,
@@ -217,6 +235,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 19,
     "theme": "Events",
     "text": "Событие ухода со страницы?",
     "time": 20,
@@ -229,6 +248,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 20,
     "theme": "Events",
     "text": "Событие ухода со страницы или перехода на другую страницу?",
     "time": 20,
@@ -241,6 +261,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 21,
     "theme": "Events",
     "text": "Событие ошибки загрузки ресурса?",
     "time": 20,
@@ -253,10 +274,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 22,
     "theme": "Events",
     "text": "Для объекта <span>obj</span> повесить обработку события <span>click</span>, функцией <span>func</span>?",
     "time": 20,
-    "answer": "obj.addEventListener('click', func)"
+    "answer": "obj.addEventListener('click',func)"
   },
   "answer": {
     "time": "",
@@ -265,10 +287,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 23,
     "theme": "Events",
     "text": "Для объекта <span>obj</span> повесить снятия события <span>click</span>, функции <span>func</span>?",
     "time": 20,
-    "answer": "obj.removeEventListener('click', func)"
+    "answer": "obj.removeEventListener('click',func)"
   },
   "answer": {
     "time": "",
@@ -277,6 +300,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 24,
     "theme": "Events",
     "text": "Событие вырезания?",
     "time": 20,
@@ -289,6 +313,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 25,
     "theme": "Events",
     "text": "Событие копирования?",
     "time": 20,
@@ -301,6 +326,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 26,
     "theme": "Events",
     "text": "Событие вставки?",
     "time": 20,
@@ -313,6 +339,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 27,
     "theme": "Events",
     "text": "Событие изменения размеров окна браузера?",
     "time": 20,
@@ -325,6 +352,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 28,
     "theme": "Events",
     "text": "Получить форму с именем <span>new</span>?",
     "time": 20,
@@ -337,6 +365,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 29,
     "theme": "Events",
     "text": "Получить <span>3-ю</span> форму в документе?",
     "time": 20,
@@ -349,6 +378,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 30,
     "theme": "Events",
     "text": "Получить <span>2-ой</span> элемент формы <span>form</span>?",
     "time": 20,
@@ -361,6 +391,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 31,
     "theme": "Events",
     "text": "Получить элемент формы <span>form</span> с именем <span>input</span>?",
     "time": 20,
@@ -373,6 +404,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 32,
     "theme": "Events",
     "text": "В <span>form</span> получить <span>fieldset</span> с именем <span>fieldset</span>, в котором получить элемент с именем <span>input</span>?",
     "time": 20,
@@ -385,6 +417,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 33,
     "theme": "Events",
     "text": "У <span>elem</span> получить форму, в которой он лежит?",
     "time": 20,
@@ -397,10 +430,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 34,
     "theme": "Events",
     "text": "Установить <span>select</span> в значение <span>25</span>?",
     "time": 20,
-    "answer": "select.value = 25"
+    "answer": "select.value=25"
   },
   "answer": {
     "time": "",
@@ -409,10 +443,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 35,
     "theme": "Events",
     "text": "Установить в <span>select</span> выбранным <span>5-ый</span> номер?",
     "time": 20,
-    "answer": "select.selectedIndex = 5"
+    "answer": "select.selectedIndex=5"
   },
   "answer": {
     "time": "",
@@ -421,6 +456,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 36,
     "theme": "Events",
     "text": "Получить список элементов-опций в <span>select</span>?",
     "time": 20,
@@ -433,6 +469,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 37,
     "theme": "Events",
     "text": "Для <span>option</span> узнать выбран он или нет?",
     "time": 20,
@@ -445,6 +482,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 38,
     "theme": "Events",
     "text": "Для <span>option</span> узнать его номер в списке?",
     "time": 20,
@@ -457,6 +495,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 39,
     "theme": "Events",
     "text": "Для <span>option</span> узнать его текстовое содержимое?",
     "time": 20,
@@ -469,10 +508,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 40,
     "theme": "Events",
     "text": "Создать новый <span>option</span> со всеми допустимыми параметрами?",
     "time": 20,
-    "answer": "new Option(text, value, defaultSelected, selected)"
+    "answer": "new Option(text,value,defaultSelected,selected)"
   },
   "answer": {
     "time": "",
@@ -481,6 +521,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 41,
     "theme": "Events",
     "text": "Событие фокусировки на элементе?",
     "time": 20,
@@ -493,6 +534,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 42,
     "theme": "Events",
     "text": "Событие потери фокуса элементом?",
     "time": 20,
@@ -505,6 +547,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 43,
     "theme": "Events",
     "text": "Событие изменения элемента формы?",
     "time": 20,
@@ -517,6 +560,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 44,
     "theme": "Events",
     "text": "Событие изменения текстового элемента?",
     "time": 20,
@@ -529,6 +573,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 45,
     "theme": "Events",
     "text": "Событие отправки формы?",
     "time": 20,
@@ -541,6 +586,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 46,
     "theme": "Events",
     "text": "Тип события у <span>event</span>?",
     "time": 20,
@@ -553,8 +599,9 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 47,
     "theme": "Events",
-    "text": "Какая клавиша была нажата у <span>event</span>?",
+    "text": "Какая кнопка мыши была нажата у <span>event</span>?",
     "time": 20,
     "answer": "event.which"
   },
@@ -565,8 +612,9 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 48,
     "theme": "Events",
-    "text": "Кто сгенерировал событие у <span>event</span>?",
+    "text": "Событие <span>event</span> сгенерировал человек или программа?",
     "time": 20,
     "answer": "event.isTrusted"
   },
@@ -577,6 +625,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 49,
     "theme": "Events",
     "text": "На ком висит обработчик события для <span>event</span>?",
     "time": 20,
@@ -589,6 +638,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 50,
     "theme": "Events",
     "text": "Кто является инициатором события для <span>event</span>?",
     "time": 20,
@@ -601,6 +651,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 51,
     "theme": "Events",
     "text": "На кого ушел или откуда пришел курсор мыши у <span>event</span>?",
     "time": 20,
@@ -613,6 +664,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 52,
     "theme": "Events",
     "text": "Координаты мыши по оси <span>X</span> относительно окна для <span>event</span>?",
     "time": 20,
@@ -625,6 +677,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 53,
     "theme": "Events",
     "text": "Координаты мыши по оси <span>Y</span> относительно окна для <span>event</span>?",
     "time": 20,
@@ -637,6 +690,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 54,
     "theme": "Events",
     "text": "Координаты мыши по оси <span>X</span> относительно страницы для <span>event</span>?",
     "time": 20,
@@ -649,6 +703,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 55,
     "theme": "Events",
     "text": "Координаты мыши по оси <span>Y</span> относительно страницы для <span>event</span>?",
     "time": 20,
@@ -661,8 +716,9 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 56,
     "theme": "Events",
-    "text": "Узнать скан-код нажатой кнопки мыши для <span>event</span>?",
+    "text": "Узнать скан-код нажатой кнопки клавиатуры для <span>event</span>?",
     "time": 20,
     "answer": "event.keyCode"
   },
@@ -673,8 +729,9 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 57,
     "theme": "Events",
-    "text": "Узнать символ нажатой кнопки мыши для <span>event</span>?",
+    "text": "Узнать символ нажатой кнопки клавиатуры для <span>event</span>?",
     "time": 20,
     "answer": "event.charCode"
   },
@@ -685,6 +742,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 58,
     "theme": "Events",
     "text": "Узнать чтобы была нажата клавиша <span>SHIFT</span> у <span>event</span>?",
     "time": 20,
@@ -697,6 +755,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 59,
     "theme": "Events",
     "text": "Узнать чтобы была нажата клавиша <span>ALT</span> у <span>event</span>?",
     "time": 20,
@@ -709,6 +768,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 60,
     "theme": "Events",
     "text": "Узнать чтобы была нажата клавиша <span>CTRL</span> у <span>event</span>?",
     "time": 20,
@@ -721,6 +781,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 61,
     "theme": "Events",
     "text": "Узнать чтобы была нажата клавиша <span>Cmd</span> у <span>event</span>?",
     "time": 20,
@@ -733,6 +794,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 62,
     "theme": "Events",
     "text": "Отменить действие по умолчанию у объекта <span>event</span>?",
     "time": 20,
@@ -745,6 +807,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 63,
     "theme": "Events",
     "text": "Как отменить всплытие события у объекта <span>event</span>?",
     "time": 20,
@@ -757,6 +820,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 64,
     "theme": "Events",
     "text": "Как отменить остальные события на элементе у объекта <span>event</span>?",
     "time": 20,
@@ -769,10 +833,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 65,
     "theme": "Events",
     "text": "Как создать свое событие <span>clik</span> со всплытием и с возможностью отмены?",
     "time": 20,
-    "answer": "new Event('click', {bubbles: true, cancelable: true})"
+    "answer": "new Event('click',{bubbles:true,cancelable:true})"
   },
   "answer": {
     "time": "",
@@ -781,10 +846,11 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 66,
     "theme": "Events",
     "text": "Как создать свое кастомное-событие <span>menu</span> с деталями <span>info</span>?",
     "time": 20,
-    "answer": "new CustomEvent('menu', {detail: {info}})"
+    "answer": "new CustomEvent('menu',{detail:{info}})"
   },
   "answer": {
     "time": "",
@@ -793,6 +859,7 @@
 },{
   "question": {
     "section": "JavaScript",
+    "id": 67,
     "theme": "Events",
     "text": "Как применить свое событие <span>event</span> на <span>obj</span>?",
     "time": 20,

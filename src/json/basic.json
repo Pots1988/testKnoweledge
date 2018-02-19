@@ -1,6 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "Basic",
     "text": "Какое слово в функции возвращает результат?",
     "time": 20,
@@ -14,6 +15,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "Basic",
     "text": "Что возвращает <span>function(){}</span>, если нет <span>return</span>?",
     "time": 20,
@@ -27,6 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "Basic",
     "text": "Где хранятся переданные функции значения?",
     "time": 20,
@@ -40,6 +43,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "Basic",
     "text": "Какой будет результат <span>2 < 1 ? false : true</span>?",
     "time": 20,
@@ -53,6 +57,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "Basic",
     "text": "Как прервать текущую итерацию цикла?",
     "time": 20,
@@ -66,6 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "Basic",
     "text": "Как прервать выполнение цикла?",
     "time": 20,
@@ -79,10 +85,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "Basic",
     "text": "Как установить таймаут в <span>1с</span> для функции <span>func</span>?",
     "time": 20,
-    "answer": "setTimeout(func, 1000)"
+    "answer": "setTimeout(func,1000)"
   },
   "answer": {
     "time": "",
@@ -92,6 +99,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "Basic",
     "text": "Как сбросить таймаут для таймера <span>timer</span>?",
     "time": 20,
@@ -105,10 +113,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "Basic",
     "text": "Как установить интервал повторения <span>func</span> с периодом <span>2с</span>?",
     "time": 20,
-    "answer": "setInterval(func, 2000)"
+    "answer": "setInterval(func,2000)"
   },
   "answer": {
     "time": "",
@@ -118,6 +127,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 10,
     "theme": "Basic",
     "text": "Как сбросить интервал повторения для таймера <span>timer</span>?",
     "time": 20,

@@ -1,6 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "Other",
     "text": "Преобразовать данные вида <span>JSON</span> в переменной <span>str</span>?",
     "time": 20,
@@ -14,6 +15,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "Other",
     "text": "Преобразовать объект <span>obj</span> в формат <span>JSON</span>?",
     "time": 20,
@@ -27,6 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "Other",
     "text": "Внутри какого блока выполняется код для поиска ошибки <span>(со скобками)</span>?",
     "time": 20,
@@ -40,6 +43,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "Other",
     "text": "Если в коде есть ошибки и указан код <span>try{}</span>, как указать блок для обработки ошибки <span>err</span>?",
     "time": 20,
@@ -53,6 +57,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "Other",
     "text": "Получить тип ошибки из объекта ошибки <span>err</span>?",
     "time": 20,
@@ -66,6 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "Other",
     "text": "Получить текст сообщения ошибки <span>err</span>?",
     "time": 20,
@@ -79,6 +85,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "Other",
     "text": "Получить стэк вызовов ошибки <span>err</span>?",
     "time": 20,
@@ -92,6 +99,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "Other",
     "text": "Какой блок кода выполняется всегда после <span>try или catch</span> <span>со скобками</span>?",
     "time": 20,
@@ -105,6 +113,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "Other",
     "text": "Как сгенерировать свою синтаксическую ошибку в блоке <span>try или catch</span>?",
     "time": 20,

@@ -1,6 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "Array",
     "text": "Какой короткий синтаксис создания массива?",
     "time": 20,
@@ -14,6 +15,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "Array",
     "text": "Создайте новый пустой массив через функцию конструктор?",
     "time": 20,
@@ -27,6 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "Array",
     "text": "Для массива <span>arr</span> найдите длину?",
     "time": 20,
@@ -40,6 +43,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "Array",
     "text": "В массиве <span>arr</span> удалите последний элемент?",
     "time": 20,
@@ -53,6 +57,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "Array",
     "text": "В массиве <span>arr</span> добавьте элемент <span>new</span> в конец массива?",
     "time": 20,
@@ -66,6 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "Array",
     "text": "Из массива <span>arr</span> удалить первый элемент?",
     "time": 20,
@@ -79,6 +85,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "Array",
     "text": "В начало массива <span>arr</span> добавить элемент <span>2</span>?",
     "time": 20,
@@ -92,10 +99,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "Array",
     "text": "Скопировать массив <span>arr</span> со 2 по 5 позицию включительно?",
     "time": 20,
-    "answer": "arr.slice(1, 6)"
+    "answer": "arr.slice(1,6)"
   },
   "answer": {
     "time": "",
@@ -105,10 +113,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "Array",
     "text": "В массиве <span>arr</span> удалить <span>2</span> элемента с позиции <span>1</span> и заменить их на элементы <span>3, 4</span>?",
     "time": 20,
-    "answer": "arr.splice(1, 2, 3, 4)"
+    "answer": "arr.splice(1,2,3,4)"
   },
   "answer": {
     "time": "",
@@ -118,6 +127,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 10,
     "theme": "Array",
     "text": "Разбить строку <span>str</span> по разделителю <span>-</span>?",
     "time": 20,
@@ -131,6 +141,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 11,
     "theme": "Array",
     "text": "Объединить массив <span>arr</span> в строку с разделителем <span>-</span>?",
     "time": 20,
@@ -144,6 +155,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 12,
     "theme": "Array",
     "text": "Сортировать массив <span>arr</span> как строки?",
     "time": 20,
@@ -157,6 +169,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 13,
     "theme": "Array",
     "text": "Развернуть массив <span>arr</span> задом на перед?",
     "time": 20,
@@ -170,10 +183,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 14,
     "theme": "Array",
     "text": "Добавить в массив <span>arr</span> еще массивы <span>arr1</span>, <span>arr2</span>?",
     "time": 20,
-    "answer": "arr.concat(arr1, arr2)"
+    "answer": "arr.concat(arr1,arr2)"
   },
   "answer": {
     "time": "",
@@ -183,6 +197,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 15,
     "theme": "Array",
     "text": "Найти в массиве <span>arr</span> элемент <span>'obj'</span>?",
     "time": 20,
@@ -196,6 +211,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 16,
     "theme": "Array",
     "text": "Применить функцию <span>func</span> для каждого элемента массива <span>arr</span>?",
     "time": 20,
@@ -209,6 +225,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 17,
     "theme": "Array",
     "text": "Отфильтровать массив <span>arr</span> функцией <span>func</span>?",
     "time": 20,
@@ -222,6 +239,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 18,
     "theme": "Array",
     "text": "Создание нового массива из результатов вызова функции <span>func</span> для массива <span>arr</span>?",
     "time": 20,
@@ -235,6 +253,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 19,
     "theme": "Array",
     "text": "Функция последовательной обработки массива <span>arr</span> с сохранением промежуточного результата?",
     "time": 20,
@@ -248,6 +267,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 20,
     "theme": "Array",
     "text": "Проверка массива <span>arr</span> на соответствие всех элементов функцией <span>func</span>?",
     "time": 20,
@@ -261,6 +281,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 21,
     "theme": "Array",
     "text": "Проверка массива <span>arr</span> на соответствие любого элемента функции <span>func</span>?",
     "time": 20,
@@ -274,6 +295,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 22,
     "theme": "Array",
     "text": "Проверка переменной <span>n</span> на <span>массив</span>?",
     "time": 20,

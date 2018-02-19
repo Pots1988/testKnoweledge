@@ -122,7 +122,7 @@ Test.prototype._getAnswer = function(time) {
   if (this._questionStart) {
     this._questionStart = false;
     this.timer.stop();
-    this.activeQuestion.answer.text = this.domElements.answer.value.trim().replace(/"/g, "'");
+    this.activeQuestion.answer.text = this._validateAnswer(this.domElements.answer.value.trim());
 
     this.activeQuestion.answer.time = +(this.timer.value() * this.time).toFixed(2);
 
@@ -161,5 +161,38 @@ Test.prototype._setQuestionNumber = function(number) {
   }
 
   this.domElements.testNumber.textContent = number;
+}
+
+Test.prototype._validateAnswer = function(answer) {
+  let validAnswer = null;
+
+
+  validAnswer = answer.replace(/"/g, "'"); // Меняем кавычки
+
+  validAnswer = validAnswer.replace(/\s+,/g, ","); // _, => ,
+  validAnswer = validAnswer.replace(/,\s+/g, ","); // ,_ => ,
+
+  validAnswer = validAnswer.replace(/\s+\(/g, "("); // _( => (
+
+  validAnswer = validAnswer.replace(/\s+\)/g, ")"); // _) => )
+
+  validAnswer = validAnswer.replace(/\(\s+/g, "("); // (_ => (
+
+  validAnswer = validAnswer.replace(/\)\s+/g, ")"); // )_ => )
+
+  validAnswer = validAnswer.replace(/\{\s+/g, "{"); // {_ => {
+  validAnswer = validAnswer.replace(/\s+\}/g, "}"); // _} => }
+
+  validAnswer = validAnswer.replace(/\s+\=/g, "="); // a_= => a=
+  validAnswer = validAnswer.replace(/\=\s+/g, "="); // =_a => =a
+
+  validAnswer = validAnswer.replace(/\:\s+/g, ":"); // :_ => :
+  validAnswer = validAnswer.replace(/\s+\:/g, ":"); // _: => :
+
+  validAnswer = validAnswer.replace(/\s+\[/g, "["); // _[ => [
+  validAnswer = validAnswer.replace(/\[\s+/g, "["); // [_ => [
+  validAnswer = validAnswer.replace(/\s+\]/g, "]"); // _] => ]
+
+  return validAnswer;
 }
 

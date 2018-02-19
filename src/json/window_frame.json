@@ -1,0 +1,274 @@
+[{
+  "question": {
+    "section": "JavaScript",
+    "id": 1,
+    "theme": "Window & Frame",
+    "text": "Открыть окно с <span>url</span>, <span>name</span>, <span>params</span>?",
+    "time": 20,
+    "answer": "window.open(url,name,params)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 2,
+    "theme": "Window & Frame",
+    "text": "Получить ссылку на родительское окно, открывшее текущее?",
+    "time": 20,
+    "answer": "window.opener"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 3,
+    "theme": "Window & Frame",
+    "text": "Как проверить что окно закрыто?",
+    "time": 20,
+    "answer": "window.closed"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 4,
+    "theme": "Window & Frame",
+    "text": "Как закрыть текущее окно?",
+    "time": 20,
+    "answer": "window.close()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 5,
+    "theme": "Window & Frame",
+    "text": "Переместить окно <span>win</span> относительно текущего положения на <span>x, y</span>?",
+    "time": 20,
+    "answer": "win.moveBy(x,y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 6,
+    "theme": "Window & Frame",
+    "text": "Переместить окно <span>win</span> к координатам <span>x, y</span>?",
+    "time": 20,
+    "answer": "win.moveTo(x,y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 7,
+    "theme": "Window & Frame",
+    "text": "Изменить размер окна <span>win</span> на значения <span>height, width</span>?",
+    "time": 20,
+    "answer": "win.resizeBy(width,height)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 8,
+    "theme": "Window & Frame",
+    "text": "Изменить размер окна <span>win</span> до заданных значений <span>height, width</span>?",
+    "time": 20,
+    "answer": "win.resizeTo(width,height)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 9,
+    "theme": "Window & Frame",
+    "text": "Прокрутить окно <span>win</span> на <span>x, y</span> количество пикселей?",
+    "time": 20,
+    "answer": "win.scrollBy(x,y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 10,
+    "theme": "Window & Frame",
+    "text": "Прокрутить окно <span>win</span> к <span>x, y</span> координатам?",
+    "time": 20,
+    "answer": "win.scrollTo(x,y)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 11,
+    "theme": "Window & Frame",
+    "text": "Получить доступ к <span>window</span>, внутри объекта <span>iframe</span>?",
+    "time": 20,
+    "answer": "iframe.contentWindow"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Window & Frame",
+    "text": "Получить доступ к <span>document</span>, внутри объекта <span>iframe</span>?",
+    "time": 20,
+    "answer": "iframe.contentWindow.document"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 13,
+    "theme": "Window & Frame",
+    "text": "Получить <span>3-ий iframe</span> в документе?",
+    "time": 20,
+    "answer": "document.frames[2]"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 14,
+    "theme": "Window & Frame",
+    "text": "В документе получить <span>iframe</span> с именем <span>name</span>?",
+    "time": 20,
+    "answer": "document.frames.name"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 15,
+    "theme": "Window & Frame",
+    "text": "Обратится к родительскому окно из <span>iframe</span>?",
+    "time": 20,
+    "answer": "window.parent"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 16,
+    "theme": "Window & Frame",
+    "text": "Получить ссылку на самое верхнее в иерархии <span>iframe</span>?",
+    "time": 20,
+    "answer": "window.top"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 17,
+    "theme": "Window & Frame",
+    "text": "Отправте сообщение в окно <span>win</span> с данными <span>data</span> и адресом получателя <span>address</span>?",
+    "time": 20,
+    "answer": "win.postMessage(data,address)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 18,
+    "theme": "Window & Frame",
+    "text": "Поставте обработчик <span>func</span> получения данных из другого окна?",
+    "time": 20,
+    "answer": "window.addEventListener('message',func)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 19,
+    "theme": "Window & Frame",
+    "text": "В событии <span>event</span> узнать источник данных присланных с другого домена?",
+    "time": 20,
+    "answer": "event.origin"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 20,
+    "theme": "Window & Frame",
+    "text": "В событии <span>event</span> получить данные с другого домена?",
+    "time": 20,
+    "answer": "event.data"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},{
+  "question": {
+    "section": "JavaScript",
+    "id": 21,
+    "theme": "Window & Frame",
+    "text": "В событии <span>event</span> получить ссылку на окно, с которого прислали данные?",
+    "time": 20,
+    "answer": "event.source"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+}]

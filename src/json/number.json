@@ -1,6 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "Number",
     "text": "Проверка переменной <span>n</span> на NaN?",
     "time": 20,
@@ -14,6 +15,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "Number",
     "text": "Проверка переменной <span>n</span> на NaN, Infinity, -Infinity?",
     "time": 20,
@@ -27,6 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "Number",
     "text": "Получение целого числа из переменной <span>n</span>?",
     "time": 20,
@@ -40,6 +43,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "Number",
     "text": "Получение дробного числа из переменной <span>n</span>?",
     "time": 20,
@@ -53,6 +57,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "Number",
     "text": "Форматированный вывод чисел <span>123 123 123</span> для переменой <span>n</span>?",
     "time": 20,
@@ -66,6 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "Number",
     "text": "Перевод переменной <span>n</span> в 16-ричную систему счисления?",
     "time": 20,
@@ -79,6 +85,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "Number",
     "text": "Округлить переменную <span>n</span> вниз?",
     "time": 20,
@@ -92,6 +99,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "Number",
     "text": "Округлить переменную <span>n</span> в верх?",
     "time": 20,
@@ -105,6 +113,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "Number",
     "text": "Округлить переменную <span>n</span> по правилам математики?",
     "time": 20,
@@ -118,6 +127,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 10,
     "theme": "Number",
     "text": "Округлить переменную <span>n</span> до точности <span>2</span>?",
     "time": 20,
@@ -131,6 +141,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 11,
     "theme": "Number",
     "text": "Взять квадратный корень из переменной <span>n</span>?",
     "time": 20,
@@ -144,10 +155,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 12,
     "theme": "Number",
     "text": "Возвести переменую <span>n</span> в степень <span>2</span>?",
     "time": 20,
-    "answer": "Math.pow(n, 2)"
+    "answer": "Math.pow(n,2)"
   },
   "answer": {
     "time": "",
@@ -157,10 +169,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 13,
     "theme": "Number",
     "text": "Найти наибольшее число из <span>1, 2, 3</span>?",
     "time": 20,
-    "answer": "Math.max(1, 2, 3)"
+    "answer": "Math.max(1,2,3)"
   },
   "answer": {
     "time": "",
@@ -170,10 +183,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 14,
     "theme": "Number",
     "text": "Найти наменьшее число из <span>3, 5, 7</span>?",
     "time": 20,
-    "answer": "Math.min(3, 5, 7)"
+    "answer": "Math.min(3,5,7)"
   },
   "answer": {
     "time": "",
@@ -183,6 +197,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 15,
     "theme": "Number",
     "text": "Сгенерировать случайное число от 0 до 1?",
     "time": 20,

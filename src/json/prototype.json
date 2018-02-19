@@ -1,10 +1,11 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "Prototype",
     "text": "Вызвать функцию <span>func</span> в контексте <span>obj</span> и аргументов <span>1, 2</span>?",
     "time": 20,
-    "answer": "func.call(obj, 1, 2)"
+    "answer": "func.call(obj,1,2)"
   },
   "answer": {
     "time": "",
@@ -14,10 +15,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "Prototype",
     "text": "Вызвать функцию <span>func</span> в контексте <span>obj</span> и с массивом аргументов <span>arr</span>?",
     "time": 20,
-    "answer": "func.apply(obj, arr)"
+    "answer": "func.apply(obj,arr)"
   },
   "answer": {
     "time": "",
@@ -27,6 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "Prototype",
     "text": "Создать обертку над функцией <span>func</span> с привязанным контекстом <span>obj</span>?",
     "time": 20,
@@ -40,8 +43,9 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "Prototype",
-    "text": "Для объекта <span>obj</span> узнать прототип?",
+    "text": "Для объекта <span>obj</span> узнать прототип через свойство <span>proto</span>?",
     "time": 20,
     "answer": "obj.__proto__"
   },
@@ -53,10 +57,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "Prototype",
     "text": "Записать в свойство <span>age</span> прототипа функции конструктора <span>Func</span> значение <span>25</span>?",
     "time": 20,
-    "answer": "Func.prototype.age = 25"
+    "answer": "Func.prototype.age=25"
   },
   "answer": {
     "time": "",
@@ -66,6 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "Prototype",
     "text": "Проверить принадлежит ли свойство <span>prop</span> самому объекту <span>obj</span> или его прототипу?",
     "time": 20,
@@ -79,6 +85,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "Prototype",
     "text": "Создайте объекта без прототипа?",
     "time": 20,
@@ -92,6 +99,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "Prototype",
     "text": "Создайте пустой объект с прототипом <span>proto</span>?",
     "time": 20,
@@ -105,6 +113,7 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "Prototype",
     "text": "Получить прототип объекта <span>obj</span>?",
     "time": 20,
@@ -118,10 +127,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 10,
     "theme": "Prototype",
     "text": "Установить объекту <span>obj</span> прототип <span>proto</span>?",
     "time": 20,
-    "answer": "Object.setPrototypeOf(obj, proto)"
+    "answer": "Object.setPrototypeOf(obj,proto)"
   },
   "answer": {
     "time": "",

@@ -1,9 +1,10 @@
 [{
   "question": {
     "section": "JavaScript",
+    "id": 1,
     "theme": "String",
     "text": "Узнать длину строки <span>str</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "str.length"
   },
   "answer": {
@@ -14,9 +15,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 2,
     "theme": "String",
     "text": "Убрать пробелы в строке <span>str</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "str.trim()"
   },
   "answer": {
@@ -27,9 +29,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 3,
     "theme": "String",
     "text": "Узнать символ на позиции 2 в строке <span>str</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "str.charAt(1)"
   },
   "answer": {
@@ -40,9 +43,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 4,
     "theme": "String",
     "text": "Привести строку <span>str</span> к верхнему регистру?",
-    "time": 10,
+    "time": 20,
     "answer": "str.toUpperCase()"
   },
   "answer": {
@@ -53,9 +57,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 5,
     "theme": "String",
     "text": "Привести строку <span>str</span> к нижнему регистру?",
-    "time": 10,
+    "time": 20,
     "answer": "str.toLowerCase()"
   },
   "answer": {
@@ -66,9 +71,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 6,
     "theme": "String",
     "text": "Найти переменную <span>n</span> в строке <span>str</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "str.indexOf(n)"
   },
   "answer": {
@@ -79,9 +85,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 7,
     "theme": "String",
     "text": "Найти переменую <span>n</span> в строке <span>str</span> с конца?",
-    "time": 10,
+    "time": 20,
     "answer": "str.lastIndexOf(n)"
   },
   "answer": {
@@ -92,10 +99,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 8,
     "theme": "String",
-    "text": "В строке <span>str</span> взять <span>5</span> символов с позиции <span>3</span>?",
-    "time": 10,
-    "answer": "str.substr(2, 5)"
+    "text": "В строке <span>str</span> взять <span>5</span> символов с <span>3-ей</span> буквы?",
+    "time": 20,
+    "answer": "str.substr(2,5)"
   },
   "answer": {
     "time": "",
@@ -105,10 +113,11 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 9,
     "theme": "String",
-    "text": "Взять в строке <span>str</span> символы с позиции <span>2</span> по <span>5</span> включительно?",
-    "time": 10,
-    "answer": "str.slice(1, 6)"
+    "text": "Взять в строке <span>str</span> буквы с позиции <span>2</span> по <span>5</span> включительно?",
+    "time": 20,
+    "answer": "str.slice(1,6)"
   },
   "answer": {
     "time": "",
@@ -118,9 +127,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 10,
     "theme": "String",
     "text": "Получить символ по коду <span>1050</span>?",
-    "time": 10,
+    "time": 20,
     "answer": "String.fromCharCode(1050)"
   },
   "answer": {
@@ -131,9 +141,10 @@
 {
   "question": {
     "section": "JavaScript",
+    "id": 11,
     "theme": "String",
     "text": "Какой будет результат <span>'мышка'.localeCompare('береза')</span>",
-    "time": 10,
+    "time": 20,
     "answer": "1"
   },
   "answer": {
