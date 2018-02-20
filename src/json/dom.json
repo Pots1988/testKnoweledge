@@ -499,7 +499,7 @@
     "theme": "DOM",
     "text": "Вставить элемент <span>el2</span> после начала <span>obj</span>?",
     "time": 20,
-    "answer": "obj.insertAdjacentHTML('afterBegin',el2)"
+    "answer": "obj.insertAdjacentElement('afterBegin',el2)"
   },
   "answer": {
     "time": "",
