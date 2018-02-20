@@ -207,4 +207,18 @@
     "time": "",
     "text": ""
   }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 16,
+    "theme": "Number",
+    "text": "Округлить число <span>123.123</span> до общего количества цифр <span>5</span>?",
+    "time": 20,
+    "answer": "123.123.toPrecision(5)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
 }]
