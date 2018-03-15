@@ -17,6 +17,8 @@ function ResultWrite(params) {
   this.domElements.resultFilter.addEventListener("change", e => {
     this.showFilterQuestion(e.target.value);
   });
+
+  new LocalStorageData(this.questionArr);
 }
 
 ResultWrite.prototype._setAnswer = function() {
@@ -102,5 +104,3 @@ ResultWrite.prototype.showFilterQuestion = function(type) {
     default: setVisibleElement.call(this);
   }
 }
-
-// Добавить запись этих данных в LocalStorage

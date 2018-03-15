@@ -3,9 +3,9 @@
     "section": "JavaScript",
     "id": 1,
     "theme": "AJAX",
-    "text": "",
+    "text": "Создайте объект <span>XMLHttpRequest</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "new XMLHttpRequest()"
   },
   "answer": {
     "time": "",
@@ -17,9 +17,597 @@
     "section": "JavaScript",
     "id": 2,
     "theme": "AJAX",
-    "text": "",
+    "text": "Укажите синтаксис настройки <span>open</span> для объекта <span>xhr</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "xhr.open(method,URL,async,user,password)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 3,
+    "theme": "AJAX",
+    "text": "Отослать данные <span>data</span> для объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.send(data)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 4,
+    "theme": "AJAX",
+    "text": "Прервать выполнение запроса для объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.abort()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 5,
+    "theme": "AJAX",
+    "text": "В каком свойстве хранится <span>HTTP-код ответа</span> объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.status"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 6,
+    "theme": "AJAX",
+    "text": "В каком свойстве хранится <span>текст ответа сервера</span> объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.responseText"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 7,
+    "theme": "AJAX",
+    "text": "В каком свойстве хранится <span>XML ответа сервера</span> объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.responseXML"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 8,
+    "theme": "AJAX",
+    "text": "В каком свойстве хранится <span>текстовое описание статуса от сервера</span> объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.statusText"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 9,
+    "theme": "AJAX",
+    "text": "В каком свойстве хранится <span>текущее состояние запроса</span> объекта <span>xhr</span>?",
+    "time": 20,
+    "answer": "xhr.readyState"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 10,
+    "theme": "AJAX",
+    "text": "Для объекта <span>xhr</span> установить заголовок <span>name</span> со значением <span>value</span>?",
+    "time": 20,
+    "answer": "xhr.setRequestHeader(name,value)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 11,
+    "theme": "AJAX",
+    "text": "Для объекта <span>xhr</span> получить заголовок ответа <span>name</span>?",
+    "time": 20,
+    "answer": "xhr.getResponseHeader(name)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "AJAX",
+    "text": "Для объекта <span>xhr</span> получить все заголовки ответов ?",
+    "time": 20,
+    "answer": "xhr.getAllResponseHeaders()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 13,
+    "theme": "AJAX",
+    "text": "Для объекта <span>xhr</span> установить <span>timeout</span> со значением <span>3000ms</span>?",
+    "time": 20,
+    "answer": "xhr.timeout=3000"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 14,
+    "theme": "AJAX",
+    "text": "Событие начала <span>AJAX<span> запроса?",
+    "time": 20,
+    "answer": "loadstart"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 15,
+    "theme": "AJAX",
+    "text": "Событие получения очередного пакета данных <span>AJAX<span> запроса?",
+    "time": 20,
+    "answer": "progress"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 16,
+    "theme": "AJAX",
+    "text": "Где можно прочитать текущие полученные данные в событии <span>progress</span>",
+    "time": 20,
+    "answer": "responseText"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 17,
+    "theme": "AJAX",
+    "text": "Событие отмены <span>AJAX<span> запроса?",
+    "time": 20,
+    "answer": "abort"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 18,
+    "theme": "AJAX",
+    "text": "Событие ошибки <span>AJAX<span> запроса?",
+    "time": 20,
+    "answer": "error"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 19,
+    "theme": "AJAX",
+    "text": "Событие успешного окончания <span>AJAX<span> запроса?",
+    "time": 20,
+    "answer": "load"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 20,
+    "theme": "AJAX",
+    "text": "Событие прекращения <span>AJAX<span> запроса по таймауту?",
+    "time": 20,
+    "answer": "timeout"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 21,
+    "theme": "AJAX",
+    "text": "Событие завершения <span>AJAX<span> запроса (удачно или нет)?",
+    "time": 20,
+    "answer": "loadend"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 22,
+    "theme": "AJAX",
+    "text": "Закодируйте строку <span>str</span> в <span>UTF-8</span>?",
+    "time": 20,
+    "answer": "encodeURIComponent(str)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 23,
+    "theme": "AJAX",
+    "text": "Раcкодируйте строку <span>str</span> в <span>UTF-8</span>?",
+    "time": 20,
+    "answer": "decodeURIComponent(str)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 24,
+    "theme": "AJAX",
+    "text": "Создайте объект формы <span>form</span>, который кодирует данные для отправки их на сервер?",
+    "time": 20,
+    "answer": "new FormData(form)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 25,
+    "theme": "AJAX",
+    "text": "Добавте к объекту <span>formData</span> поле <span>name</span> со значением <span>value</span>?",
+    "time": 20,
+    "answer": "formData.append(name,value)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 26,
+    "theme": "AJAX",
+    "text": "Какой объект у объекта <span>xhr</span> используется для получения информации о стадии <span>закачки</span>?",
+    "time": 20,
+    "answer": "xhr.upload"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 27,
+    "theme": "AJAX",
+    "text": "В каком свойстве <span>event</span> события <span>progress</span> хранится кол-во переданных байт?",
+    "time": 20,
+    "answer": "event.loaded"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 28,
+    "theme": "AJAX",
+    "text": "В каком свойстве <span>event</span> события <span>progress</span> хранится общее кол-во байт?",
+    "time": 20,
+    "answer": "event.total"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 29,
+    "theme": "AJAX",
+    "text": "В <span>event</span> события <span>progress</span> как узнать известно ли полное кол-во байт?",
+    "time": 20,
+    "answer": "event.lengthComputable"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 30,
+    "theme": "AJAX",
+    "text": "Откройте соединение по <span>WebSocket</span> для адреса <span>ws://address.ru/ws</span>",
+    "time": 20,
+    "answer": "new WebSocket('ws://address.ru/ws')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 31,
+    "theme": "AJAX",
+    "text": "Для <span>socket</span> укажите метод при установке соединения?",
+    "time": 20,
+    "answer": "socket.onopen"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 32,
+    "theme": "AJAX",
+    "text": "Для <span>socket</span> укажите метод при закрытии соединения?",
+    "time": 20,
+    "answer": "socket.onclose"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 33,
+    "theme": "AJAX",
+    "text": "Для <span>socket</span> укажите метод при получении данных?",
+    "time": 20,
+    "answer": "socket.onmessage"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 34,
+    "theme": "AJAX",
+    "text": "Для <span>socket</span> укажите метод при ошибке?",
+    "time": 20,
+    "answer": "socket.onerror"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 35,
+    "theme": "AJAX",
+    "text": "Для <span>socket</span> отправте данные <span>data</span>?",
+    "time": 20,
+    "answer": "socket.send(data)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 36,
+    "theme": "AJAX",
+    "text": "Как для события <span>event</span> узнать что соединение закрыто чисто/не чисто?",
+    "time": 20,
+    "answer": "event.wasClean"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 37,
+    "theme": "AJAX",
+    "text": "Создайте объект <span>ServerSideEvents</span> с адресом <span>address</span>?",
+    "time": 20,
+    "answer": "new EventSource(address)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 38,
+    "theme": "AJAX",
+    "text": "Какое событие возникает когда открыто соединение с сервером <span>serverSentEvents</span>?",
+    "time": 20,
+    "answer": "onopen"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 39,
+    "theme": "AJAX",
+    "text": "Какое событие возникает когда получены данные с сервера <span>serverSentEvents</span>?",
+    "time": 20,
+    "answer": "onmessage"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 40,
+    "theme": "AJAX",
+    "text": "Какое событие возникает когда возникает ошибка соединения <span>serverSentEvents</span>?",
+    "time": 20,
+    "answer": "onerror"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 41,
+    "theme": "AJAX",
+    "text": "В каком свойстве объекта <span>event</span> хранится сообщение при пересылке через <span>serverSentEvents</span>?",
+    "time": 20,
+    "answer": "event.data"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 42,
+    "theme": "AJAX",
+    "text": "Для объекта <span>source</span> созданного для <span>ServerSideEvents</span> закройте соединение?",
+    "time": 20,
+    "answer": "source.close()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 43,
+    "theme": "AJAX",
+    "text": "В каком свойстве <span>event</span> хранится последнее полученное <span>id</span> для <span>serverSentEvents</span>?",
+    "time": 20,
+    "answer": "event.lastEventId"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 44,
+    "theme": "AJAX",
+    "text": "В каком свойстве <span>event</span> хранится текущее состояние соединения <span>serverSentEvents</span>?",
+    "time": 20,
+    "answer": "event.readyState"
   },
   "answer": {
     "time": "",
