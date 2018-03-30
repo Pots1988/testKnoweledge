@@ -537,7 +537,7 @@
     "theme": "AJAX",
     "text": "Какое событие возникает когда получены данные с сервера <span>serverSentEvents</span>?",
     "time": 20,
-    "answer": "onmessage"
+    "answer": "message"
   },
   "answer": {
     "time": "",
@@ -551,7 +551,7 @@
     "theme": "AJAX",
     "text": "Какое событие возникает когда возникает ошибка соединения <span>serverSentEvents</span>?",
     "time": 20,
-    "answer": "onerror"
+    "answer": "error"
   },
   "answer": {
     "time": "",
