@@ -157,6 +157,286 @@
     "section": "JavaScript",
     "id": 12,
     "theme": "Современные возможности",
+    "text": "Записать текст <span>something</span> в обратных кавычках?",
+    "time": 20,
+    "answer": "`something`"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Как вывести данные из переменной <span>age</span> в строку <span>ваш возраст:<span> с помощью новых кавычек?",
+    "time": 20,
+    "answer": "`ваш возраст:${age}`"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Как проверить включает строка <span>str1</span> в себя строку <span>str2</span>?",
+    "time": 20,
+    "answer": "str1.includes(str2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Как проверить что строка <span>str1</span> оканчивается на <span>str2</span>?",
+    "time": 20,
+    "answer": "str1.endsWith(str2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Как проверить что строка <span>str1</span> начинается на <span>str2</span>?",
+    "time": 20,
+    "answer": "str1.startsWith(str2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Как повторить строку <span>str1</span> в количестве <span>5</span> раз?",
+    "time": 20,
+    "answer": "str1.repeat(5)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Есть переменная <span>let name = 'Вася';</span>. Создайте объект <span>user</span> с этим свойством?",
+    "time": 20,
+    "answer": "user={name}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Есть переменная <span>let propName = 'firstName';</span>. Создайте объект <span>user</span> с вычисляемым свойством <span>propName + 10</span> со значением <span>20</span>?",
+    "time": 20,
+    "answer": "user={[propName+10]:20}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Скопируйте в объект <span>target</span> свойства из объектов <span>obj1, obj2</span>?",
+    "time": 20,
+    "answer": "Object.assign(target,obj1,obj2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Проверьте равенство значений <span>valu1</span> и <span>value2</span> через новую функцию?",
+    "time": 20,
+    "answer": "Object.is(value1,value2)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Как вызвать метод <span>walk</span> объекта <span>animal</span>, внутри метода <span>run</span> объекта <span>rabbit</span>, который отнаследован от <span>animal</span>?",
+    "time": 20,
+    "answer": "super.walk()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Напишите класс <span>User</span>?",
+    "time": 20,
+    "answer": "class User {}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Напишите класс <span>User</span> с параметром <span>name</span>?",
+    "time": 20,
+    "answer": "class User{constructor(name){this.name=name;}}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Напишите класс <span>User</span> с методом <span>age</span>?",
+    "time": 20,
+    "answer": "class User{age(){}}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
     "text": "",
     "time": 20,
     "answer": ""
