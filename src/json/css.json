@@ -1,0 +1,1246 @@
+[{
+  "question": {
+    "section": "CSS",
+    "id": 1,
+    "theme": "CSS",
+    "text": "Напишите селектор для выбора первый 3-х элементов <span>p</span>?",
+    "time": 20,
+    "answer": "p:nth-child(-n+3)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Напишите стиль который задает <span>display: block</span> для элемента с id равным <span>btn</span> когда он станет целевым (появится в адресной строке браузера)?",
+    "time": 20,
+    "answer": "#btn:target{display:block}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Каким словом задается семейство шрифтов с засечками?",
+    "time": 20,
+    "answer": "serif"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Каким словом задается семейство шрифтов с без засечек?",
+    "time": 20,
+    "answer": "sans-serif"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Каким словом задается семейство моноширинных шрифтов?",
+    "time": 20,
+    "answer": "monospace"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Каким словом задается семейство декоративных шрифтов?",
+    "time": 20,
+    "answer": "fantasy"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать градиент в верх с цветами от <span>#fff</span> до <span>#000</span>?",
+    "time": 20,
+    "answer": "linear-gradient(to top,#fff,#000)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать повторяющийся градиент в <span>45 градусов</span> с цветами от <span>#fff</span> и точкой останова <span>10px</span> до <span>#000</span> и точкой останова <span>30px</span>?",
+    "time": 20,
+    "answer": "repeating-linear-gradient(45deg,#fff 10px,#000 30px)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать круговой градиент с цветами <span>#fff</span> и <span>#000</span>?",
+    "time": 20,
+    "answer": "radial-gradient(#fff,#000)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать круговой градиент с цветами <span>#fff</span> и <span>#000</span> круглой формы?",
+    "time": 20,
+    "answer": "radial-gradient(circle,#fff,#000)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать круговой градиент с цветами <span>#fff</span> и <span>#000</span> круглой формы, с центром в <span>20% 40%</span>?",
+    "time": 20,
+    "answer": "radial-gradient(circle at 20% 40%,#fff,#000)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово в радиальном градиенте заставляет изменить размер градиента от центра до ближайшей стороны?",
+    "time": 20,
+    "answer": "closest-side"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово в радиальном градиенте заставляет изменить размер градиента от центра до ближайшего угла?",
+    "time": 20,
+    "answer": "closest-corner"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово в радиальном градиенте заставляет изменить размер градиента от центра до дальней стороны?",
+    "time": 20,
+    "answer": "farthest-side"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово в радиальном градиенте заставляет изменить размер градиента от центра до дальнего угла?",
+    "time": 20,
+    "answer": "farthest-corner"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать повторяющийся радиальный круговой градиент с цветами от <span>#fff</span> и точкой останова <span>10px</span> до <span>#000</span> и точкой останова <span>30px</span>?",
+    "time": 20,
+    "answer": "repeating-radial-gradient(circle,#fff 10px,#000 30px)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Как сделать элемент зеркально отображенным по горизонтали?",
+    "time": 20,
+    "answer": "transform:scaleX(-1)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово заставляет анимацию плавно возращаться в исходное состояние?",
+    "time": 20,
+    "answer": "alternate"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово заставляет анимацию идти с конца в начало?",
+    "time": 20,
+    "answer": "reverse"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какое ключевое слово заставляет анимацию идти с конца в начало и плавно возращаться в исходное состояние?",
+    "time": 20,
+    "answer": "alternate-reverse"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово, применяющее по окончанию анимации, последний ключевой кадр?",
+    "time": 20,
+    "answer": "forwards"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово, применяющее первый ключевой кадр?",
+    "time": 20,
+    "answer": "backwards"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль определяющий, показывать обратную сторону элемента или нет?",
+    "time": 20,
+    "answer": "backface-visibility"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Запретить прокручиваться фону элемента?",
+    "time": 20,
+    "answer": "background-attachment:fixed"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Запретить прокручиваться фону элемента, если в элементе нет прокрутки, и прокручивать, если есть прокрутка?",
+    "time": 20,
+    "answer": "background-attachment:local"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль для отображения фона внутри границ?",
+    "time": 20,
+    "answer": "background-clip:padding-box"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль для отображения фона внутри контента?",
+    "time": 20,
+    "answer": "background-clip:content-box"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль для отображения фона внутри текста?",
+    "time": 20,
+    "answer": "background-clip:text"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль позиционирования фонового рисунка относительно границы?",
+    "time": 20,
+    "answer": "background-origin:border-box"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль позиционирования фонового рисунка относительно границы?",
+    "time": 20,
+    "answer": "background-origin:content-box"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль позиционирования фонового рисунка на позиции: <span>снизу 10px, справа 20px</span>?",
+    "time": 20,
+    "answer": "background-position:bottom 10px right 20px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль повторения фонового изображения, чтобы полностью заполнить область, если это не получается, то добавляется отступ между картинками?",
+    "time": 20,
+    "answer": "background-repeat:space"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль повторения фонового изображения, чтобы полностью заполнить область целым кол-вом рисунков, если это не получается, то картинки масштабируются?",
+    "time": 20,
+    "answer": "background-repeat:round"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль для схлопывания расстояния между ячейками таблицы?",
+    "time": 20,
+    "answer": "border-collapse:collapse"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания расстояния между ячеками таблицы в <span>2px</span>?",
+    "time": 20,
+    "answer": "border-spacing:2px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания заголовка таблицы <span>caption</span> в верху таблицы?",
+    "time": 20,
+    "answer": "caption-side:top"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания 2-х колонок в многоколоночном тексте?",
+    "time": 20,
+    "answer": "column-count:2"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания линии между колонками <span>1px solid #ccc</span> в многоколоночном тексте?",
+    "time": 20,
+    "answer": "column-rule:1px solid #ccc"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания ширины <span>200px</span> в многоколоночном тексте?",
+    "time": 20,
+    "answer": "column-width:200px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания ширины колонок <span>200px</span> и количества <span>3</span> штук в многоколоночном тексте?",
+    "time": 20,
+    "answer": "columns:200px 3"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания всей ширины колонок одной колонкой в многоколоночном тексте?",
+    "time": 20,
+    "answer": "column-span:all"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания расстония между колонками в <span>20px</span> в многоколоночном тексте?",
+    "time": 20,
+    "answer": "column-gap:20px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания распределения контента в колонках последовательно?",
+    "time": 20,
+    "answer": "column-fill:auto"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания распределения контента в колонках равномерно?",
+    "time": 20,
+    "answer": "column-fill:balance"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль установки css-счетчика с именем <span>name</span>?",
+    "time": 20,
+    "answer": "counter-reset:name"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль установки css-счетчика с именем <span>name</span> c позиции <span>10</span>?",
+    "time": 20,
+    "answer": "counter-reset:name 10"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль наращивания css-счетчика с именем <span>name</span>?",
+    "time": 20,
+    "answer": "counter-increment:name"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль вывода css-счетчика <span>name</span> в псевдоэлемент?",
+    "time": 20,
+    "answer": "content:counter(name)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль скрытия пустой ячейки таблицы?",
+    "time": 20,
+    "answer": "empty-cells:hide"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль шрифта <span>капителью</span>?",
+    "time": 20,
+    "answer": "font-variant:small-caps"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль алгоритма интерполяции изображения при масштабировании с сохранением контраста и структуры?",
+    "time": 20,
+    "answer": "image-rendering:pixelated"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль алгоритма интерполяции изображения при масштабировании по ближайшим точкам?",
+    "time": 20,
+    "answer": "image-rendering:crisp-edges"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль расположения маркеров списка внутри списка?",
+    "time": 20,
+    "answer": "list-style-position:inside"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль маркеров списка в виде квадрата?",
+    "time": 20,
+    "answer": "list-style-type:square"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль размеров картинки, чтобы она полностью уместилась в блок?",
+    "time": 20,
+    "answer": "object-fit:contain"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль размеров картинки, чтобы она полностью заполнила блок с сохранением пропорций?",
+    "time": 20,
+    "answer": "object-fit:cover"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль размеров картинки, чтобы она полностью заполнила блок без сохранения пропорций?",
+    "time": 20,
+    "answer": "object-fit:fill"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль расположения рамки созданной через <span>outline</span> на расстоянии <span>5px</span>?",
+    "time": 20,
+    "answer": "outline-offset:5px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать перспективу равную <span>1000px</span>?",
+    "time": 20,
+    "answer": "perspective:1000px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль расположения точки изменения перспективы в точке <span>50% 50%</span>?",
+    "time": 20,
+    "answer": "perspective-origin:50% 50%"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль, отменяющий события мыши и щелчки по элементу?",
+    "time": 20,
+    "answer": "pointer-events:none"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль позиционирования, располагающий элемент сначала в потоке, а потом фиксирующий его на месте?",
+    "time": 20,
+    "answer": "position:sticky"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Какой стиль меняет тип кавычек?",
+    "time": 20,
+    "answer": "quotes"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль запрета изменения размеров текстового поля?",
+    "time": 20,
+    "answer": "resize:none"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль задания фиксированной ширины ячеек таблицы?",
+    "time": 20,
+    "answer": "table-layout:fixed"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать выравнивание текста по ширине?",
+    "time": 20,
+    "answer": "text-align:justify"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль выравнивания последний строки текста по центру?",
+    "time": 20,
+    "answer": "text-align-last:center"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль оформления текста с линией над текстом?",
+    "time": 20,
+    "answer": "text-decoration:overline"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль оформления текста зачеркнутой линией?",
+    "time": 20,
+    "answer": "text-decoration:line-through"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать цвет декоративной линии, которая подчеркивает текст в цвет <span>#c00</span>?",
+    "time": 20,
+    "answer": "text-decoration-color:#c00"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль декоративной линии, которая подчеркивает текст в виде <span>волнистой</span>?",
+    "time": 20,
+    "answer": "text-decoration-style:wavy"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль декоративной линии, которая подчеркивает текст в виде <span>двойной</span>?",
+    "time": 20,
+    "answer": "text-decoration-style:double"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль декоративной линии, которая подчеркивает текст в виде <span>точек</span>?",
+    "time": 20,
+    "answer": "text-decoration-style:dotted"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль декоративной линии, которая подчеркивает текст в виде <span>черточек</span>?",
+    "time": 20,
+    "answer": "text-decoration-style:dashed"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать отступ первой строки текста в <span>10px</span>?",
+    "time": 20,
+    "answer": "text-indent:10px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль обрезки текста с добавлением троеточия?",
+    "time": 20,
+    "answer": "text-overflow:ellipsis"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль, делающий каждую первую букву в слове, заглавной?",
+    "time": 20,
+    "answer": "text-transform:capitalize"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль для указания положения точки трансформации <span>0 50%</span>?",
+    "time": 20,
+    "answer": "transform-origin:0 50%"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль вращения элементов в 3-D пространстве?",
+    "time": 20,
+    "answer": "transform-style:preserve-3d"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Стиль запрещения выделения элемента?",
+    "time": 20,
+    "answer": "user-select:none"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль убирания переносов строк в тексте?",
+    "time": 20,
+    "answer": "white-space:nowrap"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль переноса строк автоматически?",
+    "time": 20,
+    "answer": "word-break:break-all"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать стиль между словами в <span>10px</span>?",
+    "time": 20,
+    "answer": "word-spacing:10px"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать перенос длинных слов?",
+    "time": 20,
+    "answer": "word-wrap:break-word"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать направление текста по вертикали сверху вниз и справа на лево?",
+    "time": 20,
+    "answer": "writing-mode:vertical-rl"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Задать рамку в виде картинки с путем к файлу <span>img</span>, высотой <span>30px</span>, и повтором рисунка так, чтобы оказалось целое число изображение и при необходимости масштабирует рисунок?",
+    "time": 20,
+    "answer": "border-image:url(img) 30 round"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Проверка поддержки <span>display: flex</span> с фигурными скобками?",
+    "time": 20,
+    "answer": "@supports (display:flex){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "",
+    "time": 20,
+    "answer": ""
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+}]
