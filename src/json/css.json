@@ -1221,6 +1221,524 @@
     "section": "CSS",
     "id": 2,
     "theme": "CSS",
+    "text": "Написать селектор по атрибуту, который найдет атрибут <span>href</span>, начинающийся с <span>'http'</span>?",
+    "time": 20,
+    "answer": "[href^='http']"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать селектор по атрибуту, который найдет атрибут <span>href</span>, заканчивающийся на <span>'.pdf'</span>?",
+    "time": 20,
+    "answer": "[href$='.pdf']"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать селектор по атрибуту, который найдет атрибут <span>href</span>, в котором есть <span>'abr'</span>?",
+    "time": 20,
+    "answer": "[href*='abr']"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать селектор по атрибуту, который найдет атрибут <span>href</span>, в котором может быть <span>'abr'</span> с пробелом?",
+    "time": 20,
+    "answer": "[href~='abr']"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Написать селектор по атрибуту, который найдет атрибут <span>href</span>, который начинается с <span>'abr'</span>, а после него идет дефис?",
+    "time": 20,
+    "answer": "[href|='abr']"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для заблокированных элементов форм?",
+    "time": 20,
+    "answer": ":disabled"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для пустых элементов?",
+    "time": 20,
+    "answer": ":empty"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для не заблокированных элементов форм?",
+    "time": 20,
+    "answer": ":enabled"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для элементов, когда браузер находится в полноэкранном режиме?",
+    "time": 20,
+    "answer": ":fullscreen"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для элементов форм, у которых значение находится в заданном диапазоне?",
+    "time": 20,
+    "answer": ":in-range"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для элементов форм, у которых значение выходит из заданного диапазона?",
+    "time": 20,
+    "answer": ":out-of-range"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для элементов форм, у которых задан атрибут <span>readonly</span>?",
+    "time": 20,
+    "answer": ":readonly"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для переключателей в форме, которые находятся в неопределенном положении?",
+    "time": 20,
+    "answer": ":indeterminate"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для элементов форм, у которых введено не верное значение?",
+    "time": 20,
+    "answer": ":invalid"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для задания различных настроек на основании языка документа?",
+    "time": 20,
+    "answer": ":lang"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для необязательных элементов форм?",
+    "time": 20,
+    "answer": ":optional"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для полей формы, которые могут меняться?",
+    "time": 20,
+    "answer": ":read-write"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для корневого элемента документа?",
+    "time": 20,
+    "answer": ":root"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для целевого элемента?",
+    "time": 20,
+    "answer": ":target"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдокласс для верных полей в форме?",
+    "time": 20,
+    "answer": ":valid"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдоэлемент для первого символа в тексте?",
+    "time": 20,
+    "answer": "::first-letter"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдоэлемент для первой строки в тексте?",
+    "time": 20,
+    "answer": "::first-line"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Псевдоэлемент для выделенного пользователем текста?",
+    "time": 20,
+    "answer": "::selection"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово, в котором хранится текущий <span>color</span>?",
+    "time": 20,
+    "answer": "currentColor"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для наследования значения родителя?",
+    "time": 20,
+    "answer": "inherit"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для установки исходного значения свойства?",
+    "time": 20,
+    "answer": "initial"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для задания фильтра размытия?",
+    "time": 20,
+    "answer": "blur"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для задания фильтра яркости?",
+    "time": 20,
+    "answer": "brightness"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для задания контраста?",
+    "time": 20,
+    "answer": "contrast"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для задания тени?",
+    "time": 20,
+    "answer": "drop-shadow"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для превращения изображения в черно-белое?",
+    "time": 20,
+    "answer": "greyscale"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для изменения цветности изображения за счет поворота оттенка на цветовом круге?",
+    "time": 20,
+    "answer": "hue-rotate"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для инвертирования цветов?",
+    "time": 20,
+    "answer": "invert"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для изменения насыщенности цветов?",
+    "time": 20,
+    "answer": "saturate"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Ключевое слово для задания сепии?",
+    "time": 20,
+    "answer": "sepia"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Объявление CSS-переменной <span>my-var</span>?",
+    "time": 20,
+    "answer": "--my-var"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
+    "text": "Использование CSS-переменной <span>my-var</span>?",
+    "time": 20,
+    "answer": "var(--my-var)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "CSS",
+    "id": 2,
+    "theme": "CSS",
     "text": "",
     "time": 20,
     "answer": ""
