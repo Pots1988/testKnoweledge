@@ -1,7 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
-    "id": 1,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Объявить переменную <span>name</span> так чтобы ее можно было менять, но она была бы недоступна до объявления?",
     "time": 20,
@@ -15,7 +15,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 2,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Объявить переменную <span>name</span> так чтобы ее нельзя было менять и она была бы недоступна до объявления?",
     "time": 20,
@@ -29,7 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 3,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменную <span>age</span> через <span>let</span>?",
     "time": 20,
@@ -43,7 +43,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 4,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменную <span>name</span> через <span>let</span>, остаток записать в <span>last</span>?",
     "time": 20,
@@ -57,7 +57,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 5,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Чему будут равны значения <span>name, age</span> при <span>let [name, age]=[]</span>?",
     "time": 20,
@@ -71,7 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 6,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменные <span>name, age</span> через <span>let</span> и указать значения по умолчанию <span>User, 30</span>?",
     "time": 20,
@@ -85,7 +85,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 7,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменные <span>name, age</span> через <span>let</span> и указать значения по умолчанию в виде вызова функций<span>getUser, getAge</span>?",
     "time": 20,
@@ -99,7 +99,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 8,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Деструктурировать объект <span>{name:Илья, age:20}</span> в переменные <span>n, a</span> через <span>let</span> и указать значения по умолчанию <span>User, 30</span>?",
     "time": 20,
@@ -113,7 +113,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 9,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Создайте функцию <span>new</span> с параметром по умолчанию <span>age=20</span>?",
     "time": 20,
@@ -127,7 +127,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 10,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Создайте функцию <span>new</span>, чтобы все ее аргументы попали в <span>last</span> в виде массива?",
     "time": 20,
@@ -141,7 +141,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 11,
+    "id": 12,
     "theme": "Современные возможности",
     "text": "Записать функцию-стрелку с параметрами <span>a, b</span> и результатом <span>a + b</span>?",
     "time": 20,
@@ -353,9 +353,9 @@
     "section": "JavaScript",
     "id": 12,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Напишите класс <span>User</span> со статическим методом <span>age</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "class User{static age(){}}"
   },
   "answer": {
     "time": "",
@@ -367,9 +367,9 @@
     "section": "JavaScript",
     "id": 12,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Напишите класс <span>Admin</span>, который наследует от класса <span>User</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "class Admin extends User{}"
   },
   "answer": {
     "time": "",
@@ -381,9 +381,9 @@
     "section": "JavaScript",
     "id": 12,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Как в методе <span>name</span> класса <span>Admin</span>, который наследуетcя от класса <span>User</span>, унаследовать метод <span>age</span> класса <span>User</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "name(){super.age()}"
   },
   "answer": {
     "time": "",
