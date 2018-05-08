@@ -395,6 +395,314 @@
     "section": "JavaScript",
     "id": 12,
     "theme": "Современные возможности",
+    "text": "Создайте тип данных <span>Symbol</span>?",
+    "time": 20,
+    "answer": "Symbol()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Создайте тип данных <span>Symbol</span> с именем <span>name</span>?",
+    "time": 20,
+    "answer": "Symbol('name')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Создайте тип данных <span>Symbol</span> с именем <span>name</span> в реестре?",
+    "time": 20,
+    "answer": "Symbol.for('name')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Для созданного в реестре глобального символа <span>test</span> получите имя символа?",
+    "time": 20,
+    "answer": "Symbol.keyFor(test)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Напишите перебор циклом итерируемых объектов массива <span>arr</span> через переменную <span>value</span>?",
+    "time": 20,
+    "answer": "for(let value of arr){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Какое свойство должно быть в объекте, чтобы его можно было перебрать в цикле?",
+    "time": 20,
+    "answer": "Symbol.iterator"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Создайте коллекцию типа <span>Map</span>?",
+    "time": 20,
+    "answer": "new Map()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекцию <span>col</span> типа <span>Map</span> добавьте значение <span>'str1'</span> с ключом <span>true</span>?",
+    "time": 20,
+    "answer": "col.set(true,'str1')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Из коллекции <span>col</span> типа <span>Map</span> извлеките по ключу <span>true</span>?",
+    "time": 20,
+    "answer": "col.get(true)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>col</span> типа <span>Map</span> посмотреть общее количество записей?",
+    "time": 20,
+    "answer": "col.size"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Из коллекции <span>col</span> типа <span>Map</span> удалить запись ключом <span>key</span>?",
+    "time": 20,
+    "answer": "col.delete(key)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Из коллекции <span>col</span> типа <span>Map</span> удалить все записи?",
+    "time": 20,
+    "answer": "col.clear()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>col</span> типа <span>Map</span> проверить наличие записи с ключом <span>key</span>?",
+    "time": 20,
+    "answer": "col.has(key)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>col</span> типа <span>Map</span> проитерироваться по ключам через переменную <span>key</span>?",
+    "time": 20,
+    "answer": "for(let key of col.keys()){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>col</span> типа <span>Map</span> проитерироваться по значениям через переменную <span>value</span>?",
+    "time": 20,
+    "answer": "for(let value of col.values()){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>col</span> типа <span>Map</span> проитерироваться по записям через переменную <span>entry</span>?",
+    "time": 20,
+    "answer": "for(let entry of col){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Создайте коллекцию типа <span>Set</span>?",
+    "time": 20,
+    "answer": "new Set()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекцию <span>set</span> типа <span>Set</span> добавьте значение <span>'str1'</span> с ключом <span>true</span>?",
+    "time": 20,
+    "answer": "set.add(true,'str1')"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>set</span> типа <span>Set</span> посмотреть общее количество записей?",
+    "time": 20,
+    "answer": "set.size"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Из коллекции <span>set</span> типа <span>Set</span> удалить элемент <span>item</span>?",
+    "time": 20,
+    "answer": "set.delete(item)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "Из коллекции <span>set</span> типа <span>Set</span> удалить все записи?",
+    "time": 20,
+    "answer": "set.clear()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
+    "text": "В коллекции <span>set</span> типа <span>Set</span> проверить наличие <span>item</span>?",
+    "time": 20,
+    "answer": "set.has(item)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 12,
+    "theme": "Современные возможности",
     "text": "",
     "time": 20,
     "answer": ""
