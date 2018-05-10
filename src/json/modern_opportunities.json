@@ -1,7 +1,7 @@
 [{
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 1,
     "theme": "Современные возможности",
     "text": "Объявить переменную <span>name</span> так чтобы ее можно было менять, но она была бы недоступна до объявления?",
     "time": 20,
@@ -15,7 +15,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 2,
     "theme": "Современные возможности",
     "text": "Объявить переменную <span>name</span> так чтобы ее нельзя было менять и она была бы недоступна до объявления?",
     "time": 20,
@@ -29,7 +29,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 3,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменную <span>age</span> через <span>let</span>?",
     "time": 20,
@@ -43,7 +43,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 4,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменную <span>name</span> через <span>let</span>, остаток записать в <span>last</span>?",
     "time": 20,
@@ -57,7 +57,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 5,
     "theme": "Современные возможности",
     "text": "Чему будут равны значения <span>name, age</span> при <span>let [name, age]=[]</span>?",
     "time": 20,
@@ -71,7 +71,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 6,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменные <span>name, age</span> через <span>let</span> и указать значения по умолчанию <span>User, 30</span>?",
     "time": 20,
@@ -85,7 +85,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 7,
     "theme": "Современные возможности",
     "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменные <span>name, age</span> через <span>let</span> и указать значения по умолчанию в виде вызова функций<span>getUser, getAge</span>?",
     "time": 20,
@@ -99,7 +99,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 8,
     "theme": "Современные возможности",
     "text": "Деструктурировать объект <span>{name:Илья, age:20}</span> в переменные <span>n, a</span> через <span>let</span> и указать значения по умолчанию <span>User, 30</span>?",
     "time": 20,
@@ -113,7 +113,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 9,
     "theme": "Современные возможности",
     "text": "Создайте функцию <span>new</span> с параметром по умолчанию <span>age=20</span>?",
     "time": 20,
@@ -127,7 +127,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 10,
     "theme": "Современные возможности",
     "text": "Создайте функцию <span>new</span>, чтобы все ее аргументы попали в <span>last</span> в виде массива?",
     "time": 20,
@@ -141,7 +141,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 11,
     "theme": "Современные возможности",
     "text": "Записать функцию-стрелку с параметрами <span>a, b</span> и результатом <span>a + b</span>?",
     "time": 20,
@@ -169,7 +169,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 13,
     "theme": "Современные возможности",
     "text": "Как вывести данные из переменной <span>age</span> в строку <span>ваш возраст:<span> с помощью новых кавычек?",
     "time": 20,
@@ -183,7 +183,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 14,
     "theme": "Современные возможности",
     "text": "Как проверить включает строка <span>str1</span> в себя строку <span>str2</span>?",
     "time": 20,
@@ -197,7 +197,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 15,
     "theme": "Современные возможности",
     "text": "Как проверить что строка <span>str1</span> оканчивается на <span>str2</span>?",
     "time": 20,
@@ -211,7 +211,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 16,
     "theme": "Современные возможности",
     "text": "Как проверить что строка <span>str1</span> начинается на <span>str2</span>?",
     "time": 20,
@@ -225,7 +225,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 17,
     "theme": "Современные возможности",
     "text": "Как повторить строку <span>str1</span> в количестве <span>5</span> раз?",
     "time": 20,
@@ -239,7 +239,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 18,
     "theme": "Современные возможности",
     "text": "Есть переменная <span>let name = 'Вася';</span>. Создайте объект <span>user</span> с этим свойством?",
     "time": 20,
@@ -253,7 +253,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 19,
     "theme": "Современные возможности",
     "text": "Есть переменная <span>let propName = 'firstName';</span>. Создайте объект <span>user</span> с вычисляемым свойством <span>propName + 10</span> со значением <span>20</span>?",
     "time": 20,
@@ -267,7 +267,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 20,
     "theme": "Современные возможности",
     "text": "Скопируйте в объект <span>target</span> свойства из объектов <span>obj1, obj2</span>?",
     "time": 20,
@@ -281,7 +281,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 21,
     "theme": "Современные возможности",
     "text": "Проверьте равенство значений <span>valu1</span> и <span>value2</span> через новую функцию?",
     "time": 20,
@@ -295,7 +295,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 22,
     "theme": "Современные возможности",
     "text": "Как вызвать метод <span>walk</span> объекта <span>animal</span>, внутри метода <span>run</span> объекта <span>rabbit</span>, который отнаследован от <span>animal</span>?",
     "time": 20,
@@ -309,7 +309,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 23,
     "theme": "Современные возможности",
     "text": "Напишите класс <span>User</span>?",
     "time": 20,
@@ -323,7 +323,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 24,
     "theme": "Современные возможности",
     "text": "Напишите класс <span>User</span> с параметром <span>name</span>?",
     "time": 20,
@@ -337,7 +337,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 25,
     "theme": "Современные возможности",
     "text": "Напишите класс <span>User</span> с методом <span>age</span>?",
     "time": 20,
@@ -351,7 +351,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 26,
     "theme": "Современные возможности",
     "text": "Напишите класс <span>User</span> со статическим методом <span>age</span>?",
     "time": 20,
@@ -365,7 +365,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 27,
     "theme": "Современные возможности",
     "text": "Напишите класс <span>Admin</span>, который наследует от класса <span>User</span>?",
     "time": 20,
@@ -379,7 +379,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 28,
     "theme": "Современные возможности",
     "text": "Как в методе <span>name</span> класса <span>Admin</span>, который наследуетcя от класса <span>User</span>, унаследовать метод <span>age</span> класса <span>User</span>?",
     "time": 20,
@@ -393,7 +393,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 29,
     "theme": "Современные возможности",
     "text": "Создайте тип данных <span>Symbol</span>?",
     "time": 20,
@@ -407,7 +407,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 30,
     "theme": "Современные возможности",
     "text": "Создайте тип данных <span>Symbol</span> с именем <span>name</span>?",
     "time": 20,
@@ -421,7 +421,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 31,
     "theme": "Современные возможности",
     "text": "Создайте тип данных <span>Symbol</span> с именем <span>name</span> в реестре?",
     "time": 20,
@@ -435,7 +435,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 32,
     "theme": "Современные возможности",
     "text": "Для созданного в реестре глобального символа <span>test</span> получите имя символа?",
     "time": 20,
@@ -449,7 +449,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 33,
     "theme": "Современные возможности",
     "text": "Напишите перебор циклом итерируемых объектов массива <span>arr</span> через переменную <span>value</span>?",
     "time": 20,
@@ -463,7 +463,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 34,
     "theme": "Современные возможности",
     "text": "Какое свойство должно быть в объекте, чтобы его можно было перебрать в цикле?",
     "time": 20,
@@ -477,7 +477,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 35,
     "theme": "Современные возможности",
     "text": "Создайте коллекцию типа <span>Map</span>?",
     "time": 20,
@@ -491,7 +491,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 36,
     "theme": "Современные возможности",
     "text": "В коллекцию <span>col</span> типа <span>Map</span> добавьте значение <span>'str1'</span> с ключом <span>true</span>?",
     "time": 20,
@@ -505,7 +505,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 37,
     "theme": "Современные возможности",
     "text": "Из коллекции <span>col</span> типа <span>Map</span> извлеките по ключу <span>true</span>?",
     "time": 20,
@@ -519,7 +519,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 38,
     "theme": "Современные возможности",
     "text": "В коллекции <span>col</span> типа <span>Map</span> посмотреть общее количество записей?",
     "time": 20,
@@ -533,7 +533,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 39,
     "theme": "Современные возможности",
     "text": "Из коллекции <span>col</span> типа <span>Map</span> удалить запись ключом <span>key</span>?",
     "time": 20,
@@ -547,7 +547,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 40,
     "theme": "Современные возможности",
     "text": "Из коллекции <span>col</span> типа <span>Map</span> удалить все записи?",
     "time": 20,
@@ -561,7 +561,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 41,
     "theme": "Современные возможности",
     "text": "В коллекции <span>col</span> типа <span>Map</span> проверить наличие записи с ключом <span>key</span>?",
     "time": 20,
@@ -575,7 +575,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 42,
     "theme": "Современные возможности",
     "text": "В коллекции <span>col</span> типа <span>Map</span> проитерироваться по ключам через переменную <span>key</span>?",
     "time": 20,
@@ -589,7 +589,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 43,
     "theme": "Современные возможности",
     "text": "В коллекции <span>col</span> типа <span>Map</span> проитерироваться по значениям через переменную <span>value</span>?",
     "time": 20,
@@ -603,7 +603,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 44,
     "theme": "Современные возможности",
     "text": "В коллекции <span>col</span> типа <span>Map</span> проитерироваться по записям через переменную <span>entry</span>?",
     "time": 20,
@@ -617,7 +617,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 45,
     "theme": "Современные возможности",
     "text": "Создайте коллекцию типа <span>Set</span>?",
     "time": 20,
@@ -631,7 +631,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 46,
     "theme": "Современные возможности",
     "text": "В коллекцию <span>set</span> типа <span>Set</span> добавьте значение <span>'str1'</span> с ключом <span>true</span>?",
     "time": 20,
@@ -645,7 +645,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 47,
     "theme": "Современные возможности",
     "text": "В коллекции <span>set</span> типа <span>Set</span> посмотреть общее количество записей?",
     "time": 20,
@@ -659,7 +659,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 48,
     "theme": "Современные возможности",
     "text": "Из коллекции <span>set</span> типа <span>Set</span> удалить элемент <span>item</span>?",
     "time": 20,
@@ -673,7 +673,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 49,
     "theme": "Современные возможности",
     "text": "Из коллекции <span>set</span> типа <span>Set</span> удалить все записи?",
     "time": 20,
@@ -687,7 +687,7 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 50,
     "theme": "Современные возможности",
     "text": "В коллекции <span>set</span> типа <span>Set</span> проверить наличие <span>item</span>?",
     "time": 20,
@@ -701,11 +701,11 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 51,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Какое состояние принимает <span>Promise</span> вначале?",
     "time": 20,
-    "answer": ""
+    "answer": "pending"
   },
   "answer": {
     "time": "",
@@ -715,11 +715,11 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 52,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Какое состояние принимает <span>Promise</span> когда он успешно выполнен?",
     "time": 20,
-    "answer": ""
+    "answer": "fulfilled"
   },
   "answer": {
     "time": "",
@@ -729,11 +729,11 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 53,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Какое состояние принимает <span>Promise</span> когда он выполнен с ошибкой?",
     "time": 20,
-    "answer": ""
+    "answer": "rejected"
   },
   "answer": {
     "time": "",
@@ -743,11 +743,431 @@
 {
   "question": {
     "section": "JavaScript",
-    "id": 12,
+    "id": 54,
     "theme": "Современные возможности",
-    "text": "",
+    "text": "Навесьте на <span>promise</span> обработчики <span>ok</span> и <span>error</span>?",
     "time": 20,
-    "answer": ""
+    "answer": "promise.then(ok, error)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 55,
+    "theme": "Современные возможности",
+    "text": "Навесьте на <span>promise</span> обработчик ошибки <span>error</span>, а на успешное выполнение не надо?",
+    "time": 20,
+    "answer": "promise.then(null, error)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 56,
+    "theme": "Современные возможности",
+    "text": "Навесьте на <span>promise</span> только обработчик ошибки <span>error</span>?",
+    "time": 20,
+    "answer": "promise.catch(error)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 57,
+    "theme": "Современные возможности",
+    "text": "Как передать функции <span>f1, f2</span>, которые возвращают примисы, в промис, чтобы дождаться выполнения обоих функций?",
+    "time": 20,
+    "answer": "Promise.all([f1,f2])"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 58,
+    "theme": "Современные возможности",
+    "text": "Как передать функции <span>f1, f2</span>, которые возвращают примисы, в промис, чтобы дождаться первого успешного выполнения любой из функций?",
+    "time": 20,
+    "answer": "Promise.race([f1,f2])"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 59,
+    "theme": "Современные возможности",
+    "text": "Создать успешно выполненный промис со значением <span>value</span>?",
+    "time": 20,
+    "answer": "Promise.resolve(value)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 60,
+    "theme": "Современные возможности",
+    "text": "Создать промис выполненный с ошибкой со значением <span>value</span>?",
+    "time": 20,
+    "answer": "Promise.reject(value)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 61,
+    "theme": "Современные возможности",
+    "text": "Создайте <span>fetch</span> с адресом <span>url</span> и со всеми доступными опциями?",
+    "time": 20,
+    "answer": "fetch(url,{method,headers,body,mode,credentials,cache,redirect})"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 62,
+    "theme": "Современные возможности",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате текста?",
+    "time": 20,
+    "answer": "response.text()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 63,
+    "theme": "Современные возможности",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате массива?",
+    "time": 20,
+    "answer": "response.arrayBuffer()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 64,
+    "theme": "Современные возможности",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате blob?",
+    "time": 20,
+    "answer": "response.blob()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 65,
+    "theme": "Современные возможности",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате данных формы?",
+    "time": 20,
+    "answer": "response.formData()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 66,
+    "theme": "Современные возможности",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате json?",
+    "time": 20,
+    "answer": "response.json()"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 67,
+    "theme": "Современные возможности",
+    "text": "Каким ключевым словом обозначаются переменные и функции, которые могут быть использованы снаружи?",
+    "time": 20,
+    "answer": "export"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 68,
+    "theme": "Современные возможности",
+    "text": "Каким ключевым словом мы подключаем переменные и функции из модуля?",
+    "time": 20,
+    "answer": "import"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 69,
+    "theme": "Современные возможности",
+    "text": "Экспортируйте переменную <span>milk</span>?",
+    "time": 20,
+    "answer": "export{milk}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 70,
+    "theme": "Современные возможности",
+    "text": "Экспортируйте переменные <span>milk и eggs</span>?",
+    "time": 20,
+    "answer": "export{milk,eggs}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 71,
+    "theme": "Современные возможности",
+    "text": "Экспортируйте переменную <span>milk</span>, с именем <span>one</span>?",
+    "time": 20,
+    "answer": "export{milk as one}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 72,
+    "theme": "Современные возможности",
+    "text": "Импортируйте переменную <span>milk</span>, из файла <span>'/foods'</span>?",
+    "time": 20,
+    "answer": "import{milk} from '/foods'"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 73,
+    "theme": "Современные возможности",
+    "text": "Импортируйте переменную <span>milk</span> под именем <span>new</span>, из файла <span>'/foods'</span>?",
+    "time": 20,
+    "answer": "import{milk as new} from '/foods'"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 74,
+    "theme": "Современные возможности",
+    "text": "Импортируйте все значения под именем <span>numbers</span>, из файла <span>'/foods'</span>?",
+    "time": 20,
+    "answer": "import * as numbers from '/foods'"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 75,
+    "theme": "Современные возможности",
+    "text": "Экспортируйте переменную <span>milk</span> по умолчанию?",
+    "time": 20,
+    "answer": "export default milk"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 76,
+    "theme": "Современные возможности",
+    "text": "Импортируйте переменную <span>milk</span>, из файла <span>'/foods'</span>, котороая была экспортирована по умолчанию?",
+    "time": 20,
+    "answer": "import milk from '/foods'"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 77,
+    "theme": "Современные возможности",
+    "text": "Создайте прокси для объекта <span>target</span> с объектом с ловушками <span>handler</span>?",
+    "time": 20,
+    "answer": "new Proxy(target,handler)"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 78,
+    "theme": "Современные возможности",
+    "text": "В созданном прокси для объекта <span>target</span> опишите метод срабатывающий при чтении свойства <span>prop</span>?",
+    "time": 20,
+    "answer": "get(target,prop){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 79,
+    "theme": "Современные возможности",
+    "text": "В созданном прокси для объекта <span>target</span> опишите метод срабатывающий при установке свойства <span>prop</span> со значением <span>value</span>?",
+    "time": 20,
+    "answer": "set(target,prop,value){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 80,
+    "theme": "Современные возможности",
+    "text": "В созданном прокси для объекта <span>target</span> опишите метод срабатывающий при проверке наличия свойства <span>prop</span>?",
+    "time": 20,
+    "answer": "has(target,prop){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 81,
+    "theme": "Современные возможности",
+    "text": "В созданном прокси для объекта <span>target</span> опишите метод срабатывающий при удалении свойства <span>prop</span>?",
+    "time": 20,
+    "answer": "deleteProperty(target,prop){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 82,
+    "theme": "Современные возможности",
+    "text": "В созданном прокси для объекта <span>target</span> опишите метод срабатывающий при использовании свойств <span>for..in и for..of</span>?",
+    "time": 20,
+    "answer": "enumerate(target){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 83,
+    "theme": "Современные возможности",
+    "text": "В созданной прокси функции <span>func</span> опишите ловушку для ее вызова с аргументами <span>target, thisArgument, argumentList</span>?",
+    "time": 20,
+    "answer": "apply(target,thisArgument,argumentsList){}"
+  },
+  "answer": {
+    "time": "",
+    "text": ""
+  }
+},
+{
+  "question": {
+    "section": "JavaScript",
+    "id": 84,
+    "theme": "Современные возможности",
+    "text": "Напишите ловушку для прокси, перехватывающую вызов функции как конструктора с параметрами <span>target, argumentsList</span>?",
+    "time": 20,
+    "answer": "constructor(target,argumentsList){}"
   },
   "answer": {
     "time": "",
