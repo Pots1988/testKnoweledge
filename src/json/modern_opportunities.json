@@ -31,7 +31,7 @@
     "section": "JavaScript",
     "id": 3,
     "theme": "Современные возможности",
-    "text": "Деструктурировать массив <span>[Илья, 20]</span> в переменную <span>age</span> через <span>let</span>?",
+    "text": "Деструктурировать возрасте из массива <span>[Илья, 20]</span> в переменную <span>age</span> через <span>let</span>?",
     "time": 20,
     "answer": "let [,age]=[Илья,20]"
   },
@@ -59,7 +59,7 @@
     "section": "JavaScript",
     "id": 5,
     "theme": "Современные возможности",
-    "text": "Чему будут равны значения <span>name, age</span> при <span>let [name, age]=[]</span>?",
+    "text": "Чему будут равны значения <span>name и age</span> при <span>let [name, age]=[]</span>?",
     "time": 20,
     "answer": "undefined"
   },
@@ -327,7 +327,7 @@
     "theme": "Современные возможности",
     "text": "Напишите класс <span>User</span> с параметром <span>name</span>?",
     "time": 20,
-    "answer": "class User{constructor(name){this.name=name;}}"
+    "answer": "class User{constructor(name){this.name=name}}"
   },
   "answer": {
     "time": "",
@@ -451,7 +451,7 @@
     "section": "JavaScript",
     "id": 33,
     "theme": "Современные возможности",
-    "text": "Напишите перебор циклом итерируемых объектов массива <span>arr</span> через переменную <span>value</span>?",
+    "text": "Напишите перебор циклом итерируемых объектов массива <span>arr</span> через переменную <span>let value</span>?",
     "time": 20,
     "answer": "for(let value of arr){}"
   },
@@ -507,7 +507,7 @@
     "section": "JavaScript",
     "id": 37,
     "theme": "Современные возможности",
-    "text": "Из коллекции <span>col</span> типа <span>Map</span> извлеките по ключу <span>true</span>?",
+    "text": "Из коллекции <span>col</span> типа <span>Map</span> извлеките значение по ключу <span>true</span>?",
     "time": 20,
     "answer": "col.get(true)"
   },
@@ -843,9 +843,9 @@
     "section": "JavaScript",
     "id": 61,
     "theme": "Современные возможности",
-    "text": "Создайте <span>fetch</span> с адресом <span>url</span> и со всеми доступными опциями?",
+    "text": "Создайте <span>fetch</span> с адресом <span>url</span> и с объектом параметров <span>options</span>?",
     "time": 20,
-    "answer": "fetch(url,{method,headers,body,mode,credentials,cache,redirect})"
+    "answer": "fetch(url,options)"
   },
   "answer": {
     "time": "",
@@ -885,7 +885,7 @@
     "section": "JavaScript",
     "id": 64,
     "theme": "Современные возможности",
-    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате blob?",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате <span>blob</span>?",
     "time": 20,
     "answer": "response.blob()"
   },
@@ -913,7 +913,7 @@
     "section": "JavaScript",
     "id": 66,
     "theme": "Современные возможности",
-    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате json?",
+    "text": "Выведите данные <span>response</span> полученные через <span>fetch</span> в формате <span>json</span>?",
     "time": 20,
     "answer": "response.json()"
   },
@@ -1151,7 +1151,7 @@
     "section": "JavaScript",
     "id": 83,
     "theme": "Современные возможности",
-    "text": "В созданной прокси функции <span>func</span> опишите ловушку для ее вызова с аргументами <span>target, thisArgument, argumentList</span>?",
+    "text": "В созданной прокси функции <span>func</span> опишите ловушку для ее вызова с аргументами <span>target, thisArgument, argumentsList</span>?",
     "time": 20,
     "answer": "apply(target,thisArgument,argumentsList){}"
   },
